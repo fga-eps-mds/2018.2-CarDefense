@@ -23,5 +23,12 @@ about: Template responsável pelas issues de User Story e Technical Story
 - [ ] Fazer testes da função de acesso ao banco
 -->
 
+<!-- Coloque, caso existam, os Critérios de aceitação desta historia -->
+## Critérios de aceitação
+
+<!-- Exemplos:
+- [ ] Reunião para decidir se os requerimentos da historia foram cumpriods
+-->
+
 <!-- O espaço a seguir é opcional e reservado para algum comentário adicional -->
 ## Comentário
