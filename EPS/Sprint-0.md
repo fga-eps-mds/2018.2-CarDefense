@@ -10,64 +10,69 @@
 
 ## Sprint Backlog  
 
-  - Documentar a Sprint 0  
-  - Definir Plano de Comunicação  
-  - Definir Repositório no Google Drive  
-  - Criar Mapeamento de Horário Livre  
-  - Criar Controle de Horas  
-  - Fazer Reunião de Alinhamento de Time   
-  - Fazer Estudos de Metodologia  
-  - Fazer Estudos de GIT  
-  - Elaborar Treinamentos para Sprint 1  
+  - Definir Repositório no Google Drive    
+  - Criar Mapeamento de Horário Livre    
+  - Criar Controle de Horas    
+  - Fazer Reunião de Alinhamento de Time    
+  - Cronograma de Treinamentos      
+  - Fazer Estudos de Metodologia    
+  - Fazer Estudos de GIT    
+  - Fazer Quadro de Conhecimento   
+  - Pré Relatório Sprint 0    
+  - Relatório Sprint 0  
 
 ## Papéis  
 
-  - Engenheiro de Produto: Stéfane Souza  
-  - Scrum Master: Lucas S. Souza    
-  - DevOps: Taynara Carvalho  
-  - Arquiteto: Mateus Vieira  
-  - Desenvolvedores: João Gabriel Rossi, João Gabriel Antunes, Paulo Vitor, Ivan Diniz, João Matheus, Lieverton Santos  
+  - Engenheiro de Produto: Stéfane Souza    
+  - Scrum Master: Lucas S. Souza      
+  - DevOps: Taynara Carvalho    
+  - Arquiteto: Mateus Vieira    
+  - Desenvolvedores: João Gabriel Rossi, João Gabriel Antunes, Paulo Vitor, Ivan Diniz, João Matheus, Lieverton Santos    
 
 
-## Pareamento  
+## Pareamento    
 
-- Não houve pareamento nesta Sprint    
+- Não houve pareamento nesta Sprint      
 
-## Duração  
+## Duração    
 
-  Do dia 13/08/2018 até 19/08/2018  
+  Do dia 13/08/2018 até 19/08/2018    
 
-## Pontos  
+## Pontos    
 
+Cada ponto equivale a 2 horas de serviço.  
 
-### Planejados  
+### Planejados    
 
+- 12 pontos  
 
-### Executados  
+### Executados    
 
-## Sprint Review  
+- 12 pontos  
 
-  - Todas as tarefas do sprint backlog foram efetuadas com sucesso exceto a definição de temas.  
-  - Como o tema não foi definido acarretou-se em uma complicação na elaboração de treinamentos de linguagem já que, neste caso, deveríamos definir um ambiente de desenolviento.  
+## Sprint Review    
 
-## Sprint Retrospective  
+  - Todas as tarefas do sprint backlog foram efetuadas com sucesso.  
+  - Como o tema não foi definido acarretou-se em uma complicação na elaboração de treinamentos de linguagem já que, neste caso, deveríamos definir um ambiente de desenolviento.    
 
-### Pontos Positivos  
+## Sprint Retrospective    
 
-  - Disponibilidade do time em ajudar  
-  - Participação do time  
-  - Empenho na solução dos imprevistos  
-  - Aderência do Time à soluções  
+### Pontos Positivos    
+
+  - Disponibilidade do time em ajudar    
+  - Participação do time    
+  - Empenho na solução dos imprevistos    
+  - Aderência do Time à soluções    
 
 ### Pontos Negativos  
 
-  - Alguns integrantes se dizem perdidos  
-  - Problemas em marcar reuniões  
+  - Alguns integrantes se dizem perdidos    
+  - Problemas em marcar reuniões    
 
-### Soluções  
+### Soluções    
 
-  - Elaborar um plano de comunicação melhor.  
-  - As reuniões de abertura e fechamento de sprint ficaram para todas as segundas feiras das 12:30 até as 14:00 horas.  
+  - Elaborar um plano de comunicação melhor.    
+  - As reuniões de abertura e fechamento de sprint ficaram para todas as segundas feiras das 12:30 até as 14:00 horas.    
 
 <!-- add burndown ## Burndown -->
 <!-- quadro de conhecimento -->
@@ -75,18 +80,18 @@
 <!-- Riscos da Sprint -->
 <!-- Burndown de riscos -->
 
-## Participantes das Reuniões de Abertura/Fechamento de Sprint  
+## Participantes das Reuniões de Abertura/Fechamento de Sprint    
 
-  Stéfane Souza,  
-  Lucas S. Souza,  
-  Taynara Carvalho,  
-  Mateus Vieira,  
-  João Gabriel Rossi,  
-  João Gabriel Antunes,  
-  Paulo Vitor,  
-  Ivan Diniz,  
-  João Matheus,  
-  Lieverton Santos,  
+  - Stéfane Souza,      
+  - Lucas S. Souza,    
+  - Taynara Carvalho,    
+  - Mateus Vieira,    
+  - João Gabriel Rossi,   
+  - João Gabriel Antunes,   
+  - Paulo Vitor,    
+  - Ivan Diniz,       
+  - João Matheus,    
+  - Lieverton Santos.       
 
-## Comentários  
--  
+## Comentários    
+-    
