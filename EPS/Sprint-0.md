@@ -10,16 +10,16 @@
 
 ## Sprint Backlog  
 
-  - Definir Repositório no Google Drive    
-  - Criar Mapeamento de Horário Livre    
-  - Criar Controle de Horas    
-  - Fazer Reunião de Alinhamento de Time    
-  - Cronograma de Treinamentos      
-  - Fazer Estudos de Metodologia    
-  - Fazer Estudos de GIT    
-  - Fazer Quadro de Conhecimento   
-  - Pré Relatório Sprint 0    
-  - Relatório Sprint 0  
+  - [Definir Repositório no Google Drive](https://github.com/fga-eps-mds/2018.2-CarDefense/issues/2)      
+  - [Criar Mapeamento de Horário Livre](https://github.com/fga-eps-mds/2018.2-CarDefense/issues/3)        
+  - [Criar Controle de Horas](https://github.com/fga-eps-mds/2018.2-CarDefense/issues/4)       
+  - [Fazer Reunião de Alinhamento de Time](https://github.com/fga-eps-mds/2018.2-CarDefense/issues/5)      
+  - [Cronograma de Treinamentos](https://github.com/fga-eps-mds/2018.2-CarDefense/issues/6)         
+  - [Fazer Estudos de Metodologia](https://github.com/fga-eps-mds/2018.2-CarDefense/issues/7)      
+  - [Fazer Estudos de GIT](https://github.com/fga-eps-mds/2018.2-CarDefense/issues/8)      
+  - [Fazer Quadro de Conhecimento](https://github.com/fga-eps-mds/2018.2-CarDefense/issues/9)   
+  - [Pré Relatório Sprint 0](https://github.com/fga-eps-mds/2018.2-CarDefense/issues/10)   
+  - [Relatório Sprint 0](https://github.com/fga-eps-mds/2018.2-CarDefense/issues/11)       
 
 ## Papéis  
 
@@ -91,7 +91,7 @@ Cada ponto equivale a 2 horas de serviço.
   - Paulo Vitor,    
   - Ivan Diniz,       
   - João Matheus,    
-  - Lieverton Santos.       
+  - Lieverton Santos     
 
 ## Comentários    
 -    
