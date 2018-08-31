@@ -10,21 +10,20 @@
 
 ## Sprint Backlog  
 
-  - Marcar daily meetings  
-  - Documento de Visão   
-  - Documento de Arquitetura    
-  - Template para issue    
-  - Template para pull request    
-  - Criar Pages      
-  - Treinamento de Scrum/XP    
-  - Treinamento de HTML/CSS    
-  - Plano de Elicitação de Requisitos    
-  - Brainstorming de Elicitação de Requisitos    
-  - Treinamento de Python (Adicionado no meio da sprint)    
-  - Treinamento de Django (Adicionado no meio da sprint)      
-  - Reunião com Arquitetos do APP      
-  - Pré Relatório Sprint 1  
-  - Relatório Sprint 1  
+  - [Marcar daily meetings](https://github.com/fga-eps-mds/2018.2-CarDefense/issues/36)          
+  - [Documento de Visão](https://github.com/fga-eps-mds/2018.2-CarDefense/issues/12)        
+  - [Documento de Arquitetura](https://github.com/fga-eps-mds/2018.2-CarDefense/issues/13)        
+  - [Template para issue](https://github.com/fga-eps-mds/2018.2-CarDefense/issues/15)         
+  - [Template para pull request](https://github.com/fga-eps-mds/2018.2-CarDefense/issues/16)               
+  - [Treinamento de Scrum/XP](https://github.com/fga-eps-mds/2018.2-CarDefense/issues/24)            
+  - [Treinamento de HTML/CSS](https://github.com/fga-eps-mds/2018.2-CarDefense/issues/26)        
+  - [Plano de Elicitação de Requisitos](https://github.com/fga-eps-mds/2018.2-CarDefense/issues/27)          
+  - [Brainstorming de Elicitação de Requisitos](https://github.com/fga-eps-mds/2018.2-CarDefense/issues/33)           
+  - [Treinamento de Python (Adicionado no meio da sprint)](https://github.com/fga-eps-mds/2018.2-CarDefense/issues/34)       
+  - [Treinamento de Django (Adicionado no meio da sprint)](https://github.com/fga-eps-mds/2018.2-CarDefense/issues/35)            
+  - [Reunião com Arquitetos do APP](https://github.com/fga-eps-mds/2018.2-CarDefense/issues/28)         
+  - [Pré Relatório Sprint 1](https://github.com/fga-eps-mds/2018.2-CarDefense/issues/37)  
+  - [Relatório Sprint 1](https://github.com/fga-eps-mds/2018.2-CarDefense/issues/38)     
 
 ## Papéis    
 
@@ -49,11 +48,11 @@ Cada ponto equivale a 2 horas de serviço.
 
 ### Planejados      
 
-  - 19 pontos    
+  - 18 pontos    
 
 ### Executados      
 
-  - 19 pontos    
+  - 18 pontos    
 
 ## Sprint Review      
 
