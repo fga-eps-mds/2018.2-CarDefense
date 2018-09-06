@@ -39,8 +39,8 @@ Os commits devem descrever de forma simples e sucinta as modificações feitas. 
 
 Quando se está usando a técnica de pair programming deve-se deixar especificado todos os autores envolvidos no desenvolvimento da funcionalidade. Por isso é necessário utilizar a tag co-authored-by do Github, a seguir um passo a passo:
 
-1 - Após usar o comando git add para adicionar as mudanças feitas, execute o seguinte comando:
-	git commit
+1 - Após usar o comando `git add` para adicionar as mudanças feitas, execute o seguinte comando:
+	`git commit`
 
 2 - Abrirá um editor de texto mostrando algumas configurações do que foi feito. Na primeira linha digite a mensagem do commit e depois pule duas linhas e adiciona a co-autoria como no exemplo abaixo: 
 ```
