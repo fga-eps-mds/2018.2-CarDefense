@@ -103,6 +103,12 @@
                                             <td>Riscos</td>
                                             <td>Lucas Souza</td>
                                         </tr>
+                                        <tr>
+                                            <td>10/09/2018</td>
+                                            <td>0.6</td>
+                                            <td>Riscos (ação reativa)</td>
+                                            <td>Lucas Souza</td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -204,10 +210,122 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <th>1</th>
-                                                    <td>Mark</td>
-                                                    <td>Otto</td>
-                                                    <td>@mdo</td>
+                                                    <th>Inexperiência da equipe de desenvolvimento</th>
+                                                    <td>Pode acarretar em atraso na entrega do produto</td>
+                                                    <td>Realização de treinamento sobre as tecnologias e metodologias necessárias para a realização do projeto.</td>
+                                                    <td>Promover um pareamento visando o nivelamento da experiência da equipe</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Inadaptação da equipe de desenvolvimento às tecnologias utilizadas</th>
+                                                    <td>Não haverá entrega do produto final.</td>
+                                                    <td>A realização de treinamento de tecnologias e solução de dúvidas entre a própria equipe.</td>
+                                                    <td>Procurar a troca das tecnologias utilizadas (em ultimo caso!)</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Inexperiência do scrum master</th>
+                                                    <td>Pode proporcinar uma má gerência de metodolgia e má gerência de risco.</td>
+                                                    <td>Este papel deve orientar-se pelo seu roadmap, pela tabela de valores ágil e estar em constante comunicação com a equipe visando solucionar qualquer problema ou risco.</td>
+                                                    <td>Caso a medida preventiva não funcione este papel deve procurar um scrum master mais experiente visando sanar as dúvidas e/ou os problemas</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Inexperiência do product owner</th>
+                                                    <td>Pode acarretar em uma má visão de projeto pela equipe.</td>
+                                                    <td>Este papel deve orientar-se por seu roadmap, pela elicitação de requisitos e constante comunicação com a equipe procurando sempre elucidar as dúvidas sobre o projeto final.</td>
+                                                    <td>Caso a medida preventiva não funcione este papel deve procurar um engenheiro de produto mais experiente visando sanar as dúvidas e/ou os problemas</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Inexeperiência do Arquiteto</th>
+                                                    <td>Pode acarretar em uma má gestão de serviços utilizados no projeto</td>
+                                                    <td>Este papel deve orienta-rse pelo seu roadmap, estudar sobre a arquitetura de microserviços, procurar entender as necessidades do projeto e as adequar à arquitetura utilizada.</td>
+                                                    <td>Caso a medida preventiva não funcione este papel deve procurar um arquiteto de software mais experiente visando sanar as dúvidas e/ou os problemas</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Inexperiência do DeVops</th>
+                                                    <td>Pode acarretar em problemas/atrasos na entrega contínua do projeto, assim, afetando o princípio ágil de entregas constantes</td>
+                                                    <td>Este papel deve sempre orientar-se pelo seu roadmap, estudar sobre DevOps e suas ferramentas envolvidas além de verificar, sempre, se a arquitetura em desenvolvimento se adequa ao processo ou não</td>
+                                                    <td>Caso a medida preventiva não funcione este papel deve procurar um DevOps mais experiênte visando sanar as dúvidas e/ou os problemas</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Evasão de algum membro da equipe de desenvolvimento</th>
+                                                    <td>Atraso da entrega do projeto final por causa da sobrecarga de tarefas aos membros restantes da equipe</td>
+                                                    <td>Quebrar as tarefas mais complexas em tarefas menores evitando a sobrecarga de esforço por tarefa além de gerir tais tarefas visando tal problema constantemente. Além de procurar motivar a equipe e mante-la em constante sintonia</td>
+                                                    <td>Caso essa evasão ocorra durante uma sprint o serviço assinado por este membro deve ser dividido entre os membros restantes da equipe visando a menor sobrecarga de esforço possível</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Evasão do arquiteto ou do DevOps</th>
+                                                    <td>Pode acarretar em problemas relacionados a comunicação dos serviços (no caso do arquiteto) ou na entrega contínua do projeto (no caso do devops).</td>
+                                                    <td>Procurar manter não só o arquiteto ou o DevOps motivados mas também toda a equipe.</td>
+                                                    <td>Como são dois papéis que durante a execução do projeto caminham juntos caso um dos dois seja evadido do projeto pode ocorrer uma das duas alternativas a seguir:
+                                                    <br>O devops passa a ser responsável também pela arquitetura</br>ou
+                                                    <br>O arquiteto passa a ser responsável também pelas tarefas do devops</br></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Evasão do scrum master ou do engenheiro de produto</th>
+                                                    <td>Pode acarretar em problemas relacionados a visão de produto (no caso do engenheiro de produto) ou problemas relacionados a metodologia e riscos (no caso do scrum master)</td>
+                                                    <td>Procurar manter não só o scrum master ou o Engenheiro de Produto motivados mas também toda a equipe</td>
+                                                    <td>Como são dois papéis que durante a execução do projeto caminham juntos caso um dos dois seja evadido do projeto pode ocorrer uma das duas alternativas a seguir:
+                                                    <br>O scrum master passa a ser responsável também pela engenharia de produto</br>ou
+                                                    <br>O engenheiro de produto passa a ser responsável também pelas tarefas do scrum master</br></td>
+                                                </tr>
+                                                <tr>
+                                                    <th>União do serviço 'CarDefense' ao App geral da FGA</th>
+                                                    <td>Pode acarretar uma não entrega do serviço no app final</td>
+                                                    <td>Deve ocorrer uma comunicação constante tanto da parte do devops quanto da parte da arquitetura com tais partes dos outros serviços envolvidos em tal app. Esta comunicação deve sempre visar os melhores padrões para que os serviços se relacionem entre si</td>
+                                                    <td>Caso a medida preventiva não funcione o aplicativo 'CarDefense' deverá ser entregue separadamente do projeto do App Geral da FGA (somente em último caso!)</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Problemas relacionados a infraestrutura necessária ao projeto</th>
+                                                    <td>Pode acarretar no atraso ou na não entrega do projeto final além de afetar a gerência do mesmo</td>
+                                                    <td>Procurar sempre desenvolver ou se reunir em um local com a infraestrutura básica para a execução do projeto</td>
+                                                    <td>Caso a medida preventiva não funcione não será possível produzir o projeto</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Risco de greve</th>
+                                                    <td>Pode acarretar em um grave atraso na produção do projeto</td>
+                                                    <td>Gerir o backlog de sprints e a produção do projeto visando a inexistência ou a minima quantidade de dívidas técnicas para a próxima sprint</td>
+                                                    <td>Caso a medida preventiva não funcione é importante que todo o backlogo seja reformulado visando e diminuição do escopo para que seja possível entregar o projeto na data correta. (Caso não haja possibilidade de troca de adiamento da data de entrega)</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Escopo mal definido</th>
+                                                    <td>Acarreta na entrega de um projeto que não satisfaz ao cliente/usuário</td>
+                                                    <td>Visar construir o projeto/produto possuindo uma comunicação constante com o cliente/usuário procurando entender e documentar as suas necessidades</td>
+                                                    <td>Caso a medida preventiva não funcione a equipe deverá rever todo o processo de elicitação e produzir um novo backlog de projeto</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Falta de Comprometimento</th>
+                                                    <td>Pode acarretar em dívidas técnicas de uma sprint para outra acarretando em atrasos na produção do projeto (no caso da equipe de desenvolvimento) como também pode acarretar em desfalques na arquitetura, na visão de projeto, no devops ou na metodologia</td>
+                                                    <td>Procurar a motivação entre os membros da equipe, manter a comunicação constante, procurar trazer todos os problemas 'a tona' antes que possam piorar</td>
+                                                    <td>Motivar a equipe ou o membro que está descomprometido e caso isso não funcione em último caso promover a demissão do membro da equipe</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Dependência de atividades</th>
+                                                    <td>Pode acarretar em um atraso grave na entrega do projeto</td>
+                                                    <td>Procurar priorizar o backlog de projeto visando tanto a urgência de implementação da feature quanto as dependências entre elas</td>
+                                                    <td>Caso a medida preventiva não funcione procurar colocar ambas atividades em uma mesma sprint promovendo a união entre dois pares responsáveis pela entrega de ambas tarefas</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Falta de comunicação</th>
+                                                    <td>Pode acarretar na falta de relatos de problemas ou dúvidas causando, também, atraso da entrega do projeto</td>
+                                                    <td>Possuir um plano de comunicação concreto visando comunicação rápida e constante e de fácil acesso por todos os membros da equipe</td>
+                                                    <td>Caso a medida preventiva não funcione deve haver um novo planejamento da comunicação da equipe do projeto</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Mal planejamento das sprints</th>
+                                                    <td>Pode acarretar em um atraso grave na entrega do projeto</td>
+                                                    <td>Procurar montar o backlog das sprints utilizando a priorização do backlog geral e a pontuação médida gerada pelo velocity</td>
+                                                    <td>Caso a medida preventiva não funcione é necessário que seja revista a maneira como a sprint está sendo planejada procurando encontrar e solucionar os defeitos e falhas de tal planejamento.</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Atrasar entregas</th>
+                                                    <td>Pode acarretar na não entrega do projeto ou em uma entrega incompleta do mesmo</td>
+                                                    <td>Procurar gerenciar corretamente o backlog das sprints visando a inexistencia ou quantidade mínima de dívidas técnicas para a proxima sprint</td>
+                                                    <td>Caso a medida preventiva não funcione a sprint que vier logo após ao atraso deve ser formulada visando a entrega das atividades em atraso como também atividades que exijam menos pontuação tentando adequaro o atraso ao cronograma de entregas</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>Perda de equipamento</th>
+                                                    <td>Pode acarretar em atrasos no projeto</td>
+                                                    <td>Manter todo o equipamento bem guardado além de sempre possuir backup de todo o projeto tanto na nuvem quanto em equipamentos pessoais da equipe</td>
+                                                    <td>Caso a medida preventiva não funcione o membro que foi afetado pela perda de equipamento deve parear com os outros membros da equipe até que sua situação seja resolvida</td>
                                                 </tr>
                                             </tbody>
                                         </table>
