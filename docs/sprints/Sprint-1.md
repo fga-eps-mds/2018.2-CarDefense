@@ -48,11 +48,14 @@ Cada ponto equivale a 2 horas de serviço.
 
 ### Planejados      
 
-  - 18 pontos    
+  - 14 pontos*    
 
 ### Executados      
 
-  - 18 pontos    
+  - 14 pontos*    
+
+
+  Obs* O projeto possui um documento de visão e um documento de arquitetura. Estes documentos são constantemente evoluídos e, por isso, não possuem pontuação nem sprint definida entretanto para a produção dos mesmos ser evidenciada no projeto foram atribuídos a esta sprint.
 
 ## Sprint Review      
 
