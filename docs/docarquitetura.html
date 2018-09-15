@@ -173,6 +173,182 @@
                                                 </p>
                                             </div>
                                         </section>
+
+                                        <section id="metas" class="doc-section">
+                                            <h3>3. Metas e Restrições de Arquitetura</h3>
+                                            <div class="table-responsive">
+                                                    <table class="table table-bordered">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Restrição</th>
+                                                                <th>Ferramenta</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Linguagem</td>
+                                                                <td>Python</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Framework</td>
+                                                                <td>Django</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Plataforma</td>
+                                                                <td>Android</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Segurança</td>
+                                                                <td>
+                                                                    O sistema terá informações pessoais dos usuários que só 
+                                                                    poderão ser vistas e editadas pelo próprio usuário
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Idioma</td>
+                                                                <td>Português</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                        </section>
+                                        <section id="uso" class="doc-section">
+                                            <h3 class="section-title">4. Visão dos Casos de Uso</h3>
+                                            <div class="section-block">
+                                                <h4>4.1 Descrição dos Casos de uso</h2>
+                                                <p>A seguir são descritos os casos de uso presentes no diagrama:</p>
+                                                <ul>
+                                                    <li>
+                                                        <strong>UC01 - Cadastrar veículo -</strong> Este caso de uso permite ao
+                                                         usuário cadastrar um veículo na aplicação, por meio do número da placa.
+
+                                                    </li>
+                                                    <li>
+                                                        <strong>UC02 - Acessar cadastro de veículos -</strong> O usuário poderá
+                                                         acessar seu cadastro de veículos na aplicação.
+
+                                                    </li>
+                                                    <li>
+                                                        <strong>UC03 - Alterar cadastro de veículos -</strong> O usuário poderá
+                                                         alterar alguma informação fornecida no cadastro de veículo anteriormente.
+
+                                                    </li>
+                                                    <li>
+                                                        <strong>UC04 - Remover cadastro de veículo -</strong> O usuário poderá
+                                                         remover qualquer veículo previamente cadastrado no sistema.
+
+                                                    </li>
+                                                    <li>
+                                                        <strong>UC05 - Emitir alerta privado -</strong> O usuário poderá emitir
+                                                        uma notificação predefinida, por meio de um botão, para o usuário dono do veículo, sobre
+                                                        qualquer situação incomum correlação ao veículo, por meio do número da placa.
+
+                                                    </li>
+                                                    <li>
+                                                        <strong>UC06 - Emitir alerta geral -</strong> O usuário poderá emitir um
+                                                        alerta geral, por meio de um botão, validado por mais três usuários, sobre alguma possível
+                                                        catástrofe natural.
+
+                                                    </li>
+                                                    <li>
+                                                        <strong>UC07 - Emitir alerta de roubo, furto ou arrombamento -</strong> O usuário poderá 
+                                                        emitir um alerta geral, por meio de um botão, sobre qualquer uma das situações de roubo, 
+                                                        furto ou arrombamento.
+
+                                                    </li>
+                                                    <li>
+                                                        <strong>UC08 - Ligar para polícia ou corpo de bombeiros -</strong> O usuário poderá, 
+                                                        por meio de um botão, ligar diretamente para a polícia ou para o corpo de bombeiros.
+
+                                                    </li><li>
+                                                        <strong>UC09 - Feed de alertas -</strong> O usuário deve ser capaz de ver os alertas 
+                                                        gerais por meio de um “feed de notícias”.
+
+                                                    </li>
+                                                    <li>
+                                                        <strong>UC10 - Classificação(avaliação do usuário) -</strong> O usuário deve ser capaz
+                                                        de visualizar sua classificação no aplicativo.
+
+                                                    </li>
+                                                    <li>
+                                                        <strong>UC11 - Notificação -</strong> O usuaŕio deve ser capaz de receber o alerta 
+                                                        enviado por outro usuário.
+
+                                                    </li>
+                                                    <li>
+                                                        <strong>UC12 - Reportar alerta -</strong> O usuário poderá reportar alerta inadequado ou
+                                                        ofensivo.
+
+                                                    </li><li>
+                                                        <strong>UC13 - Classificação(avaliação do alerta) -</strong> O usuário deve ser capaz de 
+                                                        classificar um alerta recebido.
+
+                                                    </li>
+                                                    <li>
+                                                        <strong>UC14 - Serviços -</strong> O usuário deve ser capaz de poder ver anúncios de 
+                                                        serviços automotivos.
+
+                                                    </li>
+                                                    <li>
+                                                        <strong>UC15 - Configuração -</strong> O usuário poderá alterar foto do perfil.
+
+                                                    </li>
+                                                    <li>
+                                                        <strong>UC16 - Sobre -</strong> O usuário deve ser capaz ver informações sobre o 
+                                                        aplicativo e modo de uso.
+
+                                                    </li>
+                                                    <li>
+                                                        <strong>UC17 - Feedback -</strong> O usuário deve ser capaz de fazer comentários 
+                                                        sobre aplicativo.
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div>
+                                                <h4>4.2 Diagramas dos Casos de Uso</h4>
+                                                <figure>
+                                                    <div class = "casosdeuso1">
+                                                            <img class="scaled" src="assets/images/configurarVeiculo.png" alt="Configuração de Veiculos">
+                                                            <figcaption> CarDefense - Configurar Veículos</figcaption>
+                                                            <br>
+                                                            <br />
+                                                    </div>
+                                                </figure>
+                                                <figure>
+                                                    <div class = "casosdeuso1">
+                                                        <img class="scaled" src="assets/images/receberAlerta.png" alt="Recebimento de Alerta">
+                                                        <figcaption> CarDefense - Receber Alerta</figcaption>
+                                                        <br>
+                                                        <br/>
+                                                    </div>
+                                                </figure>
+                                                <figure>
+                                                    <div class="casosdeuso1">
+                                                        <img class="scaled" src="assets/images/enviarAlertas.png" alt="Envio de Alertas">
+                                                        <figcaption> CarDefense - Enviar Alertas</figcaption>
+                                                        <br>
+                                                        <br />
+                                                    </div>
+                                                </figure>
+                                                <figure>
+                                                    <div class="casosdeuso1">
+                                                        <img class="scaled" src="assets/images/informacoes.png" alt="Informações">
+                                                        <figcaption> CarDefense - Ver Informações</figcaption>
+                                                        <br>
+                                                        <br />
+                                                    </div>
+                                                </figure>
+                                                <figure>
+                                                    <div class="casosdeuso1">
+                                                        <img class="scaled" src="assets/images/extras.png" alt="Extras">
+                                                        <figcaption> CarDefense - Extras</figcaption>
+                                                        <br>
+                                                        <br />
+                                                    </div>
+                                                </figure>
+                                            </div>
+                                        </section>
+
                                         <!--//doc-section-->
 
 
@@ -186,7 +362,8 @@
                                 <nav class="doc-sub-menu nav flex-column">
                                         <a class="nav-link scrollto" href="#introducao">1. Introdução</a>
                                         <a class="nav-link scrollto" href="#step2">AQUI</a>
-                                        <a class="nav-link scrollto" href="#step3">AQUI</a>
+                                        <a class="nav-link scrollto" href="#metas">3. Metas e Restrições de Arquitetura</a>
+                                        <a class="nav-link scrollto" href="#uso">4. Visão dos Casos de Uso</a>
                                     </nav><!--//nav-->
                                 <a class="nav-link scrollto" href="#morris">Protótipos</a>
                                 <a class="nav-link scrollto" href="#inline">Requisitos</a>

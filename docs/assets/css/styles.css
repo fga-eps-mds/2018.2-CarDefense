@@ -1371,3 +1371,28 @@ select {
     padding: 30px 15px;
   }
 }
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: justify;
+}
+
+
+figure {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+img.scaled {
+  width: 100%;
+}
+.casosdeuso1{
+  text-align: center;
+}
