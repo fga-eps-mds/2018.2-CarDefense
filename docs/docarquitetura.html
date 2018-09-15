@@ -46,135 +46,313 @@
         <div class="doc-wrapper">
             <div class="container">
                 <div id="doc-header" class="doc-header text-center">
-                    <h1 class="doc-title"><span aria-hidden="true" class="fas fa-file-alt"></span> Documento de Arquitetura</h1>                </div><!--//doc-header-->
+                    <h1 class="doc-title"><span aria-hidden="true" class="fas fa-file-alt"></span> Documento de Arquitetura</h1>
+                </div>
+                <!--//doc-header-->
                 <div class="doc-body row">
                     <div class="doc-content col-md-9 col-12 order-1">
                         <div class="content-inner">
-                                <div class="table-responsive">
-                                        <h4 class="section-title">Histórico de Revisão</h4>
+                        	<div class="table-responsive">
+                            	<h4 class="section-title">Histórico de Revisão</h4>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>Data</th>
+                                            <th>Versão</th>
+                                            <th>Descrição</th>
+                                            <th>Autor</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>25/08/2018</td>
+                                            <td>0.0</td>
+                                            <td>Versão inicial</td>
+                                            <td>Lieverton</td>
+                                        </tr>
+                                        <tr>
+                                            <td>26/08/2018</td>
+                                            <td>0.1</td>
+                                            <td>Descrição dos casos de uso</td>
+                                            <td>Paulo V.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>26/08/2018</td>
+                                            <td>0.2</td>
+                                            <td>Diagrama de casos de uso</td>
+                                            <td>Ivan Dobbin</td>
+                                        </tr>
+                                        <tr>
+                                            <td>31/08/2018</td>
+                                            <td>0.3</td>
+                                            <td>Melhoria na descrição dos casos de uso</td>
+                                            <td>Paulo V.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>31/08/2018</td>
+                                            <td>0.4</td>
+                                            <td>Diagrama de relações e visão lógica</td>
+                                            <td>Mateus Roriz</td>
+                                        </tr>
+                                        <tr>
+                                            <td>02/09/2018</td>
+                                            <td>0.5</td>
+                                            <td>Diagrama de pacotes back-end</td>
+                                            <td>Mateus Roriz</td>
+                                        </tr>
+                                        <tr>
+                                            <td>02/09/2018</td>
+                                            <td>0.6</td>
+                                            <td>Atualização do diagrama de casos de uso</td>
+                                            <td>Lieverton</td>
+                                        </tr>
+                                        <tr>
+                                            <td>03/09/2018</td>
+                                            <td>0.7</td>
+                                            <td>Visão geral, representação de arquitetura, metas e restrição, visão lógica, diagramas de classe</td>
+                                            <td>Paulo V.</td>
+                                        </tr>
+                                        <tr>
+                                            <td>09/09/2018</td>
+                                            <td>0.8</td>
+                                            <td>Versão inicial do diagrama de React-Native/Redux/Microsserviços</td>
+                                            <td>Mateus Roriz</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <!--//table-responsive-->
+                            <section id="introducao" class="doc-section">
+                                <h3 class="section-title">1. Introdução</h3>
+                                <div class="section-block">
+                                    <h4>1.1 Finalidade</h4>
+                                    <p align="justify">Este documento tem como objetivo apresentar uma visão
+                                        geral abrangente da arquitetura de software e especificar decisões
+                                        arquiteturais pertinentes para o desenvolvimento do aplicativo CarDefense.
+                                        Logo a equipe poderá obter um melhor esclarecimento da estrutura e dos
+                                        requisitos do sistema.
+                                    </p>
+                                </div>
+                                <div class="section-block">
+                                    <h4>1.2 Escopo</h4>
+                                    <p Align="justify">CarDefense é uma aplicativo para plataforma android projetado
+                                        para auxiliar na proteção dos automóveis e motocicletas localizados na FGA.
+                                        Os desenvolvedores são responsáveis em seguir este documento visando garantir
+                                        o padrão proposto para a arquitetura.
+                                    </p>
+                                </div>
+                                <div class="section-block">
+                                    <h4>1.3 Definições, Acrônimos e Abreviações</h4>
+                                    <div class="table-responsive">
                                         <table class="table table-bordered">
                                             <thead>
                                                 <tr>
-                                                    <th>Data</th>
-                                                    <th>Versão</th>
-                                                    <th>Descrição</th>
-                                                    <th>Autor</th>
+                                                    <th>Abreviação</th>
+                                                    <th>Definição</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>25/08/2018</td>
-                                                    <td>0.0</td>
-                                                    <td>Versão inicial</td>
-                                                    <td>Lieverton</td>
+                                                    <th>FGA</th>
+                                                    <td>Faculdade do Gama</td>
                                                 </tr>
                                                 <tr>
-                                                  <td>26/08/2018</td>
-                                                  <td>0.1</td>
-                                                  <td>Descrição dos casos de uso</td>
-                                                  <td>Paulo V.</td>
-                                                </tr>
-                                                <tr>
-                                                  <td>26/08/2018</td>
-                                                  <td>0.2</td>
-                                                  <td>Diagrama de casos de uso</td>
-                                                  <td>Ivan Dobbin</td>
-                                                </tr>
-                                                <tr>
-                                                  <td>31/08/2018</td>
-                                                  <td>0.3</td>
-                                                  <td>Melhoria na descrição dos casos de uso</td>
-                                                  <td>Paulo V.</td>
-                                                </tr>
-                                                <tr>
-                                                  <td>31/08/2018</td>
-                                                  <td>0.4</td>
-                                                  <td>Diagrama de relações e visão lógica</td>
-                                                  <td>Mateus Roriz</td>
-                                                </tr>
-                                                <tr>
-                                                  <td>02/09/2018</td>
-                                                  <td>0.5</td>
-                                                  <td>Diagrama de pacotes back-end</td>
-                                                  <td>Mateus Roriz</td>
-                                                </tr>
-                                                <tr>
-                                                  <td>02/09/2018</td>
-                                                  <td>0.6</td>
-                                                  <td>Atualização do diagrama de casos de uso</td>
-                                                  <td>Lieverton</td>
-                                                </tr>
-                                                <tr>
-                                                  <td>03/09/2018</td>
-                                                  <td>0.7</td>
-                                                  <td>Visão geral, representação de arquitetura, metas e restrição, visão lógica, diagramas de classe</td>
-                                                  <td>Paulo V.</td>
-                                                </tr>
-                                                <tr>
-                                                  <td>09/09/2018</td>
-                                                  <td>0.8</td>
-                                                  <td>Versão inicial do diagrama de React-Native/Redux/Microsserviços</td>
-                                                  <td>Mateus Roriz</td>
+                                                    <th>FUNPAR</th>
+                                                    <td>Universidade Federal do Paraná</td>
                                                 </tr>
                                             </tbody>
                                         </table>
                                     </div>
                                     <!--//table-responsive-->
-                                    <section id="introducao" class="doc-section">
-                                            <h3 class="section-title">1. Introdução</h3>
-                                            <div class="section-block">
-                                              <h4>1.1 Finalidade</h4>
-                                                <p align="justify">Este documento tem como objetivo apresentar uma visão
-                                                  geral abrangente da arquitetura de software e especificar decisões
-                                                  arquiteturais pertinentes para o desenvolvimento do aplicativo CarDefense.
-                                                  Logo a equipe poderá obter um melhor esclarecimento da estrutura e dos
-                                                  requisitos do sistema.
-                                                </p>
-                                            </div>
-                                            <div class="section-block">
-                                              <h4>1.2 Escopo</h4>
-                                                <p Align="justify">CarDefense é uma aplicativo para plataforma android projetado
-                                                  para auxiliar na proteção dos automóveis e motocicletas localizados na FGA.
-                                                  Os desenvolvedores são responsáveis em seguir este documento visando garantir
-                                                  o padrão proposto para a arquitetura.
-                                                </p>
-                                            </div>
-                                            <div class="section-block">
-                                                <h4>1.3 Definições, Acrônimos e Abreviações</h4>
-                                                <div class="table-responsive">
-                                                    <table class="table table-bordered">
-                                                        <thead>
-                                                            <tr>
-                                                                <th>Abreviação</th>
-                                                                <th>Definição</th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr>
-                                                                <th>FGA</th>
-                                                                <td>Faculdade do Gama</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <th>FUNPAR</th>
-                                                                <td>Universidade Federal do Paraná</td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                                <!--//table-responsive-->
-                                            </div>
-                                            <div class="section-block">
-                                              <h4>1.4 Visão Geral</h4>
-                                                <p Align="justify">Este documento contém os detalhes sobre as características
-                                                  arquiteturais escolhidas pela equipe de desenvolvimento para a solução em
-                                                  software do projeto CarDefense. Nele estão contidos os seguintes pontos,
-                                                  respectivamente: Representação da Arquitetura, Metas e restrições de Arquitetura,
-                                                  Visão dos casos de uso, Visão lógica e Visão de implementação.
-                                                </p>
-                                            </div>
-                                        </section>
-                                        <!--//doc-section-->
+                                </div>
+                                <div class="section-block">
+                                    <h4>1.4 Visão Geral</h4>
+                                    <p Align="justify">Este documento contém os detalhes sobre as características
+                                        arquiteturais escolhidas pela equipe de desenvolvimento para a solução em
+                                        software do projeto CarDefense. Nele estão contidos os seguintes pontos,
+                                        respectivamente: Representação da Arquitetura, Metas e restrições de Arquitetura,
+                                        Visão dos casos de uso, Visão lógica e Visão de implementação.
+                                    </p>
+                                </div>
+                            </section>
+                            <!--//doc-section-->
 
+                            <section id="representacao-arquitetura" class="doc-section">
+                                <h3 class="section-title">2. Representação da Arquitetura</h3>
+                                <p align="justify">A arquitetura utilizada no projeto será baseada em microsserviços.
+                                    Microsserviço é uma abordagem para desenvolver uma única aplicação como um conjunto
+                                    de serviços, cada um rodando em seu próprio processo e se comunicando através de
+                                    mecanismos leves, geralmente através de uma API HTTP. Estes serviços são publicados
+                                    em produção de maneira independente através de processos de deploys automatizados.
+                                </p>
+                                <div class="section-block">
+                                    <h4>2.1 Diagrama de Relações</h4>
+                                    <figure>
+                                        <div class="diagrama">
+                                            <img src="assets/images/diagrama_relacoes.png" alt="Diagrama de Relações">
+                                        </div>
+                                    </figure>
+                                    <p align="justify">O diagrama representa cada etapa a ser seguida para que o aplicativo
+                                        funcione, relacionando o front-end e o back-end.
+                                    </p>
+                                </div>
+                                <div class="section-block">
+                                    <h4>2.2 Diagrama de React-Native/Redux/Microsserviços</h4>
+                                    <figure>
+                                        <div class="diagrama">
+                                            <img src="assets/images/diagrama_react-native_redux_microsservicos.png" alt="Diagrama de React-Native/Redux/Microsserviços">
+                                        </div>
+                                    </figure>
+                                </div>
+                                <div class="section-block">
+                                    <h4>2.3 Diagrama de Pacotes Front-End</h4>
+
+                                </div>
+                                <div class="section-block">
+                                    <h4>2.4 Diagrama de Pacotes Back-End (Django Rest Framework)</h4>
+                                    <figure>
+                                        <div class="diagrama">
+                                            <img src="assets/images/diagrama_pacotes_back-end.png" alt="Diagrama de Pacotes Back-End (Django Rest Framework)">
+                                        </div>
+                                    </figure>
+                                </div>
+                            </section>
+                            <!--//doc-section-->
+
+                            <section id="visao-logica" class="doc-section">
+                                <h3 class="section-title">5. Visão Lógica</h3>
+                                <div class="section-block">
+                                    <h4>5.1 Visão geral: Pacotes e Camadas</h4>
+                                    <p align="justify">A aplicação CarDefense é construída sobre o framework react native no
+                                        front-end e sobre o framework django no back-end. React native utiliza a arquitetura
+                                        Redux, tal arquitetura permite a utilização de um container de estados para facilmente
+                                        administrar os estados da sua aplicação. O framework django utiliza uma variação da arquitetura
+                                        MVC, chamada MTV(Model Template View) onde a “view” delega a informação apresentada para o template.
+                                        O desenvolvimento em camadas e componentes é benéfico pois tem custos reduzidos de desenvolvimento
+                                        e manutenção e também de fácil reutilização em outros projetos.
+                                    </p>
+                                </div>
+                                <div class="section-block">
+                                    <h5>5.1.1 Model</h5>
+                                    <p align="justify">A model é uma interface de apresentação do banco de dados  que permite o
+                                        uso dos dados do banco sem conhecer as complexidades do banco de dados subjacente. O modelo
+                                        geralmente também fornece uma camada de abstração com seu banco de dados, para que seja possível
+                                        usar o mesmo modelo com vários tipos de bancos de dados.
+                                    </p>
+                                </div>
+                                <div class="section-block">
+                                    <h5>5.1.2 View</h5>
+                                    <p align="justify">Estabelece a conexão entre a Model e o Template. Ela recebe as requisições
+                                        do usuário, acessa o banco de dados e retorna a informação solicitada.
+                                    </p>
+                                </div>
+                                <div class="section-block">
+                                    <h5>5.1.3 Template</h5>
+                                    <p align="justify">É a camada de apresentação. Nela é onde se decide como alguma informação
+                                        do banco de dados deve ser apresentada para o usuário.
+                                    </p>
+                                    <img src="mvt.png">
+                                </div>
+                                <div class="section-block">
+                                    <h4>5.2 Django Framework</h4>
+                                    <p align="justify">O framework Django, organiza o projeto em diretórios em que cada um contém
+                                        uma funcionalidade independente do restante da aplicação como sugere a imagem a seguir:
+                                    </p>
+                                    <figure>
+                                        <div class="diagrama">
+                                            <img src="assets/images/django_pastas.png" alt="Django Framework">
+                                        </div>
+                                    </figure>
+                                    <ul>
+                                        <li>
+                                            <strong>apps :</strong> cada app tem uma pasta com as suas models, views, formulários, testes, templates e
+                                            arquivos estáticos. Além disso, também há um arquivo URLs que será incluso no URLs global.
+                                            <ul>
+                                                <li>
+                                                    <strong>migrations :</strong> pasta com as migrações para o banco de dados.
+                                                </li>
+                                                <li>
+                                                    <strong>static :</strong> pasta com arquivos CSS, JavaScript e imagens.
+                                                </li>
+                                                <li>
+                                                    <strong>tests :</strong> arquivos de testes referente ao app.
+                                                </li>
+                                                <li>
+                                                    <strong>templates :</strong> arquivos html do app.
+                                                </li>
+                                                <li>
+                                                    <strong>locale :</strong> traduções referentes ao app.
+                                                </li>
+                                                <li>
+                                                    <strong>models :</strong> arquivos de models do app.
+                                                </li>
+                                                <li>
+                                                    <strong>views :</strong> arquivos de views do app.
+                                                </li>
+                                                <li>
+                                                    <strong>forms :</strong> arquivos de formulários do app.
+                                                </li>
+                                                <li>
+                                                    <strong>admin :</strong> arquivo de conexão do app com o admin.
+                                                </li>
+                                                <li>
+                                                    <strong>urls.py :</strong> arquivo que mapeia as as views com templates de cada app.
+                                                </li>
+                                                <li>
+                                                    <strong>_init_ :</strong> arquivo que transforma o app em um pacote python.
+                                                </li>
+                                                <li>
+                                                    <strong>apps :</strong> mapeia a pasta que o contém como um app.
+                                                </li>
+                                                <li>
+                                                    <strong>utils :</strong> arquivos de validação dos apps.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <strong>config :</strong> pasta com as configurações do projeto Django.
+                                            <ul>
+                                                <li>
+                                                    <strong>urls.py :</strong> inclui todos os URLs.py dos apps.
+                                                </li>
+                                                <li>
+                                                    <strong>_init_ :</strong> arquivo que transforma as configurações em um pacote python.
+                                                </li>
+                                                <li>
+                                                    <strong>settings :</strong> arquivos com as configurações básicas da aplicação.
+                                                </li>
+                                                <li>
+                                                    <strong>wsgi :</strong> especificação para uma interface simples e universal entre servidores web e aplicações web.
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <strong>manage.py :</strong> arquivo criado automaticamente pelo Django para gerênciamento de comandos.
+                                        </li>
+                                        <li>
+                                            <strong>docs :</strong> documentação da aplicação.
+                                        </li>
+                                        <li>
+                                            <strong>compose :</strong> pasta com arquivos do docker.
+                                        </li>
+                                        <li>
+                                            <strong>utility :</strong> arquivos para o auxílio na instalação do software.
+                                        </li>
+                                        <li>
+                                            <strong>requirements :</strong> organiza todos os pacotes/componentes que a aplicação utiliza em arquivos.
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="section-block">
+                                    <h4>5.3 Diagrama de Classes</h4>
+                                    <figure>
+                                        <div class="diagrama">
+                                            <img src="assets/images/diagrama_classe.jpg" alt="Diagrama de Classes">
+                                        </div>
+                                    </figure>
+                                </div>
+                            </section>
+                            <!--//doc-section-->
 
                         </div><!--//content-inner-->
                     </div><!--//doc-content-->
@@ -185,8 +363,8 @@
                                 <a class="nav-link scrollto">Documento de Arquitetura</a>
                                 <nav class="doc-sub-menu nav flex-column">
                                         <a class="nav-link scrollto" href="#introducao">1. Introdução</a>
-                                        <a class="nav-link scrollto" href="#step2">AQUI</a>
-                                        <a class="nav-link scrollto" href="#step3">AQUI</a>
+                                        <a class="nav-link scrollto" href="#representacao-arquitetura">2. Representação da Arquitetura</a>
+                                        <a class="nav-link scrollto" href="#visao-logica">5. Visão Lógica</a>
                                     </nav><!--//nav-->
                                 <a class="nav-link scrollto" href="#morris">Protótipos</a>
                                 <a class="nav-link scrollto" href="#inline">Requisitos</a>
