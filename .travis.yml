@@ -3,6 +3,7 @@ sudo: required
 language: python
 python: 
   - "3.6.1"
+install: "pip install -r requirements.txt"
 
 services:
   - docker
@@ -11,5 +12,6 @@ before_install:
 -  docker-compose build
 
 script:
-- docker-compose up -d
+  - docker-compose up -d
+  - flake8 cmdbox
 
