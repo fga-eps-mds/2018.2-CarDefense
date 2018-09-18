@@ -1395,3 +1395,8 @@ img.scaled {
 .diagrama{
   text-align: center;
 }
+
+img.semi-scaled {
+  width: 50%;
+  height: 50%;
+}
