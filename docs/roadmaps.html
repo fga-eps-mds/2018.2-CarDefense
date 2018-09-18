@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+    <link rel="stylesheet" href="assets/plugins/lightbox/dist/ekko-lightbox.css">
     <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">
 
     <!-- Theme CSS -->
@@ -26,7 +27,7 @@
 
 </head>
 
-<body class="body-green">
+<body class="body-blue">
     <div class="page-wrapper">
         <!-- ******Header****** -->
         <header id="header" class="header">
@@ -42,7 +43,7 @@
                 <!--//branding-->
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item active">Pipeline</li>
+                    <li class="breadcrumb-item active">Roadmap de Papéis</li>
                 </ol>
             </div>
             <!--//container-->
@@ -51,22 +52,32 @@
         <div class="doc-wrapper">
             <div class="container">
                 <div id="doc-header" class="doc-header text-center">
-                    <h1 class="doc-title"><i class="icon fas fa-file-alt"></i> Pipeline</h1>
+                    <h1 class="doc-title"><span aria-hidden="true" class="fas fa-file-alt"></span>Roadmap de Papéis</h1>
                 </div>
                 <!--//doc-header-->
                 <div class="doc-body row">
                     <div class="doc-content col-md-9 col-12 order-1">
-                        <!--//content-inner-->
-                        <div class=".pipeline">
-                            <img class="img-fluid" src="https://i.imgur.com/dg8ocJl.jpg" alt="pipeline" /><br>
-                            <a class="nav-link" href="https://i.imgur.com/dg8ocJl.jpg" style="float: center;">Ampliar imagem</a>
+                        <div class="content-inner">
+                            <section id="introducao" class="doc-section">
+                              <h3> Roadmap dos Papéis do Projeto </h3>
+                              <figure>
+                                  <div class="diagrama">
+                                    <img class="scaled" src="assets/images/roadmap_de_papeis.png" alt="Roadmap de Papéis">
+                                  </div>
+                                  <p align="justify">
+                                    Roadmap com os papéis referente a EPS.
+                                  </p>
+                              </figure>
+                            </section>
+                            <!--//doc-section-->
                         </div>
+                        <!--//content-inner-->
                     </div>
                     <!--//doc-content-->
                     <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
                         <div id="doc-nav" class="doc-nav">
                             <nav id="doc-menu" class="nav doc-menu flex-column sticky">
-                                <a class="nav-link" href="docvisao.html">Documento de Visão</a>
+                                <a class="nav-link" href="docvisao.html" >Documento de Visão</a>
                                 <a class="nav-link" href="docarquitetura.html">Documento de Arquitetura</a>
                                 <a class="nav-link scrollto" href="#morris">Protótipos</a>
                                 <a class="nav-link scrollto" href="#inline">Requisitos</a>
@@ -104,6 +115,7 @@
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>
     <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script>
     <script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
 
