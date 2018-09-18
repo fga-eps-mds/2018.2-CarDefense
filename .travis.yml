@@ -13,5 +13,5 @@ before_install:
 
 script:
   - docker-compose up -d
-  - flake8 cmdbox
+  - flake8 .
 
