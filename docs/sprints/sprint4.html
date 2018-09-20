@@ -151,7 +151,9 @@
                                             <li>Planejados:</li>
                                             22 pontos
                                             <li>Executados:</li>
-                                            -
+                                            20 pontos
+                                            <li>Dívida Técnica:</li>
+                                            2 pontos
                                         </ul>
                                     </p>
                                     <h3 class="block-title">4. Papéis</h3>
@@ -180,7 +182,113 @@
                             <!--//doc-section-->
 
 
-                            <!-- SEÇÃO DE RESULTADOS -->
+                            <section id="introducao" class="doc-section">
+                                <h3 class="section-title">Resultado</h3>
+                                <div class="section-block">
+                                    <h3 class="block-title">1. Sprint Review</h3>
+                                        <p align="justify">
+                                          <br>
+                                            A maioria das tarefas separadas para esta sprint foram realizadas com sucesso. A única tarefa que não foi terminada foi "Criar Mapa de Requisitos".
+                                            Tal tarefa não foi aceita como entregue pois faltaram detalhes referentes aos requisitos de Gamificação do projeto.
+                                          <br>
+                                        </p>
+                                    <h3 class="block-title">2. Sprint Retrospective</h3>
+                                    <div class="section-block">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Pontos Positivo</th>
+                                                        <th>Pontos Negativos</th>
+                                                        <th>Soluções</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Estudo de testes</td>
+                                                        <td>Falta de tempo devido à provas</td>
+                                                        <td>Procurar se mais proativo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Comunicação via issues</td>
+                                                        <td>Muita coisa para estudar (extra projeto)</td>
+                                                        <td>Melhorar a retrospectiva da sprint (esquecer dontpad)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Pró-atividade de alguns membros</td>
+                                                        <td>Procrastinação</td>
+                                                        <td>Fazer reiunião geral para resolução do backlog de projeto até a release 1</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Apresentação dos documentos no GitHub Pages</td>
+                                                        <td>Dificuldade de definir backlog pra release 1</td>
+                                                        <td>Tentar equilibrar os tópicos de estudo para as próximas sprints</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Sprints Documentadas no Pages</td>
+                                                        <td>Mudanças nos horários das reuniões</td>
+                                                        <td>Um membro "dar um toque" em outro para fazer as atividades</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <h3 class="block-title">3. Quadro de Conhecimento</h3>
+                                        <figure>
+                                            ADD QUADRO
+                                        </figure>
+                                    <h3 class="block-title">4. Burndown</h3>
+                                      <figure>
+                                          <div class="diagrama">
+                                            <img class="scaled" src="../assets/images/sprints/burndown_sprint4.png" alt="Burndown Sprint 4">
+                                          </div>
+                                          <p align="justify">
+                                            Obs: Este foi o primeiro burndown criado a partir da ferramenta zenhub. A pontuação da sprint não
+                                            foi queimada da forma como o burndown foi apresentado. A distorção entre o burndown real e o entregue
+                                            pelo ZenHub foi a má utilização da ferramenta. Para que a ferramenta funcione corretamente as issues devem
+                                            ser fechadas assim que são terminadas e consideradas prontas e, neste caso, elas foram fechadas na sprint
+                                            review.
+                                          </p>
+                                      </figure>
+                                    <h3 class="block-title">5. Velocity</h3>
+                                        <figure>
+                                          <div class="diagrama">
+                                            <img class="scaled" src="../assets/images/sprints/velocity_sprint4.png" alt="Velocity Sprint 4">
+                                          </div>
+                                          <p align="justify">
+                                            Como é possível observar a taxa velocity da equipe até o momento é de 17 pontos.
+                                          </p>
+                                        </figure>
+                                    <h3 class="block-title">6. Gráfico de Commit</h3>
+                                    <p align="justify">
+                                      <li>Não houveram commits significativos ao projeto nesta sprint.</li>
+                                    </p>
+                                    <h3 class="block-title">7. Análise do Scrum Master</h3>
+                                    <p align="justify">
+                                      <br><br>
+                                      &nbsp;&nbsp;A sprint praticamente ocorreu como planejada. Tal afirmação tem como fundamento o fato de que a única tarefa que não foi
+                                      aceita na sprint review somente não foi aceita por falta de alguns poucos detalhes. Já o maior problema da sprint referiu-se
+                                      à má utilização do zenhub fica para a próxima sprint, então, uma revisão da utilização da ferramenta zenhub e, atrelado a isto,
+                                      uma coleta das datas da entrega das tarefas extra zenhub.
+                                      <br><br>
+                                      &nbsp;&nbsp;O risco referente a realização de provas que a equipe de MDS faria durante a sprint pode ser considerado como
+                                      contido com sucesso pois nenhuma das histórias que eles deveriam produzir tornou-se uma dívida téncnica. Da mesma forma o risco da utilização
+                                      do github pages pela equipe de MDS também foi contido com sucesso.
+                                      &nbsp;&nbsp;Mesmo com todos os dois riscos mapeados contidos um terceiro risco (não mapeado) foi encontrado. Durante a sprint ocorreu uma má utilização
+                                      do git flow por um membro de MDS. Tal membro subiu os dados da documentação direto na master. Para que este risco não ocorra mais
+                                      foi enviado a todos os membros da equipe (tanto MDS quanto EPS) um script que, ao ser atrelado ao bashrc do sistema operacional, indica a
+                                      branch na qual o desenvolvedor está ao utilizar o terminal. Além disto foi configurada uma regra para a branch master no repositório. Tal
+                                      regra bloqueia commits diretamente na master.
+                                      <br><br>
+                                      &nbsp;&nbsp;Por fim vale ressaltar que houveram alguns problemas nas coletas de métricas de burndown desta sprint. Um destes problemas foi a má utilização
+                                      do ZenHub que ocasionou em um problema na geração automática do burndown. Como foi relatado na legenda deste gráfico este problema ocorreu pois o burndown
+                                      gerado utiliza o momento em que as issues foram fechadas e não os pipelines criados no quadro kanban e, no nosso caso, as issues foram fechadas somente no
+                                      sprint review. Para que tal problema não ocorra novamente as issues devem ser fechadas assim que validadas por mais de um membro de EPS e, também, fica
+                                      a cargo do scrum master da equipe a coleta de tais datas paralelamente.
+                                    </p>
+                                </div>
+                            </section>
+                            <!--//doc-section-->
 
                         </div>
                         <!--//content-inner-->
