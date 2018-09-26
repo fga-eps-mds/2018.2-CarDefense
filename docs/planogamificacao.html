@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CarDefense</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a"
+        crossorigin="anonymous"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+    <link rel="stylesheet" href="assets/plugins/lightbox/dist/ekko-lightbox.css">
+    <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body class="body-blue">
+    <div class="page-wrapper">
+        <!-- ******Header****** -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="branding">
+                    <h1 class="logo">
+                        <a href="index.html">
+                            <span aria-hidden="true" class="fas fa-car"></span>
+                            <span class="text-highlight">Car</span><span class="text-bold">Defense</span>
+                        </a>
+                    </h1>
+                </div>
+                <!--//branding-->
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Documento de Visão</li>
+                </ol>
+            </div>
+            <!--//container-->
+        </header>
+        <!--//header-->
+        <div class="doc-wrapper">
+            <div class="container">
+                <div id="doc-header" class="doc-header text-center">
+                    <h1 class="doc-title"><span aria-hidden="true" class="fas fa-file-alt"></span> Documento de Visão</h1>
+                </div>
+                <!--//doc-header-->
+                <div class="doc-body row">
+                    <div class="doc-content col-md-9 col-12 order-1">
+                        <div class="content-inner">
+
+                            <div class="table-responsive">
+                                <h4 class="section-title">Histórico de Revisão</h4>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th>Data</th>
+                                            <th>Versão</th>
+                                            <th>Descrição</th>
+                                            <th>Autor</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>26/09/2018</td>
+                                            <td>0.1</td>
+                                            <td>Documentação do plano de gamificação</td>
+                                            <td>Lucas S. Souza</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <!--//table-responsive-->
+                            <section id="introducao" class="doc-section">
+                                <h3 class="section-title">Introdução</h3>
+                                <div class="section-block">
+                                    <h4>O que é gamificação?</h4>
+                                    <p align="justify">
+                                      <br>
+                                      Uma das definições de gamificação é a dada por Yu-kai Chou (criador do <i>Octalysis Framework</i>)<br>
+                                      <i>"Gamification is the craft of deriving all the <b>fun and addicting elements
+                                        found in games</b> and applying them to <b>real-world or productiove activities</b>"</i>
+                                      <br>
+                                      Tomando tal afirmação como verdade pode-se resumir que a gamificação é uma técnica que visa extrair algumas características
+                                      de jogos e adicioná-las em contextos de atividades produtivas. Basicamente tenta-se aumentar a motivação do "jogador" na realização
+                                      de uma determinada tarefa.
+                                      <br>
+                                    </p>
+                                </div>
+                                <div class="section-block">
+                                    <h4>Por que vamos utilizar gamificação?</h4>
+                                    <p align="justify">
+                                      <br>Tendo em vista que nosso aplicativo tem como motor a criação de notificações de avisos (tanto privados como emergenciais) por
+                                      seus usuários, a proposta é gamificar o sistema com o objetivo de motivar tanto a utilização do aplicativo quanto a criação de um ambiente cooperativo.
+                                      <br>
+                                    </p>
+                                </div>
+                            </section>
+                            <section id="contexto" class="doc-section">
+                                <h3 class="section-title">Contexto</h3>
+                                <div class="section-block">
+                                    <h4>Descrição do contexto</h4>
+                                    <p align="justify">
+                                    <br>Visando a construção de um sistema que tem como objetivo central o monitoramento e segurança de veículos em um
+                                    estacionamento público sem a utilização de muitos meios eletrônicos, foi proposta a criação de um aplicativo que
+                                    fornecesse um canal de notificações entre os usuários de tal estacionamento. Levando em consideração que tal
+                                    aplicativo tem como necessidade a cooperação dos usuários sem que os próprios recebam algum tipo de recompensa
+                                    física (dinheiro como exemplo) houve a necessidade de encontrar uma maneira de motiva-los a realizar tal tarefa.
+                                    </p>
+                                </div>
+                                <div class="section-block">
+                                    <h4>Objetivo da Gamificação</h4>
+                                    <p align="justify">
+                                        <li> Gerar um ambiente de cooperação </li>
+                                        <li> Motivar a criação de notificação pelos usuários </li>
+                                        <li> Desmotivar a criação de notificações falsas </li>
+                                    </p>
+                                </div>
+                                <div class="section-block">
+                                    <h4>Descrição do público alvo</h4>
+                                    <p align="justify">
+                                      O público alvo foi definido previamente e pode ser encontrado no documento de visão deste projeto
+                                      na sessão <a href="docvisao.html#descricao"> Descrição da Parte Interessada e do Usuário </a>.
+                                    </p>
+                                </div>
+                            </section>
+                            <section id="funcionalidades" class="doc-section">
+                                <h3 class="section-title">Funcionalidades</h3>
+                                <p align="justify"><br>As funcionalidades gamificadas deste projeto podem ser divididas em três partes:</p>
+                                <p align="justify">
+                                  <b><li> Perfil </li>
+                                  <li> Recompensas por Atitudes </li>
+                                  <li> Feedbacks </li></b>
+                                </p>
+                                <div class="section-block">
+                                    <h4>Gamificação no Perfil</h4>
+                                    <p align="justify">
+                                      O perfil de usuário conterá:
+                                      <li> Avatar em pixelart </li>
+                                      <li> Três vidas </li>
+                                      <li> Set contendo: capacete, tronco e calças </li>
+                                      <li> Experiência </li>
+                                      <li> Level </li>
+                                    </p>
+                                    <br>
+                                    <h6>Observações sobre perfil:</h6>
+                                    <p align="justify">
+                                      O avatar será a maneira com que os usuários se comunicarão. Tal decisão foi tomada visando a <b>segurança do usuário</b>
+                                      onde o mesmo não será ligado ao carro que possui e sim o seu avatar.
+                                    </p>
+                                </div>
+                                <div class="section-block">
+                                    <h4>Recompensas por Atitudes</h4>
+                                    <p align="justify">
+                                      As recompensas pelas atitudes dos usuários podem ser divididas em recompensas e punicões:
+                                    </p>
+                                    <h6> <b>Recompensas</b> por notificações verdadeiras e desafios concluídos </h6>
+                                    <p align="justify">
+                                      <li> Aumento de experiência </li>
+                                      <li> Conquistas </li>
+                                      <li> Títulos </li>
+                                      <li> Customização do Avatar </li>
+                                    </p>
+                                    <h6> <b>Punições</b> por conduta imprópria em geral </h6>
+                                    <p align="justify">
+                                      <li> Redução de experiência </li>
+                                      <li> Redução de level </li>
+                                      <li> Posibilidade de banimento do app </li>
+                                      <li> Títulos negativos </li>
+                                    </p>
+                                    <h6>Observações sobre a customização do avatar:</h6>
+                                    <p align="justify">
+                                      O avatar possui três partes distintas <b>cabeça, tronco e membros, pernas e membros</b> tais partes podem ser customizadas
+                                      de acordo com o level do usuário. A cada três leveis (que vão do 1 ao 9) o usuário recebe 3 customizações para cada parte
+                                      do seu avatar.
+                                    </p>
+                                    <h6>Observações sobre títulos e conquistas:</h6>
+                                    <p align="justify">
+                                      Na tabela a baixo estão explicitadas os desafios para o recebimento das conquistas e dos títulos:<br>
+                                      <table class="table table-bordered">
+                                          <thead>
+                                              <tr>
+                                                  <th>Desafio</th>
+                                                  <th>Título</th>
+                                                  <th>Conquista</th>
+                                              </tr>
+                                          </thead>
+                                          <tbody>
+                                              <tr>
+                                                  <td>Criar uma primeira notificação verdadeira</td>
+                                                  <td>Aprendiz de Guardião</td>
+                                                  <td>Ínicio da Proteção</td>
+                                              </tr>
+                                              <tr>
+                                                  <td>Criar cinco notificações verdadeiras</td>
+                                                  <td>Guardião Graduado</td>
+                                                  <td>Formando-se um Guardião</td>
+                                              </tr>
+                                              <tr>
+                                                  <td>Criar uma primeira notificação emergêncial verdadeira</td>
+                                                  <td>Protetor da Aldeia</td>
+                                                  <td>Protegendo o perímetro</td>
+                                              </tr>
+                                              <tr>
+                                                  <td>Criar cinco notificações emergênciais verdadeiras </td>
+                                                  <td>Protetor do Reino</td>
+                                                  <td>Tornando-se um guardião mensageiro</td>
+                                              </tr>
+                                              <tr>
+                                                  <td>Relatar notificação falsa</td>
+                                                  <td>Descobridor da Mentira</td>
+                                                  <td>Desmascarando as farças</td>
+                                              </tr>
+                                              <tr>
+                                                  <td>Relatar 5 notificações falsas</td>
+                                                  <td>Destruídor de mentiras</td>
+                                                  <td>Acabando com a mentira</td>
+                                              </tr>
+                                              <tr>
+                                                  <td>Alcançar o level 1</td>
+                                                  <td>Aldeão Noobie</td>
+                                                  <td>Iniciando uma jornada</td>
+                                              </tr>
+                                              <tr>
+                                                  <td>Alcançar o level 4</td>
+                                                  <td>Guardião Formado</td>
+                                                  <td>A jornada é melhor do que a chegada</td>
+                                              </tr>
+                                              <tr>
+                                                  <td>Alcançar o level 9</td>
+                                                  <td>Guardião Protetor Supremo das Galáxias</td>
+                                                  <td>Se tornando o maior tanker da história</td>
+                                              </tr>
+                                              <tr>
+                                                  <td>Criar uma primeira notificação falsa</td>
+                                                  <td>Aprendiz de Mentiroso</td>
+                                                  <td>Não sou tão confiável assim</td>
+                                              </tr>
+                                              <tr>
+                                                  <td>Criar cinco notificações falsa</td>
+                                                  <td>Mentiroso</td>
+                                                  <td>Não confie em mim!</td>
+                                              </tr>
+                                              <tr>
+                                                  <td>Criar uma primeira notificação emergêncial falsa</td>
+                                                  <td>Falsário</td>
+                                                  <td>Causando alarde falso ao reino</td>
+                                              </tr>
+                                              <tr>
+                                                  <td>Criar cinco notificações emergênciais verdadeiras </td>
+                                                  <td>Falsário não Confiável</td>
+                                                  <td>Não confie em mim!</td>
+                                              </tr>
+                                          </tbody>
+                                      </table>
+                                    </p>
+                                </div>
+                                <div class="section-block">
+                                    <h4>Feedbacks Gamificados</h4>
+                                    <p align="justify">
+                                      Visando gamificar o contexto do app os seguintes feedbacks devem ser gamificados:
+                                      <li> Mensagens de Parabéns </li>
+                                      <li> Avisos de conduta imprópria </li>
+                                      <li> Mensagens de level up </li>
+                                      <li> Recebimento de novos itens, conquistas e títulos </li>
+                                    </p>
+                                    <br>
+                                    <h6>Observações sobre feedbacks:</h6>
+                                    <p align="justify">
+                                      As mensagens devem levar em conta o contexto da gamificação simulando a proteção de carros.
+                                    </p>
+                                </div>
+                            </section>
+                            <section id="octalysis" class="doc-section">
+                                <h3 class="section-title">Octalysis</h3>
+                                <div class="section-block">
+                                    <h4>Descrição</h4>
+                                    <p align="justify">
+                                      Uma maneira de formar a gamificação de um projeto é utilizando o Framework Octalysis criado por Yu-Kai Chou.
+                                      O Octalysis, resumidamente,se baseia em 8 gatilhos motivacionais e cada um destes gatilhos possui técnicas
+                                      específicas que são utilizadas para seu alcance.<br>
+                                      Para mais iformações sobre o octalysis acesse o site de Yu-Kai Chou <a href="https://yukaichou.com/gamification-examples/octalysis-complete-gamification-framework/"> NESTE LINK </a>.
+                                    </p>
+                                </div>
+                                <div class="section-block">
+                                    <h4>Octalysis</h4>
+                                    <p align="justify">
+                                        <figure>
+                                            <div class="diagrama">
+                                              <img class="scaled" src="assets/images/octalysis_1.png" alt="Octalysis versão 1.0">
+                                            </div>
+                                            <p align="justify">
+                                              Gráfico gerado com a <a href="http://yukaichou.com/octalysis-tool/">Octalysis Tool</a>.
+                                            </p>
+                                        </figure>
+                                    </p>
+                                </div>
+                            </section>
+                            <section id="tecnicas" class="doc-section">
+                                <h3 class="section-title">Especificação das Técnicas</h3>
+                                <h4><b> Meaning </b></h4>
+                                <div class="section-block">
+                                    <h6>Elitismo</h6>
+                                    <p align="justify">
+                                      Técnica aplicada na utilização da customização do avatar de acordo com seu level.<br>
+                                      Aplicada também na próprio sistema de leveis.
+                                    </p>
+                                </div>
+                                <div class="section-block">
+                                    <h6>Humanity Hero</h6>
+                                    <p align="justify">
+                                      Técnica aplicada no contexto de proteger os carros de um estacionamento enviando notificações.
+                                    </p>
+                                </div>
+                                <h4><b> Accomplishment </b></h4>
+                                <div class="section-block">
+                                  <h6>Badges</h6>
+                                  <p align="justify">
+                                    Técnica aplicada na utilização de títulos para os avatares.
+                                  </p>
+                                </div>
+                                <div class="section-block">
+                                    <h6>Fixed Action Rewards</h6>
+                                    <p align="justify">
+                                      Técnica aplicada na utilização de ganho de xp por notificação verdadeira como também no sistema de conquistas.
+                                    </p>
+                                </div>
+                                <div class="section-block">
+                                    <h6>Progress Bar</h6>
+                                    <p align="justify">
+                                      Técnica aplicada na barra de experiência do avatar.
+                                    </p>
+                                </div>
+                                <div class="section-block">
+                                    <h6>High Five</h6>
+                                    <p align="justify">
+                                      Técnica aplicada nas nos feedbacks positivos do sistema.
+                                    </p>
+                                </div>
+                                <h4><b> Empowerment </b></h4>
+                                <div class="section-block">
+                                    <h6>Milestone Unlocks</h6>
+                                    <p align="justify">
+                                      Técnica aplicada na liberação de itens para customização do avatar.
+                                    </p>
+                                </div>
+                                <div class="section-block">
+                                    <h6>Instant Feedbacks</h6>
+                                    <p align="justify">
+                                      Aplicada nos feedbacks das notificações geradas pelos usuários.
+                                    </p>
+                                </div>
+                                <div class="section-block">
+                                    <h6>Plant Pickers</h6>
+                                    <p align="justify">
+                                      O usuário pode fazer ou não uma notificação.
+                                    </p>
+                                </div>
+                                <div class="section-block">
+                                    <h6>Poison Pickers</h6>
+                                    <p align="justify">
+                                      Aplica-se na punição ao usuário caso ele faça uma notificação falsa.
+                                    </p>
+                                </div>
+                                <h4><b> Ownership </b></h4>
+                                <div class="section-block">
+                                    <h6>Virtual Goods</h6>
+                                    <p align="justify">
+                                      Aplica-se na criação de trofeis de cada conquista dos usuários.
+                                    </p>
+                                </div>
+                                <div class="section-block">
+                                    <h6>Collection Sets</h6>
+                                    <p align="justify">
+                                      Aplica-se no momento em que é apresentado ao usuário o "slot" de uma conquista que ele ainda não possui.
+                                    </p>
+                                </div>
+                                <div class="section-block">
+                                    <h6>Avatar</h6>
+                                    <p align="justify">
+                                      Aplica-se na personificação do usuário no contexto (ou mundo) do CarDefense.
+                                    </p>
+                                </div>
+                                <h4><b> Social Influence </b></h4>
+                                <div class="section-block">
+                                    <h6>Brag Button</h6>
+                                    <p align="justify">
+                                      Aplica-se na apresentação do avatar do usuário (com seu título) a um outro usuário visando mostrar seus status.
+                                    </p>
+                                </div>
+                                <div class="section-block">
+                                    <h6>Social Treasures</h6>
+                                    <p align="justify">
+                                      Aplica-se nas conquistas onde somente um outro usuário pode afirmar que a notificação criada foi realmente verdadeira.
+                                    </p>
+                                </div>
+                                <div class="section-block">
+                                    <h6>Conformity Anchor</h6>
+                                    <p align="justify">
+                                      Aplica-se no ato de mostrar o quão melhor um usuário é em relação a outro. (Nas notificações a imagem avatar do usuário que criou a notificação deverá ser enviado junto á mesma para o usuário a ser notificado).
+                                    </p>
+                                </div>
+                                <h4><b> Scarcity </b></h4>
+                                <div class="section-block">
+                                    <h6>Magnetic Caps</h6>
+                                    <p align="justify">
+                                      Aplica-se no crescimento exponencial da quantidade de xp necessário para evoluir cada level do usuário.
+                                    </p>
+                                </div>
+                                <h4><b> Unpredictability </b></h4>
+                                <div class="section-block">
+                                    <h6>MiniQuests</h6>
+                                    <p align="justify">
+                                      Aplica-se nas missões do jogo que não afetam diretamente no objetivo central da gamificação.
+                                    </p>
+                                </div>
+                                <h4><b> Avoidance </b></h4>
+                                <div class="section-block">
+                                    <h6>Evanescent Opportunities</h6>
+                                    <p align="justify">
+                                      Aplica-se no ato de que um usuário A tem a oportunidade de fazer, por exemplo, uma notificação de farol aceso. Caso um
+                                      usuário B do aplicativo faça essa notificação primeiro o usuário A perde a oportunidade de fazer uma notificação e,
+                                      consequentemente, de ganhar experiência.
+                                    </p>
+                                </div>
+                            </section>
+                            <section id="referencias" class="doc-section">
+                                <h3 class="section-title">Referências</h3>
+                                <div class="section-block">
+                                    <p align="justify">
+                                      <li><a href="https://yukaichou.com/gamification-examples/octalysis-complete-gamification-framework/">Yu-kai Chou: Gamification & Behavioral Design</a>. Ultimo acesso em: 26/09/2018 </li>
+                                      <li><a href="http://yukaichou.com/octalysis-tool/">Octalysis-tool</a>. Último acesso em: 26/09/2018.</li>
+                                    </p>
+                                </div>
+                            </section>
+                        </div>
+                        <!--//content-inner-->
+                    </div>
+                    <!--//doc-content-->
+                    <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                        <div id="doc-nav" class="doc-nav">
+                                <!--//nav-->
+                                <a class="nav-link" href="docvisao.html">Documento de Visão</a>
+                                <a class="nav-link" href="docarquitetura.html">Documento de Arquitetura</a>
+                                <a class="nav-link" href="prototipo.html">Protótipos</a>
+                                <a class="nav-link scrollto" href="#inline">Requisitos</a>
+                                <a class="nav-link scrollto" href="#inline">Identidade Visual</a>
+                                <a class="nav-link" href="pipeline.html">Pipeline</a>
+                                <a class="nav-link" href="roadmaps.html">Roadmaps de Papéis</a>
+                                <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                                    <a class="nav-link scrollto">Plano de Gamificação</a>
+                                    <nav class="doc-sub-menu nav flex-column">
+                                        <a class="nav-link scrollto" href="#introducao">Introdução</a>
+                                        <a class="nav-link scrollto" href="#contexto">Contexto</a>
+                                        <a class="nav-link scrollto" href="#funcionalidades">Funcionalidades</a>
+                                        <a class="nav-link scrollto" href="#octalysis">Octalyis</a>
+                                        <a class="nav-link scrollto" href="#tecnicas">Especificação das Técnicas</a>
+                                        <a class="nav-link scrollto" href="#referencias">Referências</a>
+
+                                    </nav>
+                            </nav>
+                            <!--//doc-menu-->
+                        </div>
+                    </div>
+                    <!--//doc-sidebar-->
+                </div>
+                <!--//doc-body-->
+            </div>
+            <!--//container-->
+        </div>
+        <!--//doc-wrapper-->
+    </div>
+    <!--//page-wrapper-->
+
+    <footer id="footer" class="footer text-center">
+        <div class="container">
+            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com/"
+                    target="_blank">Xiaoying Riley</a> for developers</small>
+
+        </div>
+        <!--//container-->
+    </footer>
+    <!--//footer-->
+
+
+    <!-- Main Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+
+</html>
