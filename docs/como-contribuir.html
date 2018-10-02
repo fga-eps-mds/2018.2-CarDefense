@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CarDefense</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a"
+        crossorigin="anonymous"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/prism/prism.css">
+    <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+
+</head>
+
+<body class="body-purple">
+    <div class="page-wrapper">
+        <header id="header" class="header">
+            <div class="container">
+                <div class="branding">
+                    <h1 class="logo">
+                        <a href="index.html">
+                            <span aria-hidden="true" class="fas fa-car"></span>
+                            <span class="text-highlight">Car</span><span class="text-bold">Defense</span>
+                        </a>
+                    </h1>
+                </div>
+                <!--//branding-->
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Como Contribuir</li>
+                </ol>
+            </div>
+            <!--//container-->
+        </header>
+        <!--//header-->
+        <div class="doc-wrapper">
+            <div class="container">
+                <div id="doc-header" class="doc-header text-center">
+                    <h1 class="doc-title">Como Contribuir</h1>
+                </div>
+                <!--//doc-header-->
+                <div class="doc-body row">
+                    <div class="doc-content col-md-9 col-12 order-1">
+                        <div class="content-inner">
+                            <section id="orientacoes" class="doc-section">
+                                <h3 class="section-title">1. Orientações</h3>
+                                <div class="section-block">
+                                    <li>Se você for um colaborador externo, dê um fork no projeto.</li>
+                                    <li>Issues só poderão ser criadas com os <a href="https://github.com/fga-eps-mds/2018.2-CarDefense/tree/master/.github/ISSUE_TEMPLATE">templates</a>
+                                        especificados no repositório.</li>
+                                    <li>A criação de branches deve seguir a política de branches. </li>
+                                    <li>No desenvolvimento, usar nossa política de commits. </li>
+                                    <li>Pull requests só serão aceitos se estiverem com o <a href="https://github.com/fga-eps-mds/2018.2-CarDefense/blob/master/PULL_REQUEST_TEMPLATE.md">template</a>
+                                        especificado no repositório.</li>
+                                </div>
+                            </section>
+
+                            <section id="branches" class="doc-section">
+                                <h3 class="section-title">2. Política de Branches</h3>
+                                <div class="section-block">
+                                    <p align="justify">Nossa política segue algumas características do Gitflow. Então
+                                        separamos nossas branches em:</p>
+                                    <h4><i>master</i></h4>
+                                    <p align="justify"></p>A master será nossa branch de produção, ou seja, nela estará
+                                    a versão estável do
+                                    projeto. E por questões de segurança ela será bloqueada para commits e push. A
+                                    interação com a master vai se dá através da de Pull requests que virão da
+                                    branch devel.</p>
+                                    <h4><i>devel</i></h4>
+                                    <p align="justify"></p>A devel será nossa branch de desenvolvimento, ou seja, vai
+                                    agrupar o trabalho vindo das branches de features, o objetivo é criar uma release
+                                    que será submetida para master.</p>
+                                    <h4><i>branches de features</i></h4>
+                                    <p align="justify">As branches de features são criadas a partir da devel, e serve
+                                        para o desenvolvimento de features presentes nas issues do repositório. No
+                                        final do desenvolvimento a funcionalidade desenvolvida nessa branch deve ser
+                                        enviada para a devel, através de um pull request.</p>
+                                    <p align="justify"><b>Nomenclatura das branches de features:</b>
+                                        O nome das branches de features devem seguir um padrão X_Nome_da_issue , onde X
+                                        é o número da issue correspondente a funcionalidade.
+                                    </p>
+                                    <h4><i>hotfix branches </i></h4>
+                                    <p align="justify">Hotfix branches são criadas a partir da master e servem para
+                                        resolver de forma
+                                        rápida os bugs em produção. Essa branch deve seguir a seguinte nomenclatura:
+                                        hotfix_Nome_do_bug. </p>
+                                </div>
+                            </section>
+
+                            <section id="commit" class="doc-section">
+                                <h3 class="section-title">3. Política de Commits </h3>
+                                <div class="section-block">
+                                    <p align="justify">Os commits devem descrever de forma simples e sucinta as
+                                        modificações feitas. E devem ser escritas em inglês. <b>Exemplo:</b></p>
+                                    <pre><code class="language-git">$ git commit -m”Create new model”</code></pre>
+                                </div>
+                            </section>
+
+
+                            <section id="commit-pares" class="doc-section">
+                                <h3 class="section-title">4. Commits em Pares</h3>
+                                <div class="section-block">
+                                    <p align="justify">Quando se está usando a técnica de pair programming deve-se
+                                        deixar especificado todos os autores envolvidos no desenvolvimento da
+                                        funcionalidade. Por isso é necessário utilizar a tag co-authored-by do Github,
+                                        a seguir um passo a passo: </p>
+                                    <ul>1. Após usar o comando git add para adicionar as mudanças feitas, execute o
+                                        seguinte comando:</ul>
+                                    <pre><code class="language-git">$ git commit</code></pre>
+                                    <br>
+                                    <ul>2. Abrirá um editor de texto mostrando algumas configurações do que foi feito.
+                                        Na primeira linha digite a mensagem do commit e depois pule duas linhas e
+                                        adiciona a co-autoria como no exemplo abaixo: </ul>
+                                    <pre><code class="language-git">Add new routers 
+Co-authored-by: Taynara Carvalho <tayhcarvalho@gmail.com>
+Co-authored-by: Stéfane Souza <stefanesouza04@gmail.com></code></pre>
+                                    <br>
+                                    <ul>3. Depois disso salve e o commit será contabilizado pelo Github.</ul>
+                                </div>
+                            </section>
+
+                            </section>
+                            <!--//doc-section-->
+                        </div>
+                        <!--//content-inner-->
+                    </div>
+                    <!--//doc-content-->
+                    <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                        <div id="doc-nav" class="doc-nav">
+
+                            <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                                <a class="nav-link">Como Contribuir</a>
+                                <nav class="doc-sub-menu nav flex-column">
+                                    <a class="nav-link scrollto" href="#orientacoes">1. Orientações</a>
+                                    <a class="nav-link scrollto" href="#branches">2. Política de Branches</a>
+                                    <a class="nav-link scrollto" href="#commit">3. Política de Commits</a>
+                                    <a class="nav-link scrollto" href="#commit-pares">4. Commit em Pares</a>
+                                </nav>
+                            </nav>
+                            <!--//doc-menu-->
+
+                        </div>
+                    </div>
+                    <!--//doc-sidebar-->
+                </div>
+                <!--//doc-body-->
+            </div>
+            <!--//container-->
+        </div>
+        <!--//doc-wrapper-->
+    </div>
+    <!--//page-wrapper-->
+
+    <footer id="footer" class="footer text-center">
+        <div class="container">
+            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com/"
+                    target="_blank">Xiaoying Riley</a> for developers</small>
+
+        </div>
+        <!--//container-->
+    </footer>
+    <!--//footer-->
+
+
+    <!-- Main Javascript -->
+    <script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>
+    <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+
+</body>
+
+</html>
