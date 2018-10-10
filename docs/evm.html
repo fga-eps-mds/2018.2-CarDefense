@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bootstrap 4 project documentation theme for developers</title>
+    <title>CarDefense EVM</title>
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -51,7 +51,41 @@
                 <div class="doc-body row" >
                     <div class="doc-content col-md-9 col-12 order-1">
                         <div class="content-inner">
+
+                          <div class="table-responsive">
+                              <h4 class="section-title">Histórico de Revisão</h4>
+                              <table class="table table-bordered">
+                                  <thead>
+                                      <tr>
+                                          <th>Data</th>
+                                          <th>Versão</th>
+                                          <th>Descrição</th>
+                                          <th>Autor</th>
+                                      </tr>
+                                  </thead>
+                                  <tbody>
+                                      <tr>
+                                          <td>23/09/2018</td>
+                                          <td>0.1</td>
+                                          <td>Documentação do EVM</td>
+                                          <td>Lucas S. Souza</td>
+                                      </tr>
+                                  </tbody>
+                              </table>
+                          </div>
+
                             <section id="EVM" class="doc-section">
+                                <div id="descricao" class="section-block">
+                                    <h3 class="block-title">Descrição</h3>
+                                    <br>
+                                    <p align="justify">
+                                      EVM significa <i>Earned Value Management</i> em inglês. Basicamente se refere a uma maneira de se fazer o cálculo do
+                                      valor agregado do projeto. O cálculo do valor agregado do nosso projeto teve como base a maneira que o grupo responsável pelo projeto
+                                      <a href="https://fga-eps-mds.github.io/2018.1-Dr-Down/">Dr Down</a> fez. Tal decisão foi tomada pois eles utilizaram um padrão dentro de
+                                      uma planilha automatizada.
+                                    </p>
+                                    <br>
+                                </div><!--//section-block-->
                                 <div id="escopoPorRelease" class="section-block">
                                     <h3 class="block-title">Escopo por Release</h3>
                                       <br>
@@ -89,7 +123,7 @@
                                               <tr>
                                                   <td>PRP</td>
                                                   <td>Total de pontos para a release</td>
-                                                  <td>127</td>
+                                                  <td>129</td>
                                               </tr>
                                           </tbody>
                                       </table>
@@ -133,12 +167,24 @@
                                             </tbody>
                                         </table>
                                         <br>
-                                <div id="evm" class="section-block">
+                                <div id="tabevm" class="section-block">
                                     <h3 class="block-title">Tabelas EVM</h3>
                                     <br>
                                     <p align="justify">
                                       <li><a href="https://docs.google.com/spreadsheets/d/1zZi4-AMO-_5-Kg4LKQmggR7Hjso1tnM8UGiZtLEQEeo/edit?usp=sharing"> Link p/ Tabela EVM Release da Release 1 </a></li>
                                       <li><a href="https://docs.google.com/spreadsheets/d/1zZi4-AMO-_5-Kg4LKQmggR7Hjso1tnM8UGiZtLEQEeo/edit?usp=sharing"> Link p/ Tabela EVM Release da Release 2 </a></li>
+                                    </p>
+                                    <br>
+                                </div><!--//section-block-->
+                                <div id="referencias" class="section-block">
+                                    <h3 class="block-title">Referências</h3>
+                                    <br>
+                                    <p align="justify">
+
+                                      <li><a href="https://fga-eps-mds.github.io/2018.1-Dr-Down/eps/EVM_AGILE/">Dr Down - EVM </a></li>
+                                      <li><a href="http://www.hiflex.com.br/v1/gerenciamento-de-valor-agregado-evm-em-projetos-ageis/">HiFlex Consultoria. Gerenciamento de valor agregado (EVM) em projetos agéis. Vitor Massar</a></li>
+                                      <li><a href="https://codetiburon.com/earned-value-management-evm-agile-software-projects/">Earned Value Management (EVM) for Agile Software Projects. Olga Yatskevich</a></li>
+
                                     </p>
                                     <br>
                                 </div><!--//section-block-->
@@ -150,11 +196,13 @@
                         <div id="doc-nav" class="doc-nav">
                             <nav id="doc-menu" class="nav doc-menu flex-column sticky">
                                 <a class="nav-link" href="metodologia.html">Metodologia</a>
-                                <a class="nav-link" href="license.html">Métricas</a>
+                                <a class="nav-link" href="metricasAgil.html">Quadro de Práticas Ágil</a>
                                 <a class="nav-link scrollto" href="evm.html">EVM</a>
                                 <nav class="doc-sub-menu nav flex-column">
+                                    <a class="nav-link scrollto" href="#descricao">Descrição</a>
                                     <a class="nav-link scrollto" href="#escopoPorRelease">Escopo por Release</a>
-                                    <a class="nav-link scrollto" href="#evm">Tabelas EVM</a>
+                                    <a class="nav-link scrollto" href="#tabevm">Tabelas EVM</a>
+                                    <a class="nav-link scrollto" href="#referencias">Referências</a>
                                 </nav><!--//nav-->
                             </nav><!--//doc-menu-->
                         </div><!--//doc-nav-->
