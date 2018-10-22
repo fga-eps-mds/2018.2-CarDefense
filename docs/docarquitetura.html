@@ -149,6 +149,23 @@
                                             <td>Adicionando visão lógica do expo - tópico 5.5</td>
                                             <td>João Matheus de Sousa Rodrigues</td>
                                         </tr>
+                                        <td>02/10/2018</td>
+                                        <td>0.14</td>
+                                        <td>Atualização do diagrama de classes</td>
+                                        <td>Paulo V.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>02/10/2018</td>
+                                        <td>0.15</td>
+                                        <td>Atualizando o diagrama de relações e o diagrama django rest</td>
+                                        <td>Mateus Roriz</td>
+                                    </tr>
+                                    <tr>
+                                        <td>02/10/2018</td>
+                                        <td>0.16</td>
+                                        <td>Adicionando o pipeline de integração</td>
+                                        <td>Taynara Carvalho</td>
+                                    </tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -266,7 +283,7 @@
                                             </tr>
                                             <tr>
                                                 <td>Framework</td>
-                                                <td>Django</td>
+                                                <td>Django REST</td>
                                             </tr>
                                             <tr>
                                                 <td>Plataforma</td>
@@ -432,9 +449,9 @@
                                 <div class="section-block">
                                     <h4>5.1 Visão geral: Pacotes e Camadas</h4>
                                     <p align="justify">A aplicação CarDefense é construída sobre o framework react native no
-                                        front-end e sobre o framework django no back-end. React native utiliza a arquitetura
+                                        front-end e sobre o framework django REST no back-end. React native utiliza a arquitetura
                                         Redux, tal arquitetura permite a utilização de um container de estados para facilmente
-                                        administrar os estados da sua aplicação. O framework django utiliza uma variação da arquitetura
+                                        administrar os estados da sua aplicação. O framework django REST utiliza uma variação da arquitetura
                                         MVC, chamada MTV(Model Template View) onde a “view” delega a informação apresentada para o template.
                                         O desenvolvimento em camadas e componentes é benéfico pois tem custos reduzidos de desenvolvimento
                                         e manutenção e também de fácil reutilização em outros projetos.
@@ -466,13 +483,13 @@
                                     </figure>
                                 </div>
                                 <div class="section-block">
-                                    <h4>5.2 Django Framework</h4>
-                                    <p align="justify">O framework Django, organiza o projeto em diretórios em que cada um contém
+                                    <h4>5.2 Django REST Framework</h4>
+                                    <p align="justify">O framework Django REST, organiza o projeto em diretórios em que cada um contém
                                         uma funcionalidade independente do restante da aplicação como sugere a imagem a seguir:
                                     </p>
                                     <figure>
                                         <div class="diagrama">
-                                            <img class="scaled" src="assets/images/django_pastas.png" alt="Django Framework">
+                                            <img class="scaled" src="assets/images/django_pastas.png" alt="Django REST Framework">
                                         </div>
                                     </figure>
                                     <ul>
@@ -522,7 +539,7 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <strong>config :</strong> pasta com as configurações do projeto Django.
+                                            <strong>config :</strong> pasta com as configurações do projeto Django REST.
                                             <ul>
                                                 <li>
                                                     <strong>urls.py :</strong> inclui todos os URLs.py dos apps.
@@ -539,7 +556,7 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <strong>manage.py :</strong> arquivo criado automaticamente pelo Django para gerênciamento de comandos.
+                                            <strong>manage.py :</strong> arquivo criado automaticamente pelo Django REST para gerênciamento de comandos.
                                         </li>
                                         <li>
                                             <strong>docs :</strong> documentação da aplicação.
@@ -581,12 +598,20 @@
                             <!--//doc-section-->
 
                             <section id="pipeline" class="doc-section">
-                              <h3 class="section-title">6. Pipeline</h3>
+                              <h3 class="section-title">6. Pipelines</h3>
                               <div class="section-block">
                                   <h4>6.1 Pipeline de microsserviços</h4>
                                   <figure>
                                       <div class="diagrama">
                                           <img src="assets/images/pipelinearquitetura.png" alt="Pipeline de Microsserviços">
+                                      </div>
+                                  </figure>
+                              </div>
+                              <div class="section-block">
+                                  <h4>6.2 Pipeline de Integração</h4>
+                                  <figure>
+                                      <div class="diagrama">
+                                          <img src="assets/images/pipelineintegracao.jpg" alt="Pipeline de Microsserviços">
                                       </div>
                                   </figure>
                               </div>
