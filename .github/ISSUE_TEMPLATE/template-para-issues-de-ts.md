@@ -1,16 +1,12 @@
 ---
 name: Template para issues de TS
-about: Template responsável pelas issues de Technical Story
+about: Template de issues de Technical Story
 
 ---
 
-<!-- Descreva, em linguagem natural, a tarefa a ser executada -->
-## Descrição da Tarefa
+## Descrição
+<!-- Exemplo: Refatorar o Documento de Visão. ou Refatorar parte x do código. -->
 
-
-<!-- Defina a baixo os critérios de aceitação da tarefa -->
-## Critérios de Aceitação
-<!-- Exemplo 
-- [ ] criterio1
-- [ ] criterio2
--->
+## Tarefas
+<!-- Descrever o que precisa ser alterado e onde, seja paragráfo, arquivo do código, etc. -->
+- [ ]
