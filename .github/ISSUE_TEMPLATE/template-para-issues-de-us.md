@@ -1,34 +1,16 @@
 ---
-name: Template para issues de US
-about: Template responsável pelas issues de User Story
+name: Template para Issues de US
+about: Template de issues de User Story
 
 ---
 
-<!-- De acordo com o tipo e o numero da issue preencha os campos da id da issue -->
-<!-- Os tipos de issue que este templete abarca sao: 'US - User History' e 'TS - Technical Story' -->
-<!-- No preenchimento da primeira linha da tabela subsitua os textos pelo ID e pelo titulo da história -->
-<!-- Nos demais campos da tabela subistitua os '%%%' pela descrição da própria -->
+## Descrição
+<!-- Exemplo: Eu, como usuário/desenvolvedor, desejo criar cadastro para/pois que o usuário possa utilizar o site. -->
 
-| ID_US_ou_TS | NOME_DA_US_ou_TS                                     |
-|------|-------------------------------------------------------------|
-| Eu como | %%%%%%%% |
-| Desejo | %%%%%%% |
-| Para/Pois | %%%%%%%% |
+## Tarefas
+<!-- Descrever o que precisa ser feito . Exemplo: Criar campos de login, senha  e confirmar senha. Testar a funcionalidade. -->
+- [ ] 
 
-<!-- Descreva, caso hajam, as dependencias desta historia -->
-## Dependências
-
-<!-- Exemplos:
-- [ ] Salvar dados no banco de dados
-- [ ] Fazer testes da função de acesso ao banco
--->
-
-<!-- Coloque, caso existam, os Critérios de aceitação desta historia -->
-## Critérios de aceitação
-
-<!-- Exemplos:
-- [ ] Reunião para decidir se os requerimentos da historia foram cumpridos
--->
-
-<!-- O espaço a seguir é opcional e reservado para algum comentário adicional -->
-## Comentário
+## Critérios de Aceitação
+<!-- Descrever como as tarefas devem ser feitas, o que precisam cumprir para serem aceitas. Exemplo: Todos os campos devem ser obrigatórios. Deve existir validação. -->
+- [ ]
