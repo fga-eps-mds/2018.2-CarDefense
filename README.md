@@ -10,14 +10,14 @@
 <p align="center"> É um aplicativo comunitário de monitoramento de carros através de notificações em tempo real em que o usuário cadastrado pode enviar e receber.</p>
 
 <p align="center">
- <a href="https://fga-eps-mds.github.io/2018.2-CarDefense/"><h3>Acesse o site do app CarDefense</h3></a>
+  <a href="https://fga-eps-mds.github.io/2018.2-CarDefense/">Acesse o site do app CarDefense</a>
 </p>
+
+<p align="center">
+<a href="https://play.google.com/store/apps/details?id=com.cardefense.cardefense"><img src="https://i.imgur.com/3YcEpgg.png"/></a> </p>
 
 ### Conheça nossa documentação
 * [CarDefense Docs](https://fga-eps-mds.github.io/2018.2-CarDefense/docs/index.html)
-
-<a href="https://play.google.com/store/apps/details?id=com.cardefense.cardefense"><img src="https://i.imgur.com/3YcEpgg.png"/></a> </center>
-
 
 ## Organização CarDefense
 * [CarDefense Profile](https://github.com/CarDefense/CarDefense_Profile)
@@ -46,8 +46,6 @@ A devel será nossa branch de desenvolvimento, ou seja, vai agrupar o trabalho v
 
 ### **branches de features**
 As branches de features são criadas a partir da devel, e serve para o desenvolvimento de features presentes nas issues do repositório. No final do desenvolvimento a funcionalidade desenvolvida nessa branch deve ser enviada para a devel, através de um pull request.
-
-> Nomenclatura das branches de features: O nome das branches de features devem seguir um padrão X_Nome_da_issue , onde X é o número da issue correspondente a funcionalidade.
 
 ### **hotfix branches**
 Hotfix branches são criadas a partir da master e servem para resolver de forma rápida os bugs em produção. Essa branch deve seguir a seguinte nomenclatura: hotfix_Nome_do_bug.
