@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>CarDefense</title>
     <!-- Meta -->
@@ -9,9 +10,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="shortcut icon" href="favicon.ico">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
     <!-- FontAwesome JS -->
-    <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a"
+        crossorigin="anonymous"></script>
     <!-- Global CSS -->
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
     <!-- Plugins CSS -->
@@ -24,36 +27,38 @@
 
 </head>
 
-<body class="body-blue">
+<body class="body-primary">
     <div class="page-wrapper">
-        <!-- ******Header****** -->
         <header id="header" class="header">
             <div class="container">
                 <div class="branding">
                     <h1 class="logo">
                         <a href="index.html">
-                            <span aria-hidden="true" class="fas fa-car"></span>
+                            <span aria-hidden="true"><img src="assets/images/logo.png" style="height: 48px; width: 50px"></span>
                             <span class="text-highlight">Car</span><span class="text-bold">Defense</span>
                         </a>
                     </h1>
-                </div><!--//branding-->
+                </div>
+                <!--//branding-->
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                     <li class="breadcrumb-item active">Documento de Arquitetura</li>
                 </ol>
-            </div><!--//container-->
-        </header><!--//header-->
+            </div>
+            <!--//container-->
+        </header>
+        <!--//header-->
         <div class="doc-wrapper">
             <div class="container">
                 <div id="doc-header" class="doc-header text-center">
-                    <h1 class="doc-title"><span aria-hidden="true" class="fas fa-file-alt"></span> Documento de Arquitetura</h1>
+                    <h1 class="doc-title"><span aria-hidden="true"></span>Documento de Arquitetura</h1>
                 </div>
                 <!--//doc-header-->
                 <div class="doc-body row">
                     <div class="doc-content col-md-9 col-12 order-1">
                         <div class="content-inner">
-                        	<div class="table-responsive">
-                            	<h4 class="section-title">Histórico de Revisão</h4>
+                            <div class="table-responsive">
+                                <h4 class="section-title">Histórico de Revisão</h4>
                                 <table class="table table-bordered">
                                     <thead>
                                         <tr>
@@ -109,7 +114,8 @@
                                         <tr>
                                             <td>03/09/2018</td>
                                             <td>0.7</td>
-                                            <td>Visão geral, representação de arquitetura, metas e restrição, visão lógica, diagramas de classe</td>
+                                            <td>Visão geral, representação de arquitetura, metas e restrição, visão
+                                                lógica, diagramas de classe</td>
                                             <td>Paulo V.</td>
                                         </tr>
                                         <tr>
@@ -140,7 +146,8 @@
                                             <td>01/10/2018</td>
                                             <td>0.12</td>
                                             <td>Atualizando o diagrama de relações,
-                                                Atualizando o diagrama react/expo/microsserviços, Atualizando pipeline de arquitetura, Adicionando diagram de db</td>
+                                                Atualizando o diagrama react/expo/microsserviços, Atualizando pipeline
+                                                de arquitetura, Adicionando diagram de db</td>
                                             <td>Mateus Roriz</td>
                                         </tr>
                                         <tr>
@@ -153,521 +160,623 @@
                                         <td>0.14</td>
                                         <td>Atualização do diagrama de classes</td>
                                         <td>Paulo V.</td>
-                                    </tr>
-                                    <tr>
-                                        <td>02/10/2018</td>
-                                        <td>0.15</td>
-                                        <td>Atualizando o diagrama de relações e o diagrama django rest</td>
-                                        <td>Mateus Roriz</td>
-                                    </tr>
-                                    <tr>
-                                        <td>02/10/2018</td>
-                                        <td>0.16</td>
-                                        <td>Adicionando o pipeline de integração</td>
-                                        <td>Taynara Carvalho</td>
-                                    </tr>
+                                        </tr>
+                                        <tr>
+                                            <td>02/10/2018</td>
+                                            <td>0.15</td>
+                                            <td>Atualizando o diagrama de relações e o diagrama django rest</td>
+                                            <td>Mateus Roriz</td>
+                                        </tr>
+                                        <tr>
+                                            <td>02/10/2018</td>
+                                            <td>0.16</td>
+                                            <td>Adicionando o pipeline de integração</td>
+                                            <td>Taynara Carvalho</td>
+                                        </tr>
+                                        <tr>
+                                            <td>14/11/2018</td>
+                                            <td>0.17</td>
+                                            <td>Atualizando diagrama relações e pipeline arquitetura</td>
+                                            <td>Mateus Roriz</td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
                             <!--//table-responsive-->
-                            <section id="introducao" class="doc-section">
-                                <h3 class="section-title">1. Introdução</h3>
+
+                            <section id="indice" class="doc-section">
+                                <h3 class="section-title">Índice</h3>
                                 <div class="section-block">
-                                    <h4>1.1 Finalidade</h4>
-                                    <p align="justify">Este documento tem como objetivo apresentar uma visão
-                                        geral abrangente da arquitetura de software e especificar decisões
-                                        arquiteturais pertinentes para o desenvolvimento do aplicativo CarDefense.
-                                        Logo a equipe poderá obter um melhor esclarecimento da estrutura e dos
-                                        requisitos do sistema.
-                                    </p>
-                                </div>
-                                <div class="section-block">
-                                    <h4>1.2 Escopo</h4>
-                                    <p Align="justify">CarDefense é uma aplicativo para plataforma android projetado
-                                        para auxiliar na proteção dos automóveis e motocicletas localizados na FGA.
-                                        Os desenvolvedores são responsáveis em seguir este documento visando garantir
-                                        o padrão proposto para a arquitetura.
-                                    </p>
-                                </div>
-                                <div class="section-block">
-                                    <h4>1.3 Definições, Acrônimos e Abreviações</h4>
-                                    <div class="table-responsive">
-                                        <table class="table table-bordered">
-                                            <thead>
-                                                <tr>
-                                                    <th>Abreviação</th>
-                                                    <th>Definição</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th>FGA</th>
-                                                    <td>Faculdade do Gama</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>FUNPAR</th>
-                                                    <td>Universidade Federal do Paraná</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <!--//table-responsive-->
-                                </div>
-                                <div class="section-block">
-                                    <h4>1.4 Visão Geral</h4>
-                                    <p Align="justify">Este documento contém os detalhes sobre as características
-                                        arquiteturais escolhidas pela equipe de desenvolvimento para a solução em
-                                        software do projeto CarDefense. Nele estão contidos os seguintes pontos,
-                                        respectivamente: Representação da Arquitetura, Metas e restrições de Arquitetura,
-                                        Visão dos casos de uso, Visão lógica e Visão de implementação.
-                                    </p>
-                                </div>
-                            </section>
-                            <!--//doc-section-->
-
-                            <section id="representacao-arquitetura" class="doc-section">
-                                <h3 class="section-title">2. Representação da Arquitetura</h3>
-                                <p align="justify">A arquitetura utilizada no projeto será baseada em microsserviços.
-                                    Microsserviço é uma abordagem para desenvolver uma única aplicação como um conjunto
-                                    de serviços, cada um rodando em seu próprio processo e se comunicando através de
-                                    mecanismos leves, geralmente através de uma API HTTP. Estes serviços são publicados
-                                    em produção de maneira independente através de processos de deploys automatizados.
-                                </p>
-                                <div class="section-block">
-                                    <h4>2.1 Diagrama de Relações</h4>
-                                    <figure>
-                                        <div class="diagrama">
-                                            <img class="scaled" src="assets/images/diagrama_relacoes.png" alt="Diagrama de Relações">
-                                        </div>
-                                    </figure>
-                                    <p align="justify">O diagrama representa cada etapa a ser seguida para que o aplicativo
-                                        funcione, relacionando o front-end e o back-end.
-                                    </p>
-                                </div>
-                                <div class="section-block">
-                                    <h4>2.2 Diagrama de React-Native/Expo/Microsserviços</h4>
-                                    <figure>
-                                        <div class="diagrama">
-                                            <img class="scaled" src="assets/images/diagrama_react.png" alt="Diagrama de React-Native/Redux/Microsserviços">
-                                        </div>
-                                    </figure>
-                                </div>
-                                <div class="section-block">
-                                    <h4>2.3 Diagrama de Pacotes Front-End</h4>
-
-                                </div>
-                                <div class="section-block">
-                                    <h4>2.4 Diagrama de Pacotes Back-End (Django Rest Framework)</h4>
-                                    <figure>
-                                        <div class="diagrama">
-                                            <img class="scaled" src="assets/images/diagrama_pacotes_back-end.png" alt="Diagrama de Pacotes Back-End (Django Rest Framework)">
-                                        </div>
-                                    </figure>
-                                </div>
-                            </section>
-                            <!--//doc-section-->
-                            <section id="metas" class="doc-section">
-                                <h3 class="section-title">3. Metas e Restrições de Arquitetura</h3>
-                                <div class="table-responsive">
-                                    <table class="table table-bordered">
-                                        <thead>
-                                            <tr>
-                                                <th>Restrição</th>
-                                                <th>Ferramenta</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>Linguagem</td>
-                                                <td>Python</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Framework</td>
-                                                <td>Django REST</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Plataforma</td>
-                                                <td>Android</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Segurança</td>
-                                                <td>
-                                                    O sistema terá informações pessoais dos usuários que só
-                                                    poderão ser vistas e editadas pelo próprio usuário
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td>Idioma</td>
-                                                <td>Português</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </section>
-                            <section id="uso" class="doc-section">
-                                <h3 class="section-title">4. Visão dos Casos de Uso</h3>
-                                <div class="section-block">
-                                    <h4>4.1 Descrição dos Casos de uso</h2>
-                                    <p>A seguir são descritos os casos de uso presentes no diagrama:</p>
-                                    <ul>
-                                        <li>
-                                            <strong>UC01 - Cadastrar veículo -</strong> Este caso de uso permite ao
-                                             usuário cadastrar um veículo na aplicação, por meio do número da placa.
-
-                                        </li>
-                                        <li>
-                                            <strong>UC02 - Acessar cadastro de veículos -</strong> O usuário poderá
-                                             acessar seu cadastro de veículos na aplicação.
-
-                                        </li>
-                                        <li>
-                                            <strong>UC03 - Alterar cadastro de veículos -</strong> O usuário poderá
-                                             alterar alguma informação fornecida no cadastro de veículo anteriormente.
-
-                                        </li>
-                                        <li>
-                                            <strong>UC04 - Remover cadastro de veículo -</strong> O usuário poderá
-                                             remover qualquer veículo previamente cadastrado no sistema.
-
-                                        </li>
-                                        <li>
-                                            <strong>UC05 - Emitir alerta privado -</strong> O usuário poderá emitir
-                                            uma notificação predefinida, por meio de um botão, para o usuário dono do veículo, sobre
-                                            qualquer situação incomum correlação ao veículo, por meio do número da placa.
-
-                                        </li>
-                                        <li>
-                                            <strong>UC06 - Emitir alerta geral -</strong> O usuário poderá emitir um
-                                            alerta geral, por meio de um botão, validado por mais três usuários, sobre alguma possível
-                                            catástrofe natural.
-
-                                        </li>
-                                        <li>
-                                            <strong>UC07 - Emitir alerta de roubo, furto ou arrombamento -</strong> O usuário poderá
-                                            emitir um alerta geral, por meio de um botão, sobre qualquer uma das situações de roubo,
-                                            furto ou arrombamento.
-
-                                        </li>
-                                        <li>
-                                            <strong>UC08 - Ligar para polícia ou corpo de bombeiros -</strong> O usuário poderá,
-                                            por meio de um botão, ligar diretamente para a polícia ou para o corpo de bombeiros.
-
-                                        </li><li>
-                                            <strong>UC09 - Feed de alertas -</strong> O usuário deve ser capaz de ver os alertas
-                                            gerais por meio de um “feed de notícias”.
-
-                                        </li>
-                                        <li>
-                                            <strong>UC10 - Classificação(avaliação do usuário) -</strong> O usuário deve ser capaz
-                                            de visualizar sua classificação no aplicativo.
-
-                                        </li>
-                                        <li>
-                                            <strong>UC11 - Notificação -</strong> O usuaŕio deve ser capaz de receber o alerta
-                                            enviado por outro usuário.
-
-                                        </li>
-                                        <li>
-                                            <strong>UC12 - Reportar alerta -</strong> O usuário poderá reportar alerta inadequado ou
-                                            ofensivo.
-
-                                        </li>
-                                        <li>
-                                            <strong>UC13 - Classificação(avaliação do alerta) -</strong> O usuário deve ser capaz de
-                                            classificar um alerta recebido.
-
-                                        </li>
-                                        <li>
-                                            <strong>UC14 - Serviços -</strong> O usuário deve ser capaz de poder ver anúncios de
-                                            serviços automotivos.
-
-                                        </li>
-                                        <li>
-                                            <strong>UC15 - Configuração -</strong> O usuário poderá alterar foto do perfil.
-
-                                        </li>
-                                        <li>
-                                            <strong>UC16 - Sobre -</strong> O usuário deve ser capaz ver informações sobre o
-                                            aplicativo e modo de uso.
-
-                                        </li>
-                                        <li>
-                                            <strong>UC17 - Feedback -</strong> O usuário deve ser capaz de fazer comentários
-                                            sobre aplicativo.
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div>
-                                    <h4>4.2 Diagramas dos Casos de Uso</h4>
-                                    <figure>
-                                        <div class = "diagrama">
-                                            <img class="scaled" src="assets/images/configurarVeiculo.png" alt="Configuração de Veiculos">
-                                            <figcaption> CarDefense - Configurar Veículos</figcaption>
-                                            <br>
-                                            <br />
-                                        </div>
-                                    </figure>
-                                    <figure>
-                                        <div class = "diagrama">
-                                            <img class="scaled" src="assets/images/receberAlerta.png" alt="Recebimento de Alerta">
-                                            <figcaption> CarDefense - Receber Alerta</figcaption>
-                                            <br>
-                                            <br/>
-                                        </div>
-                                    </figure>
-                                    <figure>
-                                        <div class="diagrama">
-                                            <img class="scaled" src="assets/images/enviarAlertas.png" alt="Envio de Alertas">
-                                            <figcaption> CarDefense - Enviar Alertas</figcaption>
-                                            <br>
-                                            <br />
-                                        </div>
-                                    </figure>
-                                    <figure>
-                                        <div class="diagrama">
-                                            <img class="scaled" src="assets/images/informacoes.png" alt="Informações">
-                                            <figcaption> CarDefense - Ver Informações</figcaption>
-                                            <br>
-                                            <br />
-                                        </div>
-                                    </figure>
-                                    <figure>
-                                        <div class="diagrama">
-                                            <img class="scaled" src="assets/images/extras.png" alt="Extras">
-                                            <figcaption> CarDefense - Extras</figcaption>
-                                            <br>
-                                            <br />
-                                        </div>
-                                    </figure>
-                                </div>
-                            </section>
-
-                            <!--//doc-section-->
-
-                            <section id="visao-logica" class="doc-section">
-                                <h3 class="section-title">5. Visão Lógica</h3>
-                                <div class="section-block">
-                                    <h4>5.1 Visão geral: Pacotes e Camadas</h4>
-                                    <p align="justify">A aplicação CarDefense é construída sobre o framework react native no
-                                        front-end e sobre o framework django REST no back-end. React native utiliza a arquitetura
-                                        Redux, tal arquitetura permite a utilização de um container de estados para facilmente
-                                        administrar os estados da sua aplicação. O framework django REST utiliza uma variação da arquitetura
-                                        MVC, chamada MTV(Model Template View) onde a “view” delega a informação apresentada para o template.
-                                        O desenvolvimento em camadas e componentes é benéfico pois tem custos reduzidos de desenvolvimento
-                                        e manutenção e também de fácil reutilização em outros projetos.
-                                    </p>
-                                </div>
-                                <div class="section-block">
-                                    <h5>5.1.1 Model</h5>
-                                    <p align="justify">A model é uma interface de apresentação do banco de dados  que permite o
-                                        uso dos dados do banco sem conhecer as complexidades do banco de dados subjacente. O modelo
-                                        geralmente também fornece uma camada de abstração com seu banco de dados, para que seja possível
-                                        usar o mesmo modelo com vários tipos de bancos de dados.
-                                    </p>
-                                </div>
-                                <div class="section-block">
-                                    <h5>5.1.2 View</h5>
-                                    <p align="justify">Estabelece a conexão entre a Model e o Template. Ela recebe as requisições
-                                        do usuário, acessa o banco de dados e retorna a informação solicitada.
-                                    </p>
-                                </div>
-                                <div class="section-block">
-                                    <h5>5.1.3 Template</h5>
-                                    <p align="justify">É a camada de apresentação. Nela é onde se decide como alguma informação
-                                        do banco de dados deve ser apresentada para o usuário.
-                                    </p>
-                                    <figure>
-                                        <div class="diagrama">
-                                            <img class="scaled" src="assets/images/mvt.png" alt="MVT">
-                                        </div>
-                                    </figure>
-                                </div>
-                                <div class="section-block">
-                                    <h4>5.2 Django REST Framework</h4>
-                                    <p align="justify">O framework Django REST, organiza o projeto em diretórios em que cada um contém
-                                        uma funcionalidade independente do restante da aplicação como sugere a imagem a seguir:
-                                    </p>
-                                    <figure>
-                                        <div class="diagrama">
-                                            <img class="scaled" src="assets/images/django_pastas.png" alt="Django REST Framework">
-                                        </div>
-                                    </figure>
-                                    <ul>
-                                        <li>
-                                            <strong>apps :</strong> cada app tem uma pasta com as suas models, views, formulários, testes, templates e
-                                            arquivos estáticos. Além disso, também há um arquivo URLs que será incluso no URLs global.
-                                            <ul>
-                                                <li>
-                                                    <strong>migrations :</strong> pasta com as migrações para o banco de dados.
-                                                </li>
-                                                <li>
-                                                    <strong>static :</strong> pasta com arquivos CSS, JavaScript e imagens.
-                                                </li>
-                                                <li>
-                                                    <strong>tests :</strong> arquivos de testes referente ao app.
-                                                </li>
-                                                <li>
-                                                    <strong>templates :</strong> arquivos html do app.
-                                                </li>
-                                                <li>
-                                                    <strong>locale :</strong> traduções referentes ao app.
-                                                </li>
-                                                <li>
-                                                    <strong>models :</strong> arquivos de models do app.
-                                                </li>
-                                                <li>
-                                                    <strong>views :</strong> arquivos de views do app.
-                                                </li>
-                                                <li>
-                                                    <strong>forms :</strong> arquivos de formulários do app.
-                                                </li>
-                                                <li>
-                                                    <strong>admin :</strong> arquivo de conexão do app com o admin.
-                                                </li>
-                                                <li>
-                                                    <strong>urls.py :</strong> arquivo que mapeia as as views com templates de cada app.
-                                                </li>
-                                                <li>
-                                                    <strong>_init_ :</strong> arquivo que transforma o app em um pacote python.
-                                                </li>
-                                                <li>
-                                                    <strong>apps :</strong> mapeia a pasta que o contém como um app.
-                                                </li>
-                                                <li>
-                                                    <strong>utils :</strong> arquivos de validação dos apps.
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <strong>config :</strong> pasta com as configurações do projeto Django REST.
-                                            <ul>
-                                                <li>
-                                                    <strong>urls.py :</strong> inclui todos os URLs.py dos apps.
-                                                </li>
-                                                <li>
-                                                    <strong>_init_ :</strong> arquivo que transforma as configurações em um pacote python.
-                                                </li>
-                                                <li>
-                                                    <strong>settings :</strong> arquivos com as configurações básicas da aplicação.
-                                                </li>
-                                                <li>
-                                                    <strong>wsgi :</strong> especificação para uma interface simples e universal entre servidores web e aplicações web.
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <strong>manage.py :</strong> arquivo criado automaticamente pelo Django REST para gerênciamento de comandos.
-                                        </li>
-                                        <li>
-                                            <strong>docs :</strong> documentação da aplicação.
-                                        </li>
-                                        <li>
-                                            <strong>compose :</strong> pasta com arquivos do docker.
-                                        </li>
-                                        <li>
-                                            <strong>utility :</strong> arquivos para o auxílio na instalação do software.
-                                        </li>
-                                        <li>
-                                            <strong>requirements :</strong> organiza todos os pacotes/componentes que a aplicação utiliza em arquivos.
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="section-block">
-                                    <h4>5.3 Diagrama de Classes</h4>
-                                    <figure>
-                                        <div class="diagrama">
-                                            <img src="assets/images/diagrama_classe.jpg" alt="Diagrama de Classes">
-                                        </div>
-                                    </figure>
-                                    <h4>5.4 Diagrama de Banco de Dados</h4>
-                                    <figure>
-                                        <div class="diagrama">
-                                            <img src="assets/images/diagrama_bd.png" alt="Diagrama de Classes">
-                                        </div>
-                                    </figure>
-                                </div>
-                                <div class="section-block">
-                                    <h4>5.5 Expo</h4>
-                                    <p align="justify">Elaborado em função do React Native, o conjunto de ferramentas
-                                      Expo possibilita o desenvolvimento por meio de JavaScript e React de projetos nativos
-                                      em Android e IOS, com acesso a diversas funcionalidades, como envio e recebimento de
-                                      push notifications, e implementação de RefreshControl e ListView.
-                                    </p>
-                                </div>
-                            </section>
-                            <!--//doc-section-->
-
-                            <section id="pipeline" class="doc-section">
-                              <h3 class="section-title">6. Pipelines</h3>
-                              <div class="section-block">
-                                  <h4>6.1 Pipeline de microsserviços</h4>
-                                  <figure>
-                                      <div class="diagrama">
-                                          <img src="assets/images/pipelinearquitetura.png" alt="Pipeline de Microsserviços">
-                                      </div>
-                                  </figure>
-                              </div>
-                              <div class="section-block">
-                                  <h4>6.2 Pipeline de Integração</h4>
-                                  <figure>
-                                      <div class="diagrama">
-                                          <img src="assets/images/pipelineintegracao.jpg" alt="Pipeline de Microsserviços">
-                                      </div>
-                                  </figure>
-                              </div>
-                            </section>
-
-                            <section id="referencias" class="doc-section">
-                              <h3 class="section-title">7. Referências</h3>
-                                <div class="section-block">
-                                  <p>Documento de Arquitetura de Software. FUNPAR. Disponível em:<br>
-                                  <a href="http://www.funpar.ufpr.br:8080/rup/process/artifact/ar_sadoc.htm">< http://www.funpar.ufpr.br:8080/rup/process/artifact/ar_sadoc.htm >.</a></p>
-                                </div>
-                            </section>
-
-
-
-
-                        </div><!--//content-inner-->
-                    </div><!--//doc-content-->
-                    <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
-                        <div id="doc-nav" class="doc-nav">
-                            <nav id="doc-menu" class="nav doc-menu flex-column sticky">
-                                <a class="nav-link" href="docvisao.html">Documento de Visão</a>
-                                <a class="nav-link scrollto">Documento de Arquitetura</a>
-                                <nav class="doc-sub-menu nav flex-column">
+                                    <nav class="doc-sub-menu nav flex-column">
                                         <a class="nav-link scrollto" href="#introducao">1. Introdução</a>
-                                        <a class="nav-link scrollto" href="#representacao-arquitetura">2. Representação da Arquitetura</a>
+                                        <a class="nav-link scrollto" href="#representacao-arquitetura">2. Representação
+                                            da Arquitetura</a>
                                         <a class="nav-link scrollto" href="#metas">3. Metas e Restrições de Arquitetura</a>
                                         <a class="nav-link scrollto" href="#uso">4. Visão dos Casos de Uso</a>
                                         <a class="nav-link scrollto" href="#visao-logica">5. Visão Lógica</a>
                                         <a class="nav-link scrollto" href="#pipeline">6. Pipeline</a>
                                         <a class="nav-link scrollto" href="#referencias">7. Referências</a>
+                                    </nav>
+                                </div>
+
+                                <section id="introducao" class="doc-section">
+                                    <h3 class="section-title">1. Introdução</h3>
+                                    <div class="section-block">
+                                        <h4>1.1 Finalidade</h4>
+                                        <p align="justify">Este documento tem como objetivo apresentar uma visão
+                                            geral abrangente da arquitetura de software e especificar decisões
+                                            arquiteturais pertinentes para o desenvolvimento do aplicativo CarDefense.
+                                            Logo a equipe poderá obter um melhor esclarecimento da estrutura e dos
+                                            requisitos do sistema.
+                                        </p>
+                                    </div>
+                                    <div class="section-block">
+                                        <h4>1.2 Escopo</h4>
+                                        <p Align="justify">CarDefense é uma aplicativo para plataforma android
+                                            projetado
+                                            para auxiliar na proteção dos automóveis e motocicletas localizados na FGA.
+                                            Os desenvolvedores são responsáveis em seguir este documento visando
+                                            garantir
+                                            o padrão proposto para a arquitetura.
+                                        </p>
+                                    </div>
+                                    <div class="section-block">
+                                        <h4>1.3 Definições, Acrônimos e Abreviações</h4>
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Abreviação</th>
+                                                        <th>Definição</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th>FGA</th>
+                                                        <td>Faculdade do Gama</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>FUNPAR</th>
+                                                        <td>Universidade Federal do Paraná</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <!--//table-responsive-->
+                                    </div>
+                                    <div class="section-block">
+                                        <h4>1.4 Visão Geral</h4>
+                                        <p Align="justify">Este documento contém os detalhes sobre as características
+                                            arquiteturais escolhidas pela equipe de desenvolvimento para a solução em
+                                            software do projeto CarDefense. Nele estão contidos os seguintes pontos,
+                                            respectivamente: Representação da Arquitetura, Metas e restrições de
+                                            Arquitetura,
+                                            Visão dos casos de uso, Visão lógica e Visão de implementação.
+                                        </p>
+                                    </div>
+                                </section>
+                                <!--//doc-section-->
+
+                                <section id="representacao-arquitetura" class="doc-section">
+                                    <h3 class="section-title">2. Representação da Arquitetura</h3>
+                                    <p align="justify">A arquitetura utilizada no projeto será baseada em
+                                        microsserviços.
+                                        Microsserviço é uma abordagem para desenvolver uma única aplicação como um
+                                        conjunto
+                                        de serviços, cada um rodando em seu próprio processo e se comunicando através
+                                        de
+                                        mecanismos leves, geralmente através de uma API HTTP. Estes serviços são
+                                        publicados
+                                        em produção de maneira independente através de processos de deploys
+                                        automatizados.
+                                    </p>
+                                    <div class="section-block">
+                                        <h4>2.1 Diagrama de Relações</h4>
+                                        <figure>
+                                            <div class="diagrama">
+                                                <img class="scaled" src="assets/images/diagrama_relacoes.png" alt="Diagrama de Relações">
+                                            </div>
+                                        </figure>
+                                        <p align="justify">O diagrama representa cada etapa a ser seguida para que o
+                                            aplicativo
+                                            funcione, relacionando o front-end e o back-end.
+                                        </p>
+                                    </div>
+                                    <div class="section-block">
+                                        <h4>2.2 Diagrama de React-Native/Expo/Microsserviços</h4>
+                                        <figure>
+                                            <div class="diagrama">
+                                                <img class="scaled" src="assets/images/diagrama_react.png" alt="Diagrama de React-Native/Redux/Microsserviços">
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    <div class="section-block">
+                                        <h4>2.3 Diagrama de Pacotes Front-End</h4>
+
+                                    </div>
+                                    <div class="section-block">
+                                        <h4>2.4 Diagrama de Pacotes Back-End (Django Rest Framework)</h4>
+                                        <figure>
+                                            <div class="diagrama">
+                                                <img class="scaled" src="assets/images/diagrama_pacotes_back-end.png"
+                                                    alt="Diagrama de Pacotes Back-End (Django Rest Framework)">
+                                            </div>
+                                        </figure>
+                                    </div>
+                                </section>
+                                <!--//doc-section-->
+                                <section id="metas" class="doc-section">
+                                    <h3 class="section-title">3. Metas e Restrições de Arquitetura</h3>
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th>Restrição</th>
+                                                    <th>Ferramenta</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Linguagem</td>
+                                                    <td>Python</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Framework</td>
+                                                    <td>Django REST</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Plataforma</td>
+                                                    <td>Android</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Segurança</td>
+                                                    <td>
+                                                        O sistema terá informações pessoais dos usuários que só
+                                                        poderão ser vistas e editadas pelo próprio usuário
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Idioma</td>
+                                                    <td>Português</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </section>
+                                <section id="uso" class="doc-section">
+                                    <h3 class="section-title">4. Visão dos Casos de Uso</h3>
+                                    <div class="section-block">
+                                        <h4>4.1 Descrição dos Casos de uso</h2>
+                                            <p>A seguir são descritos os casos de uso presentes no diagrama:</p>
+                                            <ul>
+                                                <li>
+                                                    <strong>UC01 - Cadastrar veículo -</strong> Este caso de uso
+                                                    permite ao
+                                                    usuário cadastrar um veículo na aplicação, por meio do número da
+                                                    placa.
+
+                                                </li>
+                                                <li>
+                                                    <strong>UC02 - Acessar cadastro de veículos -</strong> O usuário
+                                                    poderá
+                                                    acessar seu cadastro de veículos na aplicação.
+
+                                                </li>
+                                                <li>
+                                                    <strong>UC03 - Alterar cadastro de veículos -</strong> O usuário
+                                                    poderá
+                                                    alterar alguma informação fornecida no cadastro de veículo
+                                                    anteriormente.
+
+                                                </li>
+                                                <li>
+                                                    <strong>UC04 - Remover cadastro de veículo -</strong> O usuário
+                                                    poderá
+                                                    remover qualquer veículo previamente cadastrado no sistema.
+
+                                                </li>
+                                                <li>
+                                                    <strong>UC05 - Emitir alerta privado -</strong> O usuário poderá
+                                                    emitir
+                                                    uma notificação predefinida, por meio de um botão, para o usuário
+                                                    dono do veículo, sobre
+                                                    qualquer situação incomum correlação ao veículo, por meio do número
+                                                    da placa.
+
+                                                </li>
+                                                <li>
+                                                    <strong>UC06 - Emitir alerta geral -</strong> O usuário poderá
+                                                    emitir um
+                                                    alerta geral, por meio de um botão, validado por mais três
+                                                    usuários, sobre alguma possível
+                                                    catástrofe natural.
+
+                                                </li>
+                                                <li>
+                                                    <strong>UC07 - Emitir alerta de roubo, furto ou arrombamento -</strong>
+                                                    O usuário poderá
+                                                    emitir um alerta geral, por meio de um botão, sobre qualquer uma
+                                                    das situações de roubo,
+                                                    furto ou arrombamento.
+
+                                                </li>
+                                                <li>
+                                                    <strong>UC08 - Ligar para polícia ou corpo de bombeiros -</strong>
+                                                    O usuário poderá,
+                                                    por meio de um botão, ligar diretamente para a polícia ou para o
+                                                    corpo de bombeiros.
+
+                                                </li>
+                                                <li>
+                                                    <strong>UC09 - Feed de alertas -</strong> O usuário deve ser capaz
+                                                    de ver os alertas
+                                                    gerais por meio de um “feed de notícias”.
+
+                                                </li>
+                                                <li>
+                                                    <strong>UC10 - Classificação(avaliação do usuário) -</strong> O
+                                                    usuário deve ser capaz
+                                                    de visualizar sua classificação no aplicativo.
+
+                                                </li>
+                                                <li>
+                                                    <strong>UC11 - Notificação -</strong> O usuaŕio deve ser capaz de
+                                                    receber o alerta
+                                                    enviado por outro usuário.
+
+                                                </li>
+                                                <li>
+                                                    <strong>UC12 - Reportar alerta -</strong> O usuário poderá reportar
+                                                    alerta inadequado ou
+                                                    ofensivo.
+
+                                                </li>
+                                                <li>
+                                                    <strong>UC13 - Classificação(avaliação do alerta) -</strong> O
+                                                    usuário deve ser capaz de
+                                                    classificar um alerta recebido.
+
+                                                </li>
+                                                <li>
+                                                    <strong>UC14 - Serviços -</strong> O usuário deve ser capaz de
+                                                    poder ver anúncios de
+                                                    serviços automotivos.
+
+                                                </li>
+                                                <li>
+                                                    <strong>UC15 - Configuração -</strong> O usuário poderá alterar
+                                                    foto do perfil.
+
+                                                </li>
+                                                <li>
+                                                    <strong>UC16 - Sobre -</strong> O usuário deve ser capaz ver
+                                                    informações sobre o
+                                                    aplicativo e modo de uso.
+
+                                                </li>
+                                                <li>
+                                                    <strong>UC17 - Feedback -</strong> O usuário deve ser capaz de
+                                                    fazer comentários
+                                                    sobre aplicativo.
+                                                </li>
+                                            </ul>
+                                    </div>
+                                    <div>
+                                        <h4>4.2 Diagramas dos Casos de Uso</h4>
+                                        <figure>
+                                            <div class="diagrama">
+                                                <img class="scaled" src="assets/images/configurarVeiculo.png" alt="Configuração de Veiculos">
+                                                <figcaption> CarDefense - Configurar Veículos</figcaption>
+                                                <br>
+                                                <br />
+                                            </div>
+                                        </figure>
+                                        <figure>
+                                            <div class="diagrama">
+                                                <img class="scaled" src="assets/images/receberAlerta.png" alt="Recebimento de Alerta">
+                                                <figcaption> CarDefense - Receber Alerta</figcaption>
+                                                <br>
+                                                <br />
+                                            </div>
+                                        </figure>
+                                        <figure>
+                                            <div class="diagrama">
+                                                <img class="scaled" src="assets/images/enviarAlertas.png" alt="Envio de Alertas">
+                                                <figcaption> CarDefense - Enviar Alertas</figcaption>
+                                                <br>
+                                                <br />
+                                            </div>
+                                        </figure>
+                                        <figure>
+                                            <div class="diagrama">
+                                                <img class="scaled" src="assets/images/informacoes.png" alt="Informações">
+                                                <figcaption> CarDefense - Ver Informações</figcaption>
+                                                <br>
+                                                <br />
+                                            </div>
+                                        </figure>
+                                        <figure>
+                                            <div class="diagrama">
+                                                <img class="scaled" src="assets/images/extras.png" alt="Extras">
+                                                <figcaption> CarDefense - Extras</figcaption>
+                                                <br>
+                                                <br />
+                                            </div>
+                                        </figure>
+                                    </div>
+                                </section>
+
+                                <!--//doc-section-->
+
+                                <section id="visao-logica" class="doc-section">
+                                    <h3 class="section-title">5. Visão Lógica</h3>
+                                    <div class="section-block">
+                                        <h4>5.1 Visão geral: Pacotes e Camadas</h4>
+                                        <p align="justify">A aplicação CarDefense é construída sobre o framework react
+                                            native no
+                                            front-end e sobre o framework django REST no back-end. React native utiliza
+                                            a arquitetura
+                                            Redux, tal arquitetura permite a utilização de um container de estados para
+                                            facilmente
+                                            administrar os estados da sua aplicação. O framework django REST utiliza
+                                            uma variação da arquitetura
+                                            MVC, chamada MTV(Model Template View) onde a “view” delega a informação
+                                            apresentada para o template.
+                                            O desenvolvimento em camadas e componentes é benéfico pois tem custos
+                                            reduzidos de desenvolvimento
+                                            e manutenção e também de fácil reutilização em outros projetos.
+                                        </p>
+                                    </div>
+                                    <div class="section-block">
+                                        <h5>5.1.1 Model</h5>
+                                        <p align="justify">A model é uma interface de apresentação do banco de dados
+                                            que permite o
+                                            uso dos dados do banco sem conhecer as complexidades do banco de dados
+                                            subjacente. O modelo
+                                            geralmente também fornece uma camada de abstração com seu banco de dados,
+                                            para que seja possível
+                                            usar o mesmo modelo com vários tipos de bancos de dados.
+                                        </p>
+                                    </div>
+                                    <div class="section-block">
+                                        <h5>5.1.2 View</h5>
+                                        <p align="justify">Estabelece a conexão entre a Model e o Template. Ela recebe
+                                            as requisições
+                                            do usuário, acessa o banco de dados e retorna a informação solicitada.
+                                        </p>
+                                    </div>
+                                    <div class="section-block">
+                                        <h5>5.1.3 Template</h5>
+                                        <p align="justify">É a camada de apresentação. Nela é onde se decide como
+                                            alguma informação
+                                            do banco de dados deve ser apresentada para o usuário.
+                                        </p>
+                                        <figure>
+                                            <div class="diagrama">
+                                                <img class="scaled" src="assets/images/mvt.png" alt="MVT">
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    <div class="section-block">
+                                        <h4>5.2 Django REST Framework</h4>
+                                        <p align="justify">O framework Django REST, organiza o projeto em diretórios em
+                                            que cada um contém
+                                            uma funcionalidade independente do restante da aplicação como sugere a
+                                            imagem a seguir:
+                                        </p>
+                                        <figure>
+                                            <div class="diagrama">
+                                                <img class="scaled" src="assets/images/django_pastas.png" alt="Django REST Framework">
+                                            </div>
+                                        </figure>
+                                        <ul>
+                                            <li>
+                                                <strong>apps :</strong> cada app tem uma pasta com as suas models,
+                                                views, formulários, testes, templates e
+                                                arquivos estáticos. Além disso, também há um arquivo URLs que será
+                                                incluso no URLs global.
+                                                <ul>
+                                                    <li>
+                                                        <strong>migrations :</strong> pasta com as migrações para o
+                                                        banco de dados.
+                                                    </li>
+                                                    <li>
+                                                        <strong>static :</strong> pasta com arquivos CSS, JavaScript e
+                                                        imagens.
+                                                    </li>
+                                                    <li>
+                                                        <strong>tests :</strong> arquivos de testes referente ao app.
+                                                    </li>
+                                                    <li>
+                                                        <strong>templates :</strong> arquivos html do app.
+                                                    </li>
+                                                    <li>
+                                                        <strong>locale :</strong> traduções referentes ao app.
+                                                    </li>
+                                                    <li>
+                                                        <strong>models :</strong> arquivos de models do app.
+                                                    </li>
+                                                    <li>
+                                                        <strong>views :</strong> arquivos de views do app.
+                                                    </li>
+                                                    <li>
+                                                        <strong>forms :</strong> arquivos de formulários do app.
+                                                    </li>
+                                                    <li>
+                                                        <strong>admin :</strong> arquivo de conexão do app com o admin.
+                                                    </li>
+                                                    <li>
+                                                        <strong>urls.py :</strong> arquivo que mapeia as as views com
+                                                        templates de cada app.
+                                                    </li>
+                                                    <li>
+                                                        <strong>_init_ :</strong> arquivo que transforma o app em um
+                                                        pacote python.
+                                                    </li>
+                                                    <li>
+                                                        <strong>apps :</strong> mapeia a pasta que o contém como um
+                                                        app.
+                                                    </li>
+                                                    <li>
+                                                        <strong>utils :</strong> arquivos de validação dos apps.
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <strong>config :</strong> pasta com as configurações do projeto Django
+                                                REST.
+                                                <ul>
+                                                    <li>
+                                                        <strong>urls.py :</strong> inclui todos os URLs.py dos apps.
+                                                    </li>
+                                                    <li>
+                                                        <strong>_init_ :</strong> arquivo que transforma as
+                                                        configurações em um pacote python.
+                                                    </li>
+                                                    <li>
+                                                        <strong>settings :</strong> arquivos com as configurações
+                                                        básicas da aplicação.
+                                                    </li>
+                                                    <li>
+                                                        <strong>wsgi :</strong> especificação para uma interface
+                                                        simples e universal entre servidores web e aplicações web.
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <strong>manage.py :</strong> arquivo criado automaticamente pelo Django
+                                                REST para gerênciamento de comandos.
+                                            </li>
+                                            <li>
+                                                <strong>docs :</strong> documentação da aplicação.
+                                            </li>
+                                            <li>
+                                                <strong>compose :</strong> pasta com arquivos do docker.
+                                            </li>
+                                            <li>
+                                                <strong>utility :</strong> arquivos para o auxílio na instalação do
+                                                software.
+                                            </li>
+                                            <li>
+                                                <strong>requirements :</strong> organiza todos os pacotes/componentes
+                                                que a aplicação utiliza em arquivos.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="section-block">
+                                        <h4>5.3 Diagrama de Classes</h4>
+                                        <figure>
+                                            <div class="diagrama">
+                                                <img src="assets/images/diagrama_classe.jpg" alt="Diagrama de Classes">
+                                            </div>
+                                        </figure>
+                                        <h4>5.4 Diagrama de Banco de Dados</h4>
+                                        <figure>
+                                            <div class="diagrama">
+                                                <img src="assets/images/diagrama_bd.png" alt="Diagrama de Classes">
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    <div class="section-block">
+                                        <h4>5.5 Expo</h4>
+                                        <p align="justify">Elaborado em função do React Native, o conjunto de
+                                            ferramentas
+                                            Expo possibilita o desenvolvimento por meio de JavaScript e React de
+                                            projetos nativos
+                                            em Android e IOS, com acesso a diversas funcionalidades, como envio e
+                                            recebimento de
+                                            push notifications, e implementação de RefreshControl e ListView.
+                                        </p>
+                                    </div>
+                                </section>
+                                <!--//doc-section-->
+
+                                <section id="pipeline" class="doc-section">
+                                    <h3 class="section-title">6. Pipelines</h3>
+                                    <div class="section-block">
+                                        <h4>6.1 Pipeline de microsserviços</h4>
+                                        <figure>
+                                            <div class="diagrama">
+                                                <img src="assets/images/pipelinearquitetura.png" alt="Pipeline de Microsserviços">
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    <div class="section-block">
+                                        <h4>6.2 Pipeline de Integração</h4>
+                                        <figure>
+                                            <div class="diagrama">
+                                                <img src="assets/images/pipelineintegracao.jpg" alt="Pipeline de Microsserviços">
+                                            </div>
+                                        </figure>
+                                    </div>
+                                </section>
+
+                                <section id="referencias" class="doc-section">
+                                    <h3 class="section-title">7. Referências</h3>
+                                    <div class="section-block">
+                                        <p>Documento de Arquitetura de Software. FUNPAR. Disponível em:<br>
+                                            <a href="http://www.funpar.ufpr.br:8080/rup/process/artifact/ar_sadoc.htm">
+                                                < http://www.funpar.ufpr.br:8080/rup/process/artifact/ar_sadoc.htm>.
+                                            </a></p>
+                                    </div>
+                                </section>
 
 
 
-                                </nav><!--//nav-->
-                                <a class="nav-link" href="prototipo.html">Protótipos</a>
-                                <a class="nav-link scrollto" href="#inline">Requisitos</a>
-                                <a class="nav-link scrollto" href="#inline">Identidade Visual</a>
-                                <a class="nav-link" href="pipeline.html">Pipeline</a>
-                                <a class="nav-link" href="roadmaps.html">Roadmaps de Papéis</a>
-                                <a class="nav-link" href="planogamificacao.html">Plano de Gamificação</a>
-                            </nav><!--//doc-menu-->
+
                         </div>
-                    </div><!--//doc-sidebar-->
-                </div><!--//doc-body-->
-            </div><!--//container-->
-        </div><!--//doc-wrapper-->
-    </div><!--//page-wrapper-->
+                        <!--//content-inner-->
+                    </div>
+                    <!--//doc-content-->
+                    <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                        <div id="doc-nav" class="doc-nav">
+                            <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                                <a class="nav-link scrollto">Menu</a>
+                                <nav class="doc-sub-menu nav flex-column">
+                                    <a class="nav-link" href="abertura.html">Abertura do Projeto</a>
+                                    <a class="nav-link" href="viabilidade.html">Viabilidade Técnica</a>
+                                    <a class="nav-link" href="especificacao.html">Especificação</a>
+                                    <a class="nav-link" href="usabilidade.html">Teste de Usabilidade</a>
+                                    <a class="nav-link" href="sprint-menu.html">Sprints</a>
+                                    <a class="nav-link" href="como-contribuir.html">Como Contribuir</a>
+                                </nav>
+
+                                <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                                    <a class="nav-link scrollto">Especificação</a>
+                                    <nav class="doc-sub-menu nav flex-column">
+                                        <a class="nav-link" href="docvisao.html">Documento de Visão</a>
+                                        <a class="nav-link" href="docarquitetura.html">Documento de Arquitetura</a>
+                                        <a class="nav-link" href="requisitos.html">Elicitação de Requisitos</a>
+                                        <a class="nav-link" href="mapa-requisitos.html">Mapa de Requisitos/Backlog</a>
+                                        <a class="nav-link" href="roadmaps.html">ROADMAPS</a>
+                                        <a class="nav-link" href="identidade-visual.html">Identidade Visual</a>
+                                        <a class="nav-link" href="prototipo.html">Protótipo de Baixa e Alta Fidelidade</a>
+                                        <a class="nav-link" href="pipeline.html">Pipeline</a>
+                                        <a class="nav-link" href="planogamificacao.html">Plano de Gamificação</a>
+                                        <a class="nav-link" href="matriz.html">Matriz Eliminar-Reduzir-Elevar-Criar</a>
+                                    </nav>
+                                </nav>
+                        </div>
+                    </div>
+                </div>
+                <!--//doc-body-->
+            </div>
+            <!--//container-->
+        </div>
+        <!--//doc-wrapper-->
+    </div>
+    <!--//page-wrapper-->
 
     <footer id="footer" class="footer text-center">
         <div class="container">
             <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
-            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com/" target="_blank">Xiaoying Riley</a> for developers</small>
+            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com/"
+                    target="_blank">Xiaoying Riley</a> for developers</small>
 
-        </div><!--//container-->
-    </footer><!--//footer-->
+        </div>
+        <!--//container-->
+    </footer>
+    <!--//footer-->
 
 
     <!-- Main Javascript -->
@@ -680,4 +789,5 @@
     <script type="text/javascript" src="assets/js/main.js"></script>
 
 </body>
+
 </html>

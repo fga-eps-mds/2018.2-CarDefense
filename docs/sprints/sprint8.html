@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CarDefense</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
+    <!-- FontAwesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.1.1/js/all.js" integrity="sha384-BtvRZcyfv4r0x/phJt9Y9HhnN5ur1Z+kZbKVgzVBAlQZX4jvAuImlIz+bG7TS00a"
+        crossorigin="anonymous"></script>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="../assets/plugins/prism/prism.css">
+    <link rel="stylesheet" href="../assets/plugins/lightbox/dist/ekko-lightbox.css">
+    <link rel="stylesheet" href="../assets/plugins/elegant_font/css/style.css">
+
+    <!-- Theme CSS -->
+    <link id="theme-style" rel="stylesheet" href="../assets/css/styles.css">
+
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <!-- ******Header****** -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="branding">
+                    <h1 class="logo">
+                        <a href="../index.html">
+                            <span aria-hidden="true"><img src="../assets/images/logo.png" style="height: 48px; width: 50px"></span>
+                            <span class="text-highlight">Car</span><span class="text-bold">Defense</span>
+                        </a>
+                    </h1>
+                </div>
+                <!--//branding-->
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Sprint 8</li>
+                </ol>
+            </div>
+            <!--//container-->
+        </header>
+        <!--//header-->
+        <div class="doc-wrapper">
+            <div class="container">
+                <div id="doc-header" class="doc-header text-center">
+                    <h1 class="doc-title">Sprint 8</h1>
+                </div>
+                <!--//doc-header-->
+                <div class="doc-body row">
+                    <div class="doc-content col-md-9 col-12 order-1">
+                        <div class="content-inner">
+                            <section id="introducao" class="doc-section">
+                                <h3 class="section-title">Planejamento</h3>
+                                <div class="section-block">
+                                    <h3 class="block-title">1. Objetivos e Duração</h3>
+                                    <p align="justify">
+                                        <li>Ajustar front end da aplicação</li>
+                                        <li>Adição de imagem às notificações (públicas e privadas)</li>
+                                        <li>Iniciar microsserviço de carros</li>
+                                        <br>
+                                        Duração:
+                                        <br>
+                                        09/10/2018 a 15/10/2018
+                                        <br>
+                                    </p>
+                                    <h3 class="block-title">2. Sprint Backlog</h3>
+                                    <div class="section-block">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Issues</th>
+                                                        <th>Pontuação</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td><a href=https://github.com/fga-eps-mds/2018.2-CarDefense/issues/122>
+                                                                Criar novo sistema de pontuação de histórias (sprint 7
+                                                                em diante)</a> </td> <td>2</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href=https://github.com/fga-eps-mds/2018.2-CarDefense/issues/119>
+                                                                Listar carros do usuário </a> </td> <td>2</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href=https://github.com/fga-eps-mds/2018.2-CarDefense/issues/115>
+                                                                CRUD de Carros </a> </td> <td>2</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href=https://github.com/fga-eps-mds/2018.2-CarDefense/issues/114>
+                                                                Organizar o feed das notificações </a> </td> <td>3</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href=https://github.com/fga-eps-mds/2018.2-CarDefense/issues/113>
+                                                                Adicionar funcionalidades na descrição de notificações
+                                                                públicas </a> </td> <td>5</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href=https://github.com/fga-eps-mds/2018.2-CarDefense/issues/112>
+                                                                Adicionar funcionalidades na descrição de notificações
+                                                                privadas </a> </td> <td>5</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a href=https://github.com/fga-eps-mds/2018.2-CarDefense/issues/124>
+                                                                Criar relatório sprint 8 </a> </td> <td>2</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <h3 class="block-title">3. Pontuação da Sprint</h3>
+                                    <p align="justify">
+                                        <li>Planejados: <b>21 pontos</b></li>
+                                        <li>Executados: <b>16 pontos</b></li>
+                                        <li>Dívida Técnica da sprint anterior: <b>0 pontos</b></li>
+                                    </p>
+                                    <h5>3.1. Sistema de pontuação Release 2 </h5>
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th>Tipo de Tarefa</th>
+                                                    <th>Extensão</th>
+                                                    <th>Pontos Equivalentes</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Pequenas alterações de código/front - estilização CSS</td>
+                                                    <td>PP</td>
+                                                    <td>1</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>CRUD, bugfix em CRUD, documentação pequena, relatório de sprint</td>
+                                                    <td>P</td>
+                                                    <td>2</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Refatoração de código, nova função de back, nova função de
+                                                        front, documentação extensa</td>
+                                                    <td>M</td>
+                                                    <td>3</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Nova feature (back/front), alteração de arquitetura, alteração
+                                                        de DevOps</td>
+                                                    <td>G</td>
+                                                    <td>5</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Bugfix complexo, geração de relatório complexo</td>
+                                                    <td>GG</td>
+                                                    <td>8</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                    <h3 class="block-title">4. Papéis</h3>
+                                    <br>
+                                    <li>Engenheiro de Produto: Stéfane Souza</li>
+                                    <li>Scrum Master: Lucas S. Souza</li>
+                                    <li>DevOps: Taynara Carvalho</li>
+                                    <li>Arquiteto: Mateus Vieira</li>
+                                    <li>Desenvolvedores: João Gabriel Rossi, João Gabriel Antunes, Paulo Vitor, Ivan
+                                        Diniz, João Matheus, Lieverton Santos</li>
+                                    <br>
+                                    <h3 class="block-title">5. Pareamento</h3>
+                                    <p align="justfy">
+                                        <li> João Matheus e João Gabriel Antunes </li>
+                                        <li> Ivan e Lieverton</li>
+                                        <li> Paulo Rocha e Gabriel Rossi </li>
+                                    </p>
+                                    <h3 class="block-title">6. Riscos da Sprint</h3>
+                                    <p align="justify">
+                                        Os riscos indentificados nesta sprint foram:
+                                        <br>
+                                        <li>Membros desinteressados e desaparecidos</li>
+                                        <li>Mal uso do gitflow</li>
+                                        <li>Técnica nova para equipe: adicionar imagens às notificações</li>
+                                        <!-- adicionar RISCOS DESCOBERTOS no relatório de fechamento de sprint -->
+                                        <br>
+                                    </p>
+                                </div>
+                            </section>
+                            <!--//doc-section-->
+
+
+                            <section id="introducao" class="doc-section">
+                                <h3 class="section-title">Resultado</h3>
+                                <div class="section-block">
+                                    <h3 class="block-title">1. Sprint Review</h3>
+                                    <p align="justify">
+                                        <br>
+                                        A maioria das tarefas da sprint foram entregues entretanto a de imagens nas
+                                        notificações privadas não ocorreu. Tal problema aconteceu
+                                        pois houveram problemas relacionados ao momento de anexar a imagem a uma
+                                        notificação. Já que os responsáveis pelas imagens nas notificações
+                                        públicas obtiveram sucesso é necessário que, mesmo sendo uma dívida técnica,
+                                        procurem auxiliar a equipe das notificações privadas.
+                                        <br>
+                                    </p>
+                                    <h3 class="block-title">2. Sprint Retrospective</h3>
+                                    <div class="section-block">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Pontos Positivo</th>
+                                                        <th>Pontos Negativos</th>
+                                                        <th>Soluções</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <td>Equipe trabalhando constantemente</td>
+                                                        <td>Equipe um pouco dispersa</td>
+                                                        <td>Scrum Master voltar a trabalhar com mais afinco</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Mesmo com a difuculdade do projeto aumentando a equipe
+                                                            continua a fazer entregas</td>
+                                                        <td>Scrum Master trabalhando com menos afinco</td>
+                                                        <td>Equipe procurar ter um pouco mais de foco</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>-</td>
+                                                        <td>Reunião de entrega de sprint dispersa</td>
+                                                        <td>Diminuir um pouco o tamanho das issues (dividir melhor as
+                                                            issues)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>-</td>
+                                                        <td>Problemas com as imagens nas notificações</td>
+                                                        <td>-</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>-</td>
+                                                        <td>Problemas pessoais afetando a produtividade</td>
+                                                        <td>-</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <h3 class="block-title">3. Quadro de Conhecimento</h3>
+                                    <figure>
+                                        <div class="diagrama">
+                                            <img class="scaled" src="../assets/images/sprints/quadro_conhecimento_sprint8.png"
+                                                alt="Quadro de Conhecimento Sprint 8">
+                                        </div>
+                                        <p align="justify">
+                                            O quadro de conhecimentos continua bem semelhante ao anterior. Ainda
+                                            pode-se perceber uma certa defasagem no conhecimento da
+                                            equipe tanto em metodologia, teste unitários e testes de aceitação. É
+                                            importante que tal defasagem seja considerada na realização
+                                            das sprints posteriores antes que tal ponto se torne um gargalo.
+                                        </p>
+                                    </figure>
+                                    <h3 class="block-title">4. Burndown</h3>
+                                    <figure>
+                                        <div class="diagrama">
+                                            <img class="scaled" src="../assets/images/sprints/burndown_sprint8.png" alt="Burndown Sprint 8">
+                                        </div>
+                                        <p align="justify">
+                                            Pode-se observar uma frequencia maior de entregas durante a sprint e já uma
+                                            boa utilização do zenhub
+                                            nesta sprint. Não pode ser vista nesse burndown a dívida técnica desta
+                                            sprint (5 pontos). Tal fato
+                                            ocorreu pois o burndow foi colhido após a dívida técnica ser entregue. Logo
+                                            é importante dar enfâse:
+                                            <b>5 pontos desta sprint não foram entregues durante sua execução!</b>
+                                        </p>
+                                    </figure>
+                                    <h3 class="block-title">5. Velocity</h3>
+                                    <figure>
+                                        <div class="diagrama">
+                                            <img class="scaled" src="../assets/images/sprints/velocity_sprint8.png" alt="Velocity Sprint 8">
+                                        </div>
+                                        <p align="justify">
+                                            Pode-se perceber claramente uma grande redução tanto dos pontos planejados
+                                            quanto do velocity em si. Isso ocorreu
+                                            devido a decisão de procurar uma quantidade ideal e saúdavel de pontos por
+                                            sprint. Além disso o velocity foi
+                                            drásticamente afetado devido, também, à issue não entregue desta sprint.
+                                        </p>
+                                    </figure>
+                                    <h3 class="block-title">6. Gráfico de Commit</h3>
+                                    <p align="justify">
+                                        <h5> Microserviço: Notification </h5>
+                                        <figure>
+                                            <div class="diagrama">
+                                                <img class="scaled" src="../assets/images/sprints/commits_notifications_sprint8.png"
+                                                    alt="Commits Notifications Sprint 8">
+                                            </div>
+                                            <p align="justify">
+                                            </p>
+                                        </figure>
+                                        <h5> Microserviço: Profile </h5>
+                                        <figure>
+                                            <div class="diagrama">
+                                                <img class="scaled" src="../assets/images/sprints/commits_profile_sprint8.png"
+                                                    alt="Commits Profile Sprint 8">
+                                            </div>
+                                            <p align="justify">
+                                            </p>
+                                        </figure>
+                                        <h5> Microserviço: Cars </h5>
+                                        <figure>
+                                            <div class="diagrama">
+                                                <img class="scaled" src="../assets/images/sprints/commits_cars_sprint8.png"
+                                                    alt="Commits Profile Sprint 8">
+                                            </div>
+                                            <p align="justify">
+                                            </p>
+                                        </figure>
+                                        <h3 class="block-title">7. Burndown de Riscos</h3>
+                                        <figure>
+                                            <div class="diagrama">
+                                                <img class="scaled" src="../assets/images/sprints/burndown_riscos_sprint8.png"
+                                                    alt="Burndown Riscos Sprint 8">
+                                            </div>
+                                            <p align="justify">
+                                                Para melhor visualização <a href="https://docs.google.com/spreadsheets/d/1Lv5RcC7BHOhv_yV-YvhzN9WQBt-pOTbbDcYUHK_ww_0/edit?usp=sharing"><b>CLIQUE
+                                                        AQUI</b></a>
+                                                <br>
+                                                <i><b>Pontuação: A escala do score de riscos vai de 0 (risco nulo) a 30
+                                                        (risco extremamente alto)</b>
+                                                    <br>Houve a adição de novos riscos nesta sprint. Os riscos antigos
+                                                    foram parcialmente mitigados.
+                                                    <br><b>Obs:</b> O diagrama de burndown de riscos foi refatorado
+                                                    vizando uma melhor visualização do próprio.</i>
+                                            </p>
+                                        </figure>
+                                        <h3 class="block-title">8. Análise do Scrum Master</h3>
+                                        <p align="justify">
+                                            <br><br>
+                                            &nbsp;&nbsp;A sprint foi parcialmente entregue. O risco da adição das
+                                            imagens às notificações não foi devidamente mitigado. Realmente se tornou
+                                            um gargalo o que acarretou na não entrega de uma issue de 5 pontos. É
+                                            importante que para as próximas sprints procure-se identificar estes
+                                            problemas
+                                            antes de designar uma tarefa tão "grande" assim.
+                                            <br><br>
+                                            &nbsp;&nbsp;Visando a mitigação do risco de membros desaparecendo e se
+                                            desinteressando foi feita uma reunião de alinhamento da equipe onde cada
+                                            membro
+                                            explicou sua situação e suas dores. Tal reunião foi Sbem produtiva. Se
+                                            tornou conhecimento da equipe, inclusive, que um dos membros sofre de
+                                            crises de ansiedade
+                                            e não havia informado à toda equipe ainda. Logo, se torna ainda mais
+                                            importante encontrar um valor ideal e saúdavel de entregas por sprint.
+                                            <br><br>
+                                            &nbsp;&nbsp;No gráfico de commits é possível perceber que alguns membros
+                                            estão destoando no trabalho entre front e back no sentido que contribuem
+                                            mais em um
+                                            do que no outro. Talvez isto ocorra pela aptidão dos membros. Assim sendo
+                                            talvez seja bom que nas proximas duplas de pareamento ocorra pareamento
+                                            entre membros
+                                            que produzem mais no front juntamente com membros que produzem mais no back
+                                            visando um nivelamento de conhecimento.
+                                            <br><br>
+                                            &nbsp;&nbsp;O risco mais preocupante até o momento é a geração do APK e tal
+                                            risco é ligado tanto ao risco de trabalhar com uma equipe maior (equipe dos
+                                            quatro app's dentro do Integra)
+                                            quanto ao risco do caro deploy dos nossos microsserviços. É muito
+                                            importante que o scrum master da equipe passe a verificar a possíbilidade
+                                            da separação dos apps quanto, também,
+                                            a possibilidade da equipe dividir entre todos os membros o valor do deploy
+                                            dos microsserviços.
+                                            <br><br>
+                                            &nbsp;&nbsp;Concluí-se então que o trabalho continua caminhando e que
+                                            alguns grandes riscos passem a ser mitigados antes que se tornem um gargalo
+                                            muito grande.
+                                        </p>
+                                </div>
+                            </section>
+                            <!--//doc-section-->
+
+                        </div>
+                        <!--//content-inner-->
+                    </div>
+                    <!--//doc-content-->
+                    <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
+                        <div id="doc-nav" class="doc-nav">
+                            <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                                <a class="nav-link scrollto">Menu</a>
+                                <nav class="doc-sub-menu nav flex-column">
+                                    <a class="nav-link" href="abertura.html">Abertura do Projeto</a>
+                                    <a class="nav-link" href="viabilidade.html">Viabilidade Técnica</a>
+                                    <a class="nav-link" href="especificacao.html">Especificação</a>
+                                    <a class="nav-link" href="usabilidade.html">Teste de Usabilidade</a>
+                                    <a class="nav-link" href="sprint-menu.html">Sprints</a>
+                                    <a class="nav-link" href="como-contribuir.html">Como Contribuir</a>
+                                </nav>
+
+                                <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                                    <a class="nav-link scrollto">Sprints</a>
+                                    <nav class="doc-sub-menu nav flex-column">
+                                        <a class="nav-link" href="sprint0.html">Sprint 0</a>
+                                        <a class="nav-link" href="sprint1.html">Sprint 1</a>
+                                        <a class="nav-link" href="sprint2.html">Sprint 2</a>
+                                        <a class="nav-link" href="sprint3.html">Sprint 3</a>
+                                        <a class="nav-link" href="sprint4.html">Sprint 4</a>
+                                        <a class="nav-link" href="sprint5.html">Sprint 5</a>
+                                        <a class="nav-link" href="sprint6.html">Sprint 6</a>
+                                        <a class="nav-link" href="sprint7.html">Sprint 7</a>
+                                        <a class="nav-link" href="sprint8.html">Sprint 8</a>
+                                        <a class="nav-link" href="sprint9.html">Sprint 9</a>
+                                        <a class="nav-link" href="sprint10.html">Sprint 10</a>
+                                        <a class="nav-link" href="sprint11.html">Sprint 11</a>
+                                        <a class="nav-link" href="sprint12.html">Sprint 12</a>
+                                        <a class="nav-link" href="sprint13.html">Sprint 13</a>
+                                    </nav>
+                                </nav>
+                        </div>
+                    </div>
+                    <!--//doc-sidebar-->
+                </div>
+                <!--//doc-body-->
+            </div>
+            <!--//container-->
+        </div>
+        <!--//doc-wrapper-->
+    </div>
+    <!--//page-wrapper-->
+
+    <footer id="footer" class="footer text-center">
+        <div class="container">
+            <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can buy the commercial license via our website: themes.3rdwavemedia.com */-->
+            <small class="copyright">Designed with <i class="fas fa-heart"></i> by <a href="https://themes.3rdwavemedia.com/"
+                    target="_blank">Xiaoying Riley</a> for developers</small>
+        </div>
+        <!--//container-->
+    </footer>
+    <!--//footer-->
+
+
+    <!-- Main Javascript -->
+    <script type="text/javascript" src="../assets/plugins/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../assets/plugins/prism/prism.js"></script>
+    <script type="text/javascript" src="../assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="../assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script>
+    <script type="text/javascript" src="../assets/plugins/stickyfill/dist/stickyfill.min.js"></script>
+    <script type="text/javascript" src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
