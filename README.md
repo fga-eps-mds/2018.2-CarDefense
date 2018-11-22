@@ -1,50 +1,51 @@
-# Integra -  CarDefense
-![CI status](https://img.shields.io/badge/build-passing-brightgreen.svg)
-![Django Rest](https://img.shields.io/badge/django--rest--framework-3.7.7-orange.svg)
-![Python](https://img.shields.io/badge/python-3.6-ff69b4.svg)
+
+<center>
+
+<a><img src="https://i.imgur.com/zuldpGo.png" /></a>
+
 ![Docs](https://img.shields.io/badge/docs-Github%20Pages-blue.svg)
+![License](https://img.shields.io/badge/license-GLP--3.0-red.svg)
 
-* [Documentação do Integra - CarDefense](https://fga-eps-mds.github.io/2018.2-CarDefense/docs/)
+ # Car Defense
+É um aplicativo comunitário de monitoramento de carros através de notificações em tempo real em que o usuário cadastrado pode enviar e receber.
+[Acesse o site do app CarDefense ](https://fga-eps-mds.github.io/2018.2-CarDefense/)
 
-* [Documentação do App Integra](https://fga-eps-mds.github.io/2018.2-FGAPP-FrontEnd)
+### Conheça nossa documentação
+* [CarDefense Docs](https://fga-eps-mds.github.io/2018.2-CarDefense/docs/index.html)
 
-
-CarDefense é um módulo do aplicativo Integra, onde é feito o monitoramento de carros dentro do ambiente da UnB - Universidade de Brasília.
-
-## Instalação 
-
-### Requisitos 
-Para instalação do projeto você deve ter instalado:
-* Docker
-* Docker Compose
-
-### Como instalar
-
-1 - Clone o repositório
-
-2 - Entre na pasta do projeto
-
-3 - Rode o comando:
-```
-sudo docker-compose up
-```
-
-4 - Acesse localhost:8000
+<a href="https://play.google.com/store/apps/details?id=com.cardefense.cardefense"><img src="https://i.imgur.com/3YcEpgg.png"/></a> </center>
 
 
-Para acessar o container da aplicação use o seguinte comando:
-```
-sudo docker exec -it 20182cardefense_web_1 bash
-```
-
-Para ver todos os containers rodando na sua máguina use o seguinte comando:
-
-```
-sudo docker ps
-```
-
-## Nossos microsserviços 
+## Organização CarDefense
 * [CarDefense Profile](https://github.com/CarDefense/CarDefense_Profile)
 * [CarDefense Notification](https://github.com/CarDefense/CarDefense_Notification)
 * [CarDefense Cars](https://github.com/CarDefense/CarDefense_Cars)
-* [CarDefense Gamification](https://github.com/CarDefense/CarDefense_Gamification)
+* [CarDefense Front-End](https://github.com/CarDefense/CarDefense_FrontEnd)
+
+---
+
+## Como Contribuir
+### 1. Orientações
+* Se você for um colaborador externo, dê um fork no projeto.
+* Issues só poderão ser criadas com os templates especificados no repositório.
+* A criação de branches deve seguir a política de branches.
+* No desenvolvimento, usar nossa política de commits.
+* Pull requests só serão aceitos se estiverem com o template especificado no repositório.
+ 
+### 2. Política de Branches
+Nossa política segue algumas características do Gitflow. Então separamos nossas branches em:
+
+### **master**
+A master será nossa branch de produção, ou seja, nela estará a versão estável do projeto. E por questões de segurança ela será bloqueada para commits e push. A interação com a master vai se dá através da de Pull requests que virão da branch devel.
+
+### **devel**
+A devel será nossa branch de desenvolvimento, ou seja, vai agrupar o trabalho vindo das branches de features, o objetivo é criar uma release que será submetida para master.
+
+### **branches de features**
+As branches de features são criadas a partir da devel, e serve para o desenvolvimento de features presentes nas issues do repositório. No final do desenvolvimento a funcionalidade desenvolvida nessa branch deve ser enviada para a devel, através de um pull request.
+
+> Nomenclatura das branches de features: O nome das branches de features devem seguir um padrão X_Nome_da_issue , onde X é o número da issue correspondente a funcionalidade.
+
+### **hotfix branches**
+Hotfix branches são criadas a partir da master e servem para resolver de forma rápida os bugs em produção. Essa branch deve seguir a seguinte nomenclatura: hotfix_Nome_do_bug.
+
