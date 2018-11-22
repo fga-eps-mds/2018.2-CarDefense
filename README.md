@@ -1,14 +1,17 @@
 
-<center>
+<p align="center"> <img src="https://i.imgur.com/zuldpGo.png" /></p>
 
-<a><img src="https://i.imgur.com/zuldpGo.png" /></a>
+<p align="center">
+ <a><img src="https://img.shields.io/badge/docs-Github%20Pages-blue.svg"></a>
+ <a><img src="https://img.shields.io/badge/license-GLP--3.0-red.svg"></a>
+</p>
 
-![Docs](https://img.shields.io/badge/docs-Github%20Pages-blue.svg)
-![License](https://img.shields.io/badge/license-GLP--3.0-red.svg)
+<h1 align="center"> Car Defense </h1>
+<p align="center"> É um aplicativo comunitário de monitoramento de carros através de notificações em tempo real em que o usuário cadastrado pode enviar e receber.</p>
 
- # Car Defense
-É um aplicativo comunitário de monitoramento de carros através de notificações em tempo real em que o usuário cadastrado pode enviar e receber.
-[Acesse o site do app CarDefense ](https://fga-eps-mds.github.io/2018.2-CarDefense/)
+<p align="center">
+ <a href="https://fga-eps-mds.github.io/2018.2-CarDefense/"><h3>Acesse o site do app CarDefense</h3></a>
+</p>
 
 ### Conheça nossa documentação
 * [CarDefense Docs](https://fga-eps-mds.github.io/2018.2-CarDefense/docs/index.html)
