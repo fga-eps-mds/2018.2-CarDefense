@@ -26,15 +26,14 @@
 
 </head>
 
-<body class="body-green">
+<body class="body-primary">
     <div class="page-wrapper">
-        <!-- ******Header****** -->
         <header id="header" class="header">
             <div class="container">
                 <div class="branding">
                     <h1 class="logo">
                         <a href="index.html">
-                            <span aria-hidden="true" class="fas fa-car"></span>
+                            <span aria-hidden="true"><img src="assets/images/logo.png" style="height: 48px; width: 50px"></span>
                             <span class="text-highlight">Car</span><span class="text-bold">Defense</span>
                         </a>
                     </h1>
@@ -51,674 +50,713 @@
         <div class="doc-wrapper">
             <div class="container">
                 <div id="doc-header" class="doc-header text-center">
-                    <h1 class="doc-title"><i class="icon fas fa-file-alt"></i> Termo de Abertura (TAP)</h1>
+                    <h1 class="doc-title">Termo de Abertura (TAP)</h1>
                 </div>
                 <!--//doc-header-->
                 <div class="doc-body row">
                     <div class="doc-content col-md-9 col-12 order-1">
                         <div class="content-inner">
-                            <div class="table-responsive">
-                                <h4 class="section-title">Histórico de Revisão</h4>
-                                <table class="table table-bordered">
-                                    <thead>
-                                        <tr>
-                                            <th>Data</th>
-                                            <th>Versão</th>
-                                            <th>Descrição</th>
-                                            <th>Autor</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>29/08/2018</td>
-                                            <td>0.1</td>
-                                            <td>Criação do Documento</td>
-                                            <td>Stéfane Souza</td>
-                                        </tr>
-                                        <tr>
-                                            <td>29/08/2018</td>
-                                            <td>0.2</td>
-                                            <td>Introdução, Descrição do Produto, Justificativa, Objetivo do Produto</td>
-                                            <td>Stéfane Souza</td>
-                                        </tr>
-                                        <tr>
-                                            <td>31/08/2018</td>
-                                            <td>0.3</td>
-                                            <td>Stakeholders, Requisitos para Aprovação, Cronograma, Requisitos de Alto
-                                                Nível, Restrições</td>
-                                            <td>Stéfane Souza</td>
-                                        </tr>
-                                        <tr>
-                                            <td>08/09/2018</td>
-                                            <td>0.4</td>
-                                            <td>Custo Estimado</td>
-                                            <td>Stéfane Souza</td>
-                                        </tr>
-                                        <tr>
-                                            <td>08/09/2018</td>
-                                            <td>0.5</td>
-                                            <td>Riscos</td>
-                                            <td>Lucas Souza</td>
-                                        </tr>
-                                        <tr>
-                                            <td>10/09/2018</td>
-                                            <td>0.6</td>
-                                            <td>Riscos (ação reativa)</td>
-                                            <td>Lucas Souza</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                            <!--//table-responsive-->
 
-                            <section id="introducao" class="doc-section">
-                                <h3 class="section-title">1. Introdução</h3>
+                            <section id="indice" class="doc-section">
+                                <h3 class="section-title">Índice</h3>
                                 <div class="section-block">
-                                    <p align="justify"> Este documento tem com principal objetivo evidenciar aspectos
-                                        importantes do projeto CarDefense, um app de monitoramento de carros. Aqui
-                                        serão expostos os custos, riscos, cronograma e outros.
-                                    </p>
+                                    <nav class="doc-sub-menu nav flex-column">
+                                        <a class="nav-link scrollto" href="#introducao">1. Introdução</a>
+                                        <a class="nav-link scrollto" href="#descricao-projeto">2. Descrição</a>
+                                        <a class="nav-link scrollto" href="#justificativa">3. Justificativa</a>
+                                        <a class="nav-link scrollto" href="#obj-projeto">4. Objetivo do Projeto</a>
+                                        <a class="nav-link scrollto" href="#restricoes">5. Restrições</a>
+                                        <a class="nav-link scrollto" href="#req-alto-nivel">6. Requisitos de Alto Nível</a>
+                                        <a class="nav-link scrollto" href="#riscos">7. Riscos</a>
+                                        <a class="nav-link scrollto" href="#datas">8. Cronograma e Entregas</a>
+                                        <a class="nav-link scrollto" href="#custo">9. Custo Estimado</a>
+                                        <a class="nav-link scrollto" href="#stakeholders">10. Stakeholders</a>
+                                        <a class="nav-link scrollto" href="#req-aprovacao">11. Requisitos para
+                                            Aprovação</a>
+                                    </nav>
                                 </div>
-                            </section>
-                            <!--//doc-section-->
 
-                            <section id="descricao-projeto" class="doc-section">
-                                <h3 class="section-title">2. Descrição do Projeto</h3>
-                                <div class="section-block">
-                                    <p align="justify"> Como dito anteriormente, CarDefense é um aplicativo voltado
-                                        para o monitoramento de carros sendo esse em tempo real, tendo como local
-                                        piloto a UnB campus Gama (FGA).
-                                    </p>
-                                </div>
-                            </section>
-                            <!--//doc-section-->
-
-                            <section id="justificativa" class="doc-section">
-                                <h3 class="section-title">3. Justificativa</h3>
-                                <div class="section-block">
-                                    <p align="justify"> O monitoramento de carros atual do campus UnB Gama varia de
-                                        muito pouco a quase nenhum. Os carros estacionados passam um longo período de
-                                        tempo parados sendo fiscalizados apenas por câmeras e poucos seguranças que
-                                        precisam fazer a rota de todo o campus. Em caso de ocorrências, não existe um
-                                        meio de comunicação direta com o proprietário do veículo para que haja um
-                                        aviso.
-                                        O aplicativo CarDefense visa criar esse canal de comunicação direta, ou seja,
-                                        uma vez cadastrada o proprietário e a placa do seu veículo qualquer pessoa pode
-                                        fazer esse aviso por meio de notificações que chegarão em tempo real ao
-                                        smartphone.
-                                    </p>
-                                </div>
-                            </section>
-                            <!--//doc-section-->
-
-                            <section id="obj-projeto" class="doc-section">
-                                <h3 class="section-title">4. Objetivo do Projeto</h3>
-                                <div class="section-block">
-                                    <p align="justify"> O objetivo do aplicativo é proporcionar um meio de
-                                        monitoramento de carros mais eficiente e fácil para que assim o usuário possa
-                                        tomar decisões de forma rápida, tendo como cenário inicial auxiliar a
-                                        comunidade acadêmica do campus Gama da UnB.
-                                    </p>
-                                </div>
-                            </section>
-                            <!--//doc-section-->
-
-                            <section id="restricoes" class="doc-section">
-                                <h3 class="section-title">5. Restrições</h3>
-                                <div class="section-block">
-                                    <p align="justify"> Para a utilização do aplicativo, é necessário:
-                                        <ul class="list">
-                                            <li>Ter acesso à internet.</li>
-                                        </ul>
-                                    </p>
-                                </div>
-                            </section>
-                            <!--//doc-section-->
-
-                            <section id="req-alto-nivel" class="doc-section">
-                                <h3 class="section-title">6. Requisitos de Alto Nível</h3>
-                                <div class="section-block">
-                                    <p align="justify"> CarDefense será desenvolvido como uma plataforma mobile. Tendo
-                                        os seguintes requisitos de alto nível:
-                                        <ul class="list">
-                                            <li>O aplicativo deve possuir um uso fácil para o usuário.</li>
-                                            <li>Deve possuir o requisito não funcional de confidencialidade e armazenar
-                                                as informações de modo seguro.</li>
-                                            <li>Deve possuir um sistema de notificações que identifica diversos
-                                                cenários já prontas e de fácil escolha para o usuário.</li>
-                                        </ul>
-                                    </p>
-                                </div>
-                            </section>
-                            <!--//doc-section-->
-
-                            <section id="riscos" class="doc-section">
-                                <h3 class="section-title">7. Riscos</h3>
-                                <div class="section-block">
-                                    <div class="table-responsive">
-                                        <table class="table table-bordered">
-                                            <thead>
-                                                <tr>
-                                                    <th>Riscos</th>
-                                                    <th>Impactos</th>
-                                                    <th>Ação Preventiva</th>
-                                                    <th>Ação Reativa</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th>Inexperiência da equipe de desenvolvimento</th>
-                                                    <td>Pode acarretar em atraso na entrega do produto</td>
-                                                    <td>Realização de treinamento sobre as tecnologias e metodologias
-                                                        necessárias para a realização do projeto.</td>
-                                                    <td>Promover um pareamento visando o nivelamento da experiência da
-                                                        equipe</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Inadaptação da equipe de desenvolvimento às tecnologias
-                                                        utilizadas</th>
-                                                    <td>Não haverá entrega do produto final.</td>
-                                                    <td>A realização de treinamento de tecnologias e solução de dúvidas
-                                                        entre a própria equipe.</td>
-                                                    <td>Procurar a troca das tecnologias utilizadas (em ultimo caso!)</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Inexperiência do scrum master</th>
-                                                    <td>Pode proporcinar uma má gerência de metodolgia e má gerência de
-                                                        risco.</td>
-                                                    <td>Este papel deve orientar-se pelo seu roadmap, pela tabela de
-                                                        valores ágil e estar em constante comunicação com a equipe
-                                                        visando solucionar qualquer problema ou risco.</td>
-                                                    <td>Caso a medida preventiva não funcione este papel deve procurar
-                                                        um scrum master mais experiente visando sanar as dúvidas e/ou
-                                                        os problemas</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Inexperiência do product owner</th>
-                                                    <td>Pode acarretar em uma má visão de projeto pela equipe.</td>
-                                                    <td>Este papel deve orientar-se por seu roadmap, pela elicitação de
-                                                        requisitos e constante comunicação com a equipe procurando
-                                                        sempre elucidar as dúvidas sobre o projeto final.</td>
-                                                    <td>Caso a medida preventiva não funcione este papel deve procurar
-                                                        um engenheiro de produto mais experiente visando sanar as
-                                                        dúvidas e/ou os problemas</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Inexeperiência do Arquiteto</th>
-                                                    <td>Pode acarretar em uma má gestão de serviços utilizados no
-                                                        projeto</td>
-                                                    <td>Este papel deve orienta-rse pelo seu roadmap, estudar sobre a
-                                                        arquitetura de microserviços, procurar entender as necessidades
-                                                        do projeto e as adequar à arquitetura utilizada.</td>
-                                                    <td>Caso a medida preventiva não funcione este papel deve procurar
-                                                        um arquiteto de software mais experiente visando sanar as
-                                                        dúvidas e/ou os problemas</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Inexperiência do DeVops</th>
-                                                    <td>Pode acarretar em problemas/atrasos na entrega contínua do
-                                                        projeto, assim, afetando o princípio ágil de entregas
-                                                        constantes</td>
-                                                    <td>Este papel deve sempre orientar-se pelo seu roadmap, estudar
-                                                        sobre DevOps e suas ferramentas envolvidas além de verificar,
-                                                        sempre, se a arquitetura em desenvolvimento se adequa ao
-                                                        processo ou não</td>
-                                                    <td>Caso a medida preventiva não funcione este papel deve procurar
-                                                        um DevOps mais experiênte visando sanar as dúvidas e/ou os
-                                                        problemas</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Evasão de algum membro da equipe de desenvolvimento</th>
-                                                    <td>Atraso da entrega do projeto final por causa da sobrecarga de
-                                                        tarefas aos membros restantes da equipe</td>
-                                                    <td>Quebrar as tarefas mais complexas em tarefas menores evitando a
-                                                        sobrecarga de esforço por tarefa além de gerir tais tarefas
-                                                        visando tal problema constantemente. Além de procurar motivar a
-                                                        equipe e mante-la em constante sintonia</td>
-                                                    <td>Caso essa evasão ocorra durante uma sprint o serviço assinado
-                                                        por este membro deve ser dividido entre os membros restantes da
-                                                        equipe visando a menor sobrecarga de esforço possível</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Evasão do arquiteto ou do DevOps</th>
-                                                    <td>Pode acarretar em problemas relacionados a comunicação dos
-                                                        serviços (no caso do arquiteto) ou na entrega contínua do
-                                                        projeto (no caso do devops).</td>
-                                                    <td>Procurar manter não só o arquiteto ou o DevOps motivados mas
-                                                        também toda a equipe.</td>
-                                                    <td>Como são dois papéis que durante a execução do projeto caminham
-                                                        juntos caso um dos dois seja evadido do projeto pode ocorrer
-                                                        uma das duas alternativas a seguir:
-                                                        <br>O devops passa a ser responsável também pela arquitetura</br>ou
-                                                        <br>O arquiteto passa a ser responsável também pelas tarefas do
-                                                        devops</br></td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Evasão do scrum master ou do engenheiro de produto</th>
-                                                    <td>Pode acarretar em problemas relacionados a visão de produto (no
-                                                        caso do engenheiro de produto) ou problemas relacionados a
-                                                        metodologia e riscos (no caso do scrum master)</td>
-                                                    <td>Procurar manter não só o scrum master ou o Engenheiro de
-                                                        Produto motivados mas também toda a equipe</td>
-                                                    <td>Como são dois papéis que durante a execução do projeto caminham
-                                                        juntos caso um dos dois seja evadido do projeto pode ocorrer
-                                                        uma das duas alternativas a seguir:
-                                                        <br>O scrum master passa a ser responsável também pela
-                                                        engenharia de produto</br>ou
-                                                        <br>O engenheiro de produto passa a ser responsável também
-                                                        pelas tarefas do scrum master</br></td>
-                                                </tr>
-                                                <tr>
-                                                    <th>União do serviço 'CarDefense' ao App geral da FGA</th>
-                                                    <td>Pode acarretar uma não entrega do serviço no app final</td>
-                                                    <td>Deve ocorrer uma comunicação constante tanto da parte do devops
-                                                        quanto da parte da arquitetura com tais partes dos outros
-                                                        serviços envolvidos em tal app. Esta comunicação deve sempre
-                                                        visar os melhores padrões para que os serviços se relacionem
-                                                        entre si</td>
-                                                    <td>Caso a medida preventiva não funcione o aplicativo 'CarDefense'
-                                                        deverá ser entregue separadamente do projeto do App Geral da
-                                                        FGA (somente em último caso!)</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Problemas relacionados a infraestrutura necessária ao projeto</th>
-                                                    <td>Pode acarretar no atraso ou na não entrega do projeto final
-                                                        além de afetar a gerência do mesmo</td>
-                                                    <td>Procurar sempre desenvolver ou se reunir em um local com a
-                                                        infraestrutura básica para a execução do projeto</td>
-                                                    <td>Caso a medida preventiva não funcione não será possível
-                                                        produzir o projeto</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Risco de greve</th>
-                                                    <td>Pode acarretar em um grave atraso na produção do projeto</td>
-                                                    <td>Gerir o backlog de sprints e a produção do projeto visando a
-                                                        inexistência ou a minima quantidade de dívidas técnicas para a
-                                                        próxima sprint</td>
-                                                    <td>Caso a medida preventiva não funcione é importante que todo o
-                                                        backlogo seja reformulado visando e diminuição do escopo para
-                                                        que seja possível entregar o projeto na data correta. (Caso não
-                                                        haja possibilidade de troca de adiamento da data de entrega)</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Escopo mal definido</th>
-                                                    <td>Acarreta na entrega de um projeto que não satisfaz ao
-                                                        cliente/usuário</td>
-                                                    <td>Visar construir o projeto/produto possuindo uma comunicação
-                                                        constante com o cliente/usuário procurando entender e
-                                                        documentar as suas necessidades</td>
-                                                    <td>Caso a medida preventiva não funcione a equipe deverá rever
-                                                        todo o processo de elicitação e produzir um novo backlog de
-                                                        projeto</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Falta de Comprometimento</th>
-                                                    <td>Pode acarretar em dívidas técnicas de uma sprint para outra
-                                                        acarretando em atrasos na produção do projeto (no caso da
-                                                        equipe de desenvolvimento) como também pode acarretar em
-                                                        desfalques na arquitetura, na visão de projeto, no devops ou na
-                                                        metodologia</td>
-                                                    <td>Procurar a motivação entre os membros da equipe, manter a
-                                                        comunicação constante, procurar trazer todos os problemas 'a
-                                                        tona' antes que possam piorar</td>
-                                                    <td>Motivar a equipe ou o membro que está descomprometido e caso
-                                                        isso não funcione em último caso promover a demissão do membro
-                                                        da equipe</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Dependência de atividades</th>
-                                                    <td>Pode acarretar em um atraso grave na entrega do projeto</td>
-                                                    <td>Procurar priorizar o backlog de projeto visando tanto a
-                                                        urgência de implementação da feature quanto as dependências
-                                                        entre elas</td>
-                                                    <td>Caso a medida preventiva não funcione procurar colocar ambas
-                                                        atividades em uma mesma sprint promovendo a união entre dois
-                                                        pares responsáveis pela entrega de ambas tarefas</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Falta de comunicação</th>
-                                                    <td>Pode acarretar na falta de relatos de problemas ou dúvidas
-                                                        causando, também, atraso da entrega do projeto</td>
-                                                    <td>Possuir um plano de comunicação concreto visando comunicação
-                                                        rápida e constante e de fácil acesso por todos os membros da
-                                                        equipe</td>
-                                                    <td>Caso a medida preventiva não funcione deve haver um novo
-                                                        planejamento da comunicação da equipe do projeto</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Mal planejamento das sprints</th>
-                                                    <td>Pode acarretar em um atraso grave na entrega do projeto</td>
-                                                    <td>Procurar montar o backlog das sprints utilizando a priorização
-                                                        do backlog geral e a pontuação médida gerada pelo velocity</td>
-                                                    <td>Caso a medida preventiva não funcione é necessário que seja
-                                                        revista a maneira como a sprint está sendo planejada procurando
-                                                        encontrar e solucionar os defeitos e falhas de tal
-                                                        planejamento.</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Atrasar entregas</th>
-                                                    <td>Pode acarretar na não entrega do projeto ou em uma entrega
-                                                        incompleta do mesmo</td>
-                                                    <td>Procurar gerenciar corretamente o backlog das sprints visando a
-                                                        inexistencia ou quantidade mínima de dívidas técnicas para a
-                                                        proxima sprint</td>
-                                                    <td>Caso a medida preventiva não funcione a sprint que vier logo
-                                                        após ao atraso deve ser formulada visando a entrega das
-                                                        atividades em atraso como também atividades que exijam menos
-                                                        pontuação tentando adequaro o atraso ao cronograma de entregas</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Perda de equipamento</th>
-                                                    <td>Pode acarretar em atrasos no projeto</td>
-                                                    <td>Manter todo o equipamento bem guardado além de sempre possuir
-                                                        backup de todo o projeto tanto na nuvem quanto em equipamentos
-                                                        pessoais da equipe</td>
-                                                    <td>Caso a medida preventiva não funcione o membro que foi afetado
-                                                        pela perda de equipamento deve parear com os outros membros da
-                                                        equipe até que sua situação seja resolvida</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <!--//table-responsive-->
-                                </div>
-                            </section>
-                            <!--//doc-section-->
-
-                            <section id="datas" class="doc-section">
-                                <h3 class="section-title">8. Cronograma e Entregas</h3>
-                                <div class="section-block">
-                                    <p align="justify"> O projeto possui duas grandes entregas, sendo essas as
-                                        Releases.</p>
-                                    <div class="table-responsive">
-                                        <table class="table table-bordered">
-                                            <thead>
-                                                <tr>
-                                                    <th>Descrição</th>
-                                                    <th>Data</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th>Release 1</th>
-                                                    <td>01-09 de Outubro de 2018</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Release 2 </th>
-                                                    <td>03-07 de Dezembro de 2018</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <!--//table-responsive-->
-                                </div>
-                            </section>
-                            <!--//doc-section-->
-
-                            <section id="custo" class="doc-section">
-                                <h3 class="section-title">9. Custo Estimado</h3>
-                                <div class="section-block">
-                                    <p>Aqui será abordado o custo estimado de mercado para um <b>1 mês de trabalho</b>
-                                        da equipe.</p>
-                                    <h4>9.1 Custo de Pessoal</h4>
-                                    <div class="table-responsive">
-                                        <table class="table table-bordered">
-                                            <thead>
-                                                <tr>
-                                                    <th>Função</th>
-                                                    <th>Quantidade</th>
-                                                    <th>Horas de Trabalho</th>
-                                                    <th>Valor Mensal</th>
-                                                    <th>Valor Total</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th>Equipe Full Stack</th>
-                                                    <td>4</td>
-                                                    <td>10h</td>
-                                                    <td>R$ 6.000</td>
-                                                    <td>R$ 24.000</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Equipe de Desenvolvimento</th>
-                                                    <td>6</td>
-                                                    <td>10h</td>
-                                                    <td>R$ 3.000</td>
-                                                    <td>R$ 18.000</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                    <!--//table-responsive-->
-                                    <br>
-                                    <h4>9.2 Custo de Aquisição</h4>
-                                    <div class="table-responsive">
-                                        <table class="table table-bordered">
-                                            <thead>
-                                                <tr>
-                                                    <th>Equipamento/Serviço</th>
-                                                    <th>Quantidade</th>
-                                                    <th>Motivo</th>
-                                                    <th>Valor</th>
-                                                    <th>Valor Total</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th>Notebook</th>
-                                                    <td>10</td>
-                                                    <td>Desenvolvimento</td>
-                                                    <td>R$ 2.220 (média)</td>
-                                                    <td>R$ 22.200</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Transporte</th>
-                                                    <td>Média de 2 ou 4 linhas ônibus (10 membros)</td>
-                                                    <td>Transporte da equipe para o efetuar o desenvolvimento</td>
-                                                    <td>R$ 5.00 x 4 = R$ 20 (uma pessoa por dia) </td>
-                                                    <td>R$ 4.000 </td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Espaço para Trabalho - Coworking</th>
-                                                    <td>5 dias por semana</td>
-                                                    <td>Desenvolvimento</td>
-                                                    <td>R$ 160 (média por semana)</td>
-                                                    <td>R$ 1.600 por mês</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                        <p>Observações: <li><b>Transporte</b>: Cálculo feito por membro, onde a
-                                                passagem custa
-                                                R$ 5.00, atualmente. Logo, R$ 5.00 x 4 linhas = R$ 20 por dia.
-                                                Dessa forma, por mês o custo de custo de 10 membros seria R$ 20 x 10 x
-                                                20 dias úteis (em média). Um total de R$ 4.000. </li>
-                                            <li><b>Espaço Coworking</b>: O custo é calculado da seguinte forma: R$ 160
-                                                (semana) x 10 membros x 1 sprint de uma semana, um total de R$ 1.600
-                                                por mês. Esse preço já inclui água, energia e internet.</li>
+                                <section id="introducao" class="doc-section">
+                                    <h3 class="section-title">1. Introdução</h3>
+                                    <div class="section-block">
+                                        <p align="justify"> Este documento tem com principal objetivo evidenciar
+                                            aspectos
+                                            importantes do projeto CarDefense, um app de monitoramento de carros. Aqui
+                                            serão expostos os custos, riscos, cronograma e outros.
                                         </p>
                                     </div>
-                                    <!--//table-responsive-->
+                                </section>
+                                <!--//doc-section-->
 
-                                    <br>
-                                    <h4>9.3 Ferramentas</h4>
-                                    <p>Para sabe a finalidade ou descrição, acesse a página de Ferramentas.</p>
-                                    <div class="table-responsive">
-                                        <table class="table table-bordered">
-                                            <thead>
-                                                <tr>
-                                                    <th>Ferramentas</th>
-                                                    <th>Custo</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th>GitHub</th>
-                                                    <td>R$ 0</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>GoogleDrive</th>
-                                                    <td>R$ 0</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Visual Studio Code</th>
-                                                    <td>R$ 0</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Telegram</th>
-                                                    <td>R$ 0</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Ubuntu</th>
-                                                    <td>R$ 0</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Draw.io</th>
-                                                    <td>R$ 0</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                <section id="descricao-projeto" class="doc-section">
+                                    <h3 class="section-title">2. Descrição do Projeto</h3>
+                                    <div class="section-block">
+                                        <p align="justify"> Como dito anteriormente, CarDefense é um aplicativo
+                                            comunitário
+                                            voltado
+                                            para o monitoramento de carros sendo esse em tempo real, tendo como local
+                                            piloto a UnB campus Gama (FGA).
+                                        </p>
                                     </div>
-                                    <!--//table-responsive-->
+                                </section>
+                                <!--//doc-section-->
 
-                                    <br>
-                                    <h4>9.4 Custo Total Estimado</h4>
-                                    <div class="table-responsive">
-                                        <table class="table table-bordered">
-                                            <thead>
-                                                <tr>
-                                                    <th>Recurso</th>
-                                                    <th>Valor</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th>Custo de Pessoal</th>
-                                                    <td>R$ 42.000</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Custo de Aquisição</th>
-                                                    <td>R$ 27.800</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Ferramentas</th>
-                                                    <td>R$ 0</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Valor por mês + 15% dos Riscos</th>
-                                                    <td>R$ 69.800 + 15% = R$ 80.270</td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Valor por 4 meses (tempo da disciplina)</th>
-                                                    <td>R$ 321.080</td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                <section id="justificativa" class="doc-section">
+                                    <h3 class="section-title">3. Justificativa</h3>
+                                    <div class="section-block">
+                                        <p align="justify"> O monitoramento de carros atual do campus UnB Gama varia de
+                                            muito pouco a quase nenhum. Os carros estacionados passam um longo período
+                                            de
+                                            tempo parados sendo fiscalizados apenas por câmeras e poucos seguranças que
+                                            precisam fazer a rota de todo o campus. Em caso de ocorrências, não existe
+                                            um
+                                            meio de comunicação direta com o proprietário do veículo para que haja um
+                                            aviso.
+                                            O aplicativo CarDefense visa criar esse canal de comunicação direta, ou
+                                            seja,
+                                            uma vez cadastrada o proprietário e a placa do seu veículo qualquer pessoa
+                                            pode
+                                            fazer esse aviso por meio de notificações que chegarão em tempo real ao
+                                            smartphone.
+                                        </p>
                                     </div>
-                                    <!--//table-responsive-->
+                                </section>
+                                <!--//doc-section-->
 
-                                </div>
-                            </section>
-                            <!--//doc-section-->
-
-                            <section id="stakeholders" class="doc-section">
-                                <h3 class="section-title">10. Stakeholders</h3>
-                                <div class="section-block">
-
-                                    <div class="table-responsive">
-                                        <table class="table table-bordered">
-                                            <thead>
-                                                <tr>
-                                                    <th>Nome</th>
-                                                    <th>Papel</th>
-                                                    <th>Email</th>
-                                                    <th>GitHub</th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <th>Lucas Souza</th>
-                                                    <td>Gerência - Scrum Master</td>
-                                                    <td>lucas.soaresouza@gmail.com</td>
-                                                    <td><a href="https://github.com/lucassoaresouza">@lucassoaresouza</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Taynara Carvalho</th>
-                                                    <td>Gerência - DevOps</td>
-                                                    <td>tayhcarvalho@gmail.com</td>
-                                                    <td><a href="https://github.com/tayh">@tayh</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Stéfane Souza</th>
-                                                    <td>Gerência - PO/Engenheira do Produto</td>
-                                                    <td>stefanesouza04@gmail.com</td>
-                                                    <td><a href="https://github.com/stefanesouza">@stefanesouza</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Mateus Vieira</th>
-                                                    <td>Gerência - Arquiteto</td>
-                                                    <td>mateusvroriz6b@gmail.com</td>
-                                                    <td><a href="https://github.com/mateusvroriz">@mateusvroriz</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th>João Gabriel Rossi</th>
-                                                    <td>Desenvolvedor</td>
-                                                    <td>bielrossiborba@gmail.com</td>
-                                                    <td><a href="https://github.com/bielrossi15">@bielrossi15</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th>João Gabriel Antunes</th>
-                                                    <td>Desenvolvedor</td>
-                                                    <td>jg.antunes.medeiros@gmail.com</td>
-                                                    <td><a href="https://github.com/flyerjohn">@flyerjohn</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Paulo Vítor Coelho</th>
-                                                    <td>Desenvolvedor</td>
-                                                    <td>paulovitorrocha.unb@gmail.com</td>
-                                                    <td><a href="https://github.com/PauloVitorRocha">@PauloVitorRocha</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Ivan Diniz</th>
-                                                    <td>Desenvolvedor</td>
-                                                    <td>ivandinizdobbin2@gmail.com</td>
-                                                    <td><a href="https://github.com/darmsDD">@darmsDD</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th>João Matheus</th>
-                                                    <td>Desenvolvedor</td>
-                                                    <td>joaomatheus.152013@gmail.com</td>
-                                                    <td><a href="https://github.com/rjoao">@rjoao</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Lieverton Santos</th>
-                                                    <td>Desenvolvedor</td>
-                                                    <td>lievertom@gmail.com</td>
-                                                    <td><a href="https://github.com/lievertom">@lievertom</a></td>
-                                                </tr>
-                                                <tr>
-                                                    <th>Carla Rocha</th>
-                                                    <td>Orientadora</td>
-                                                    <td>rocha.carla@gmail.com</td>
-                                                    <td><a href="https://github.com/RochaCarla">@RochaCarla</a></td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                                <section id="obj-projeto" class="doc-section">
+                                    <h3 class="section-title">4. Objetivo do Projeto</h3>
+                                    <div class="section-block">
+                                        <p align="justify"> O objetivo do aplicativo é proporcionar um meio de
+                                            monitoramento de carros mais eficiente e fácil para que assim o usuário
+                                            possa
+                                            tomar decisões de forma rápida, tendo como cenário inicial auxiliar a
+                                            comunidade acadêmica do campus Gama da UnB.
+                                        </p>
                                     </div>
-                                    <!--//table-responsive-->
+                                </section>
+                                <!--//doc-section-->
 
-                                </div>
-                            </section>
-                            <!--//doc-section-->
+                                <section id="restricoes" class="doc-section">
+                                    <h3 class="section-title">5. Restrições</h3>
+                                    <div class="section-block">
+                                        <p align="justify"> Para a utilização do aplicativo, é necessário:
+                                            <ul class="list">
+                                                <li>Ter acesso à internet.</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </section>
+                                <!--//doc-section-->
 
-                            <section id="req-aprovacao" class="doc-section">
-                                <h3 class="section-title">11. Requisitos para Aprovação </h3>
-                                <div class="section-block">
-                                    <li>Seguir requisitos definidos;</li>
-                                    <li>Atingir todo o escopo, ou seja, implementar as funcionalidade acordadas.</li>
-                                </div>
-                            </section>
-                            <!--//doc-section-->
+                                <section id="req-alto-nivel" class="doc-section">
+                                    <h3 class="section-title">6. Requisitos de Alto Nível</h3>
+                                    <div class="section-block">
+                                        <p align="justify"> CarDefense será desenvolvido como uma plataforma mobile.
+                                            Tendo
+                                            os seguintes requisitos de alto nível:
+                                            <ul class="list">
+                                                <li>O aplicativo deve possuir um uso fácil para o usuário.</li>
+                                                <li>Deve possuir o requisito não funcional de confidencialidade e
+                                                    armazenar
+                                                    as informações de modo seguro.</li>
+                                                <li>Deve possuir um sistema de notificações que identifica diversos
+                                                    cenários já prontas e de fácil escolha para o usuário.</li>
+                                            </ul>
+                                        </p>
+                                    </div>
+                                </section>
+                                <!--//doc-section-->
+
+                                <section id="riscos" class="doc-section">
+                                    <h3 class="section-title">7. Riscos</h3>
+                                    <div class="section-block">
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Riscos</th>
+                                                        <th>Impactos</th>
+                                                        <th>Ação Preventiva</th>
+                                                        <th>Ação Reativa</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th>Inexperiência da equipe de desenvolvimento</th>
+                                                        <td>Pode acarretar em atraso na entrega do produto</td>
+                                                        <td>Realização de treinamento sobre as tecnologias e
+                                                            metodologias
+                                                            necessárias para a realização do projeto.</td>
+                                                        <td>Promover um pareamento visando o nivelamento da experiência
+                                                            da
+                                                            equipe</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Inadaptação da equipe de desenvolvimento às tecnologias
+                                                            utilizadas</th>
+                                                        <td>Não haverá entrega do produto final.</td>
+                                                        <td>A realização de treinamento de tecnologias e solução de
+                                                            dúvidas
+                                                            entre a própria equipe.</td>
+                                                        <td>Procurar a troca das tecnologias utilizadas (em ultimo
+                                                            caso!)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Inexperiência do scrum master</th>
+                                                        <td>Pode proporcinar uma má gerência de metodolgia e má
+                                                            gerência de
+                                                            risco.</td>
+                                                        <td>Este papel deve orientar-se pelo seu roadmap, pela tabela
+                                                            de
+                                                            valores ágil e estar em constante comunicação com a equipe
+                                                            visando solucionar qualquer problema ou risco.</td>
+                                                        <td>Caso a medida preventiva não funcione este papel deve
+                                                            procurar
+                                                            um scrum master mais experiente visando sanar as dúvidas
+                                                            e/ou
+                                                            os problemas</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Inexperiência do product owner</th>
+                                                        <td>Pode acarretar em uma má visão de projeto pela equipe.</td>
+                                                        <td>Este papel deve orientar-se por seu roadmap, pela
+                                                            elicitação de
+                                                            requisitos e constante comunicação com a equipe procurando
+                                                            sempre elucidar as dúvidas sobre o projeto final.</td>
+                                                        <td>Caso a medida preventiva não funcione este papel deve
+                                                            procurar
+                                                            um engenheiro de produto mais experiente visando sanar as
+                                                            dúvidas e/ou os problemas</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Inexeperiência do Arquiteto</th>
+                                                        <td>Pode acarretar em uma má gestão de serviços utilizados no
+                                                            projeto</td>
+                                                        <td>Este papel deve orienta-rse pelo seu roadmap, estudar sobre
+                                                            a
+                                                            arquitetura de microserviços, procurar entender as
+                                                            necessidades
+                                                            do projeto e as adequar à arquitetura utilizada.</td>
+                                                        <td>Caso a medida preventiva não funcione este papel deve
+                                                            procurar
+                                                            um arquiteto de software mais experiente visando sanar as
+                                                            dúvidas e/ou os problemas</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Inexperiência do DeVops</th>
+                                                        <td>Pode acarretar em problemas/atrasos na entrega contínua do
+                                                            projeto, assim, afetando o princípio ágil de entregas
+                                                            constantes</td>
+                                                        <td>Este papel deve sempre orientar-se pelo seu roadmap,
+                                                            estudar
+                                                            sobre DevOps e suas ferramentas envolvidas além de
+                                                            verificar,
+                                                            sempre, se a arquitetura em desenvolvimento se adequa ao
+                                                            processo ou não</td>
+                                                        <td>Caso a medida preventiva não funcione este papel deve
+                                                            procurar
+                                                            um DevOps mais experiênte visando sanar as dúvidas e/ou os
+                                                            problemas</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Evasão de algum membro da equipe de desenvolvimento</th>
+                                                        <td>Atraso da entrega do projeto final por causa da sobrecarga
+                                                            de
+                                                            tarefas aos membros restantes da equipe</td>
+                                                        <td>Quebrar as tarefas mais complexas em tarefas menores
+                                                            evitando a
+                                                            sobrecarga de esforço por tarefa além de gerir tais tarefas
+                                                            visando tal problema constantemente. Além de procurar
+                                                            motivar a
+                                                            equipe e mante-la em constante sintonia</td>
+                                                        <td>Caso essa evasão ocorra durante uma sprint o serviço
+                                                            assinado
+                                                            por este membro deve ser dividido entre os membros
+                                                            restantes da
+                                                            equipe visando a menor sobrecarga de esforço possível</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Evasão do arquiteto ou do DevOps</th>
+                                                        <td>Pode acarretar em problemas relacionados a comunicação dos
+                                                            serviços (no caso do arquiteto) ou na entrega contínua do
+                                                            projeto (no caso do devops).</td>
+                                                        <td>Procurar manter não só o arquiteto ou o DevOps motivados
+                                                            mas
+                                                            também toda a equipe.</td>
+                                                        <td>Como são dois papéis que durante a execução do projeto
+                                                            caminham
+                                                            juntos caso um dos dois seja evadido do projeto pode
+                                                            ocorrer
+                                                            uma das duas alternativas a seguir:
+                                                            <br>O devops passa a ser responsável também pela
+                                                            arquitetura</br>ou
+                                                            <br>O arquiteto passa a ser responsável também pelas
+                                                            tarefas do
+                                                            devops</br></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Evasão do scrum master ou do engenheiro de produto</th>
+                                                        <td>Pode acarretar em problemas relacionados a visão de produto
+                                                            (no
+                                                            caso do engenheiro de produto) ou problemas relacionados a
+                                                            metodologia e riscos (no caso do scrum master)</td>
+                                                        <td>Procurar manter não só o scrum master ou o Engenheiro de
+                                                            Produto motivados mas também toda a equipe</td>
+                                                        <td>Como são dois papéis que durante a execução do projeto
+                                                            caminham
+                                                            juntos caso um dos dois seja evadido do projeto pode
+                                                            ocorrer
+                                                            uma das duas alternativas a seguir:
+                                                            <br>O scrum master passa a ser responsável também pela
+                                                            engenharia de produto</br>ou
+                                                            <br>O engenheiro de produto passa a ser responsável também
+                                                            pelas tarefas do scrum master</br></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>União do serviço 'CarDefense' ao App geral da FGA</th>
+                                                        <td>Pode acarretar uma não entrega do serviço no app final</td>
+                                                        <td>Deve ocorrer uma comunicação constante tanto da parte do
+                                                            devops
+                                                            quanto da parte da arquitetura com tais partes dos outros
+                                                            serviços envolvidos em tal app. Esta comunicação deve
+                                                            sempre
+                                                            visar os melhores padrões para que os serviços se
+                                                            relacionem
+                                                            entre si</td>
+                                                        <td>Caso a medida preventiva não funcione o aplicativo
+                                                            'CarDefense'
+                                                            deverá ser entregue separadamente do projeto do App Geral
+                                                            da
+                                                            FGA (somente em último caso!)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Problemas relacionados a infraestrutura necessária ao
+                                                            projeto</th>
+                                                        <td>Pode acarretar no atraso ou na não entrega do projeto final
+                                                            além de afetar a gerência do mesmo</td>
+                                                        <td>Procurar sempre desenvolver ou se reunir em um local com a
+                                                            infraestrutura básica para a execução do projeto</td>
+                                                        <td>Caso a medida preventiva não funcione não será possível
+                                                            produzir o projeto</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Risco de greve</th>
+                                                        <td>Pode acarretar em um grave atraso na produção do projeto</td>
+                                                        <td>Gerir o backlog de sprints e a produção do projeto visando
+                                                            a
+                                                            inexistência ou a minima quantidade de dívidas técnicas
+                                                            para a
+                                                            próxima sprint</td>
+                                                        <td>Caso a medida preventiva não funcione é importante que todo
+                                                            o
+                                                            backlogo seja reformulado visando e diminuição do escopo
+                                                            para
+                                                            que seja possível entregar o projeto na data correta. (Caso
+                                                            não
+                                                            haja possibilidade de troca de adiamento da data de
+                                                            entrega)</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Escopo mal definido</th>
+                                                        <td>Acarreta na entrega de um projeto que não satisfaz ao
+                                                            cliente/usuário</td>
+                                                        <td>Visar construir o projeto/produto possuindo uma comunicação
+                                                            constante com o cliente/usuário procurando entender e
+                                                            documentar as suas necessidades</td>
+                                                        <td>Caso a medida preventiva não funcione a equipe deverá rever
+                                                            todo o processo de elicitação e produzir um novo backlog de
+                                                            projeto</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Falta de Comprometimento</th>
+                                                        <td>Pode acarretar em dívidas técnicas de uma sprint para outra
+                                                            acarretando em atrasos na produção do projeto (no caso da
+                                                            equipe de desenvolvimento) como também pode acarretar em
+                                                            desfalques na arquitetura, na visão de projeto, no devops
+                                                            ou na
+                                                            metodologia</td>
+                                                        <td>Procurar a motivação entre os membros da equipe, manter a
+                                                            comunicação constante, procurar trazer todos os problemas
+                                                            'a
+                                                            tona' antes que possam piorar</td>
+                                                        <td>Motivar a equipe ou o membro que está descomprometido e
+                                                            caso
+                                                            isso não funcione em último caso promover a demissão do
+                                                            membro
+                                                            da equipe</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Dependência de atividades</th>
+                                                        <td>Pode acarretar em um atraso grave na entrega do projeto</td>
+                                                        <td>Procurar priorizar o backlog de projeto visando tanto a
+                                                            urgência de implementação da feature quanto as dependências
+                                                            entre elas</td>
+                                                        <td>Caso a medida preventiva não funcione procurar colocar
+                                                            ambas
+                                                            atividades em uma mesma sprint promovendo a união entre
+                                                            dois
+                                                            pares responsáveis pela entrega de ambas tarefas</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Falta de comunicação</th>
+                                                        <td>Pode acarretar na falta de relatos de problemas ou dúvidas
+                                                            causando, também, atraso da entrega do projeto</td>
+                                                        <td>Possuir um plano de comunicação concreto visando
+                                                            comunicação
+                                                            rápida e constante e de fácil acesso por todos os membros
+                                                            da
+                                                            equipe</td>
+                                                        <td>Caso a medida preventiva não funcione deve haver um novo
+                                                            planejamento da comunicação da equipe do projeto</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Mal planejamento das sprints</th>
+                                                        <td>Pode acarretar em um atraso grave na entrega do projeto</td>
+                                                        <td>Procurar montar o backlog das sprints utilizando a
+                                                            priorização
+                                                            do backlog geral e a pontuação médida gerada pelo velocity</td>
+                                                        <td>Caso a medida preventiva não funcione é necessário que seja
+                                                            revista a maneira como a sprint está sendo planejada
+                                                            procurando
+                                                            encontrar e solucionar os defeitos e falhas de tal
+                                                            planejamento.</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Atrasar entregas</th>
+                                                        <td>Pode acarretar na não entrega do projeto ou em uma entrega
+                                                            incompleta do mesmo</td>
+                                                        <td>Procurar gerenciar corretamente o backlog das sprints
+                                                            visando a
+                                                            inexistencia ou quantidade mínima de dívidas técnicas para
+                                                            a
+                                                            proxima sprint</td>
+                                                        <td>Caso a medida preventiva não funcione a sprint que vier
+                                                            logo
+                                                            após ao atraso deve ser formulada visando a entrega das
+                                                            atividades em atraso como também atividades que exijam
+                                                            menos
+                                                            pontuação tentando adequaro o atraso ao cronograma de
+                                                            entregas</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Perda de equipamento</th>
+                                                        <td>Pode acarretar em atrasos no projeto</td>
+                                                        <td>Manter todo o equipamento bem guardado além de sempre
+                                                            possuir
+                                                            backup de todo o projeto tanto na nuvem quanto em
+                                                            equipamentos
+                                                            pessoais da equipe</td>
+                                                        <td>Caso a medida preventiva não funcione o membro que foi
+                                                            afetado
+                                                            pela perda de equipamento deve parear com os outros membros
+                                                            da
+                                                            equipe até que sua situação seja resolvida</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <!--//table-responsive-->
+                                    </div>
+                                </section>
+                                <!--//doc-section-->
+
+                                <section id="datas" class="doc-section">
+                                    <h3 class="section-title">8. Cronograma e Entregas</h3>
+                                    <div class="section-block">
+                                        <p align="justify"> O projeto possui duas grandes entregas, sendo essas as
+                                            Releases.</p>
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Descrição</th>
+                                                        <th>Data</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th>Release 1</th>
+                                                        <td>02 de outubro de 2018</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Release 2 </th>
+                                                        <td>27 de novembro de 2018</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <!--//table-responsive-->
+                                    </div>
+                                </section>
+                                <!--//doc-section-->
+
+                                <section id="custo" class="doc-section">
+                                    <h3 class="section-title">9. Custo Estimado</h3>
+                                    <div class="section-block">
+                                        <p>Aqui será abordado o custo estimado de mercado para um <b>1 mês de trabalho</b>
+                                            da equipe.</p>
+                                        <h4>9.1 Custo de Pessoal</h4>
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Função</th>
+                                                        <th>Quantidade</th>
+                                                        <th>Horas de Trabalho</th>
+                                                        <th>Valor Mensal</th>
+                                                        <th>Valor Total</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th>Equipe Full Stack</th>
+                                                        <td>4</td>
+                                                        <td>10h</td>
+                                                        <td>R$ 6.000</td>
+                                                        <td>R$ 24.000</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Equipe de Desenvolvimento</th>
+                                                        <td>6</td>
+                                                        <td>10h</td>
+                                                        <td>R$ 3.000</td>
+                                                        <td>R$ 18.000</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <!--//table-responsive-->
+                                        <br>
+                                        <h4>9.2 Custo de Aquisição</h4>
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Equipamento/Serviço</th>
+                                                        <th>Quantidade</th>
+                                                        <th>Motivo</th>
+                                                        <th>Valor</th>
+                                                        <th>Valor Total</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th>Notebook</th>
+                                                        <td>10</td>
+                                                        <td>Desenvolvimento</td>
+                                                        <td>R$ 2.220 (média)</td>
+                                                        <td>R$ 22.200</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Transporte</th>
+                                                        <td>Média de 2 ou 4 linhas ônibus (10 membros)</td>
+                                                        <td>Transporte da equipe para o efetuar o desenvolvimento</td>
+                                                        <td>R$ 5.00 x 4 = R$ 20 (uma pessoa por dia) </td>
+                                                        <td>R$ 4.000 </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Espaço para Trabalho - Coworking</th>
+                                                        <td>5 dias por semana</td>
+                                                        <td>Desenvolvimento</td>
+                                                        <td>R$ 160 (média por semana)</td>
+                                                        <td>R$ 1.600 por mês</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <p>Observações: <li><b>Transporte</b>: Cálculo feito por membro, onde a
+                                                    passagem custa
+                                                    R$ 5.00, atualmente. Logo, R$ 5.00 x 4 linhas = R$ 20 por dia.
+                                                    Dessa forma, por mês o custo de custo de 10 membros seria R$ 20 x
+                                                    10 x
+                                                    20 dias úteis (em média). Um total de R$ 4.000. </li>
+                                                <li><b>Espaço Coworking</b>: O custo é calculado da seguinte forma: R$
+                                                    160
+                                                    (semana) x 10 membros x 1 sprint de uma semana, um total de R$
+                                                    1.600
+                                                    por mês. Esse preço já inclui água, energia e internet.</li>
+                                            </p>
+                                        </div>
+                                        <!--//table-responsive-->
+
+                                        <br>
+                                        <h4>9.3 Ferramentas</h4>
+                                        <p>Para sabe a finalidade ou descrição, acesse a página de Ferramentas.</p>
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Ferramentas</th>
+                                                        <th>Custo</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th>GitHub</th>
+                                                        <td>R$ 0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>GoogleDrive</th>
+                                                        <td>R$ 0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Visual Studio Code</th>
+                                                        <td>R$ 0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Telegram</th>
+                                                        <td>R$ 0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Ubuntu</th>
+                                                        <td>R$ 0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Draw.io</th>
+                                                        <td>R$ 0</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <!--//table-responsive-->
+
+                                        <br>
+                                        <h4>9.4 Custo Total Estimado</h4>
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Recurso</th>
+                                                        <th>Valor</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th>Custo de Pessoal</th>
+                                                        <td>R$ 42.000</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Custo de Aquisição</th>
+                                                        <td>R$ 27.800</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Ferramentas</th>
+                                                        <td>R$ 0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Valor por mês + 15% dos Riscos</th>
+                                                        <td>R$ 69.800 + 15% = R$ 80.270</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Valor por 4 meses (tempo da disciplina)</th>
+                                                        <td>R$ 321.080</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <!--//table-responsive-->
+
+                                    </div>
+                                </section>
+                                <!--//doc-section-->
+
+                                <section id="stakeholders" class="doc-section">
+                                    <h3 class="section-title">10. Stakeholders</h3>
+                                    <div class="section-block">
+
+                                        <div class="table-responsive">
+                                            <table class="table table-bordered">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Nome</th>
+                                                        <th>Papel</th>
+                                                        <th>Email</th>
+                                                        <th>GitHub</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th>Lucas Souza</th>
+                                                        <td>Gerência - Scrum Master</td>
+                                                        <td>lucas.soaresouza@gmail.com</td>
+                                                        <td><a href="https://github.com/lucassoaresouza">@lucassoaresouza</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Taynara Carvalho</th>
+                                                        <td>Gerência - DevOps</td>
+                                                        <td>tayhcarvalho@gmail.com</td>
+                                                        <td><a href="https://github.com/tayh">@tayh</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Stéfane Souza</th>
+                                                        <td>Gerência - PO/Engenheira do Produto</td>
+                                                        <td>stefanesouza04@gmail.com</td>
+                                                        <td><a href="https://github.com/stefanesouza">@stefanesouza</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Mateus Vieira</th>
+                                                        <td>Gerência - Arquiteto</td>
+                                                        <td>mateusvroriz6b@gmail.com</td>
+                                                        <td><a href="https://github.com/mateusvroriz">@mateusvroriz</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>João Gabriel Rossi</th>
+                                                        <td>Desenvolvedor</td>
+                                                        <td>bielrossiborba@gmail.com</td>
+                                                        <td><a href="https://github.com/bielrossi15">@bielrossi15</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>João Gabriel Antunes</th>
+                                                        <td>Desenvolvedor</td>
+                                                        <td>jg.antunes.medeiros@gmail.com</td>
+                                                        <td><a href="https://github.com/flyerjohn">@flyerjohn</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Paulo Vítor Coelho</th>
+                                                        <td>Desenvolvedor</td>
+                                                        <td>paulovitorrocha.unb@gmail.com</td>
+                                                        <td><a href="https://github.com/PauloVitorRocha">@PauloVitorRocha</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Ivan Diniz</th>
+                                                        <td>Desenvolvedor</td>
+                                                        <td>ivandinizdobbin2@gmail.com</td>
+                                                        <td><a href="https://github.com/darmsDD">@darmsDD</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>João Matheus</th>
+                                                        <td>Desenvolvedor</td>
+                                                        <td>joaomatheus.152013@gmail.com</td>
+                                                        <td><a href="https://github.com/rjoao">@rjoao</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Lieverton Santos</th>
+                                                        <td>Desenvolvedor</td>
+                                                        <td>lievertom@gmail.com</td>
+                                                        <td><a href="https://github.com/lievertom">@lievertom</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>Carla Rocha</th>
+                                                        <td>Orientadora</td>
+                                                        <td>rocha.carla@gmail.com</td>
+                                                        <td><a href="https://github.com/RochaCarla">@RochaCarla</a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <!--//table-responsive-->
+
+                                    </div>
+                                </section>
+                                <!--//doc-section-->
+
+                                <section id="req-aprovacao" class="doc-section">
+                                    <h3 class="section-title">11. Requisitos para Aprovação </h3>
+                                    <div class="section-block">
+                                        <li>Seguir requisitos definidos;</li>
+                                        <li>Atingir todo o escopo, ou seja, implementar as funcionalidade acordadas.</li>
+                                    </div>
+                                </section>
+                                <!--//doc-section-->
 
                             </section>
                             <!--//doc-section-->
@@ -727,35 +765,30 @@
                     </div>
                     <!--//doc-content-->
 
-
                     <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
                         <div id="doc-nav" class="doc-nav">
-
                             <nav id="doc-menu" class="nav doc-menu flex-column sticky">
-                                <a class="nav-link scrollto">Termo de Abertura</a>
+                                <a class="nav-link scrollto">Menu</a>
                                 <nav class="doc-sub-menu nav flex-column">
-                                    <a class="nav-link scrollto" href="#introducao">1. Introdução</a>
-                                    <a class="nav-link scrollto" href="#descricao-projeto">2. Descrição</a>
-                                    <a class="nav-link scrollto" href="#justificativa">3. Justificativa</a>
-                                    <a class="nav-link scrollto" href="#obj-projeto">4. Objetivo do Projeto</a>
-                                    <a class="nav-link scrollto" href="#restricoes">5. Restrições</a>
-                                    <a class="nav-link scrollto" href="#req-alto-nivel">6. Requisitos de Alto Nível</a>
-                                    <a class="nav-link scrollto" href="#riscos">7. Riscos</a>
-                                    <a class="nav-link scrollto" href="#datas">8. Cronograma e Entregas</a>
-                                    <a class="nav-link scrollto" href="#custo">9. Custo Estimado</a>
-                                    <a class="nav-link scrollto" href="#stakeholders">10. Stakeholders</a>
-                                    <a class="nav-link scrollto" href="#req-aprovacao">11. Requisitos para Aprovação</a>
+                                    <a class="nav-link" href="abertura.html">Abertura do Projeto</a>
+                                    <a class="nav-link" href="viabilidade.html">Viabilidade Técnica</a>
+                                    <a class="nav-link" href="especificacao.html">Especificação</a>
+                                    <a class="nav-link" href="usabilidade.html">Teste de Usabilidade</a>
+                                    <a class="nav-link" href="sprint-menu.html">Sprints</a>
+                                    <a class="nav-link" href="como-contribuir.html">Como Contribuir</a>
                                 </nav>
-                                <!--//nav-->
-                                <a class="nav-link" href="eap.html">EAP</a>
-                                <a class="nav-link" href="canvas.html">Canvas</a>
-                                <a class="nav-link" href="codigo-conduta.html">Código de Conduta</a>
-                            </nav>
-                            <!--//doc-menu-->
 
+                                <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                                    <a class="nav-link scrollto">Abertura do Projeto</a>
+                                    <nav class="doc-sub-menu nav flex-column">
+                                        <a class="nav-link" href="tap.html">Termo de Abertura</a>
+                                        <a class="nav-link" href="eap.html">EAP</a>
+                                        <a class="nav-link" href="canvas.html">Canvas</a>
+                                        <a class="nav-link" href="codigo-conduta.html">Código de Conduta</a>
+                                    </nav>
+                                </nav>
                         </div>
                     </div>
-                    <!--//doc-sidebar-->
                 </div>
                 <!--//doc-body-->
             </div>

@@ -29,13 +29,12 @@
 
 <body class="body-blue">
     <div class="page-wrapper">
-        <!-- ******Header****** -->
         <header id="header" class="header">
             <div class="container">
                 <div class="branding">
                     <h1 class="logo">
                         <a href="index.html">
-                            <span aria-hidden="true" class="fas fa-car"></span>
+                            <span aria-hidden="true"><img src="assets/images/logo.png" style="height: 48px; width: 50px"></span>
                             <span class="text-highlight">Car</span><span class="text-bold">Defense</span>
                         </a>
                     </h1>
@@ -52,35 +51,41 @@
         <div class="doc-wrapper">
             <div class="container">
                 <div id="doc-header" class="doc-header text-center">
-                    <h1 class="doc-title"><span aria-hidden="true" class="fas fa-file-alt"></span>ROADMAPS</h1>
+                    <h1 class="doc-title"><span aria-hidden="true"></span>ROADMAPS</h1>
                 </div>
                 <!--//doc-header-->
                 <div class="doc-body row">
                     <div class="doc-content col-md-9 col-12 order-1">
                         <div class="content-inner">
-                            <section id="introducao" class="doc-section">
-                                <h3> Roadmap Geral </h3>
-                                <figure>
-                                    <div class="diagrama">
-                                        <img class="scaled" src="assets/images/roadmap-geral.png" alt="Roadmap de Papéis">
-                                    </div>
-                                    <p align="justify">
-                                        Roadmap Geral. <a href="assets/images/roadmap-geral.png"> Clique aqui</a> pra ampliar.
-                                    </p>
-                                </figure>
-                            </section>
-                            <section id="introducao" class="doc-section">
-                                <h3> Roadmap dos Papéis do Projeto </h3>
-                                <figure>
-                                    <div class="diagrama">
-                                        <img class="scaled" src="assets/images/roadmap_de_papeis.png" alt="Roadmap de Papéis">
-                                    </div>
-                                    <p align="justify">
-                                        Roadmap com os papéis referente a EPS.
-                                    </p>
-                                </figure>
-                            </section>
-                            <!--//doc-section-->
+                            <section id="indice" class="doc-section">
+                                <h3 class="section-title">Índice</h3>
+                                <div class="section-block">
+                                    <nav class="doc-sub-menu nav flex-column">
+                                        <a class="nav-link scrollto" href="#papel">Roadmap dos Papéis</a>
+                                        <a class="nav-link scrollto" href="#roadmap">Roadmap do Projeto</a>
+                                    </nav>
+                                </div>
+                                <section id="papel" class="doc-section">
+                                    <h3> Roadmap dos Papéis do Projeto </h3>
+                                    <figure>
+                                        <div class="diagrama">
+                                            <img class="scaled" src="assets/images/roadmap_de_papeis.png" alt="Roadmap de Papéis">
+                                        </div>
+                                    </figure>
+                                </section>
+                                <section id="roadmap" class="doc-section">
+                                    <h3> Roadmap Geral </h3>
+                                    <figure>
+                                        <div class="diagrama">
+                                            <img class="scaled" src="assets/images/roadmap-geral.png" alt="Roadmap de Papéis">
+                                        </div>
+                                        <p align="justify">
+                                            Roadmap Geral. <a href="assets/images/roadmap-geral.png"> Clique aqui</a>
+                                            pra
+                                            ampliar.
+                                        </p>
+                                    </figure>
+                                </section>
                         </div>
                         <!--//content-inner-->
                     </div>
@@ -88,16 +93,31 @@
                     <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
                         <div id="doc-nav" class="doc-nav">
                             <nav id="doc-menu" class="nav doc-menu flex-column sticky">
-                                <a class="nav-link" href="docvisao.html">Documento de Visão</a>
-                                <a class="nav-link" href="docarquitetura.html">Documento de Arquitetura</a>
-                                <a class="nav-link" href="prototipo.html">Protótipos</a>
-                                <a class="nav-link scrollto" href="#inline">Requisitos</a>
-                                <a class="nav-link scrollto" href="#inline">Identidade Visual</a>
-                                <a class="nav-link" href="pipeline.html">Pipeline</a>
-                                <a class="nav-link" href="roadmaps.html">Roadmaps de Papéis</a>
-                                <a class="nav-link" href="planogamificacao.html">Plano de Gamificação</a>
-                            </nav>
-                            <!--//doc-menu-->
+                                <a class="nav-link scrollto">Menu</a>
+                                <nav class="doc-sub-menu nav flex-column">
+                                    <a class="nav-link" href="abertura.html">Abertura do Projeto</a>
+                                    <a class="nav-link" href="viabilidade.html">Viabilidade Técnica</a>
+                                    <a class="nav-link" href="especificacao.html">Especificação</a>
+                                    <a class="nav-link" href="usabilidade.html">Teste de Usabilidade</a>
+                                    <a class="nav-link" href="sprint-menu.html">Sprints</a>
+                                    <a class="nav-link" href="como-contribuir.html">Como Contribuir</a>
+                                </nav>
+
+                                <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                                    <a class="nav-link scrollto">Especificação</a>
+                                    <nav class="doc-sub-menu nav flex-column">
+                                        <a class="nav-link" href="docvisao.html">Documento de Visão</a>
+                                        <a class="nav-link" href="docarquitetura.html">Documento de Arquitetura</a>
+                                        <a class="nav-link" href="requisitos.html">Elicitação de Requisitos</a>
+                                        <a class="nav-link" href="mapa-requisitos.html">Mapa de Requisitos/Backlog</a>
+                                        <a class="nav-link" href="roadmaps.html">ROADMAPS</a>
+                                        <a class="nav-link" href="identidade-visual.html">Identidade Visual</a>
+                                        <a class="nav-link" href="prototipo.html">Protótipo de Baixa e Alta Fidelidade</a>
+                                        <a class="nav-link" href="pipeline.html">Pipeline</a>
+                                        <a class="nav-link" href="planogamificacao.html">Plano de Gamificação</a>
+                                        <a class="nav-link" href="matriz.html">Matriz Eliminar-Reduzir-Elevar-Criar</a>
+                                    </nav>
+                                </nav>
                         </div>
                     </div>
                     <!--//doc-sidebar-->

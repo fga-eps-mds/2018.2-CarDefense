@@ -26,7 +26,7 @@
 
 </head>
 
-<body class="body-purple">
+<body class="body-primary">
     <div class="page-wrapper">
         <!-- ******Header****** -->
         <header id="header" class="header">
@@ -34,7 +34,7 @@
                 <div class="branding">
                     <h1 class="logo">
                         <a href="index.html">
-                            <span aria-hidden="true" class="fas fa-car"></span>
+                            <span aria-hidden="true"><img src="assets/images/logo.png" style="height: 48px; width: 50px"></span>
                             <span class="text-highlight">Car</span><span class="text-bold">Defense</span>
                         </a>
                     </h1>
@@ -42,7 +42,7 @@
                 <!--//branding-->
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item active">Código de Conduta</li>
+                    <li class="breadcrumb-item active">Elicitação de Requisitos</li>
                 </ol>
             </div>
             <!--//container-->
@@ -51,103 +51,140 @@
         <div class="doc-wrapper">
             <div class="container">
                 <div id="doc-header" class="doc-header text-center">
-                    <h1 class="doc-title"> Elicitação de Requisitos</h1>
+                    <h1 class="doc-title">Elicitação de Requisitos</h1>
                 </div>
                 <!--//doc-header-->
                 <div class="doc-body row">
                     <div class="doc-content col-md-9 col-12 order-1">
                         <div class="content-inner">
-
-                            <section id="introducao" class="doc-section">
-                                <h3 class="section-title">1. Introdução</h3>
+                            <section id="indice" class="doc-section">
+                                <h3 class="section-title">Índice</h3>
                                 <div class="section-block">
-                                    <p align="justify">
-                                        Um processo genérico de levantamento e análise pode ter as seguintes
-                                        atividades, segundo Sommerville:
-
-                                        <li>Compreensão do domínio: Os analistas devem desenvolver sua compreensão
-                                            do domínio da aplicação; Coleta de requisitos: É o processo de interagir
-                                            com os
-                                            stakeholders do sistema para descobrir seus requisitos. A compreensão do
-                                            domínio se desenvolve mais durante essa atividade;</li>
-                                        <li>Classificação: Essa atividade considera o conjunto não estruturado dos
-                                            requisitos e os organiza em grupos coerentes;</li>
-                                        <li>Resolução de conflitos: Quando múltiplos stakeholders estão
-                                            envolvidos, os requisitos apresentarão conflitos. Essa atividade tem por
-                                            objetivo solucionar esses conflitos;</li>
-                                        <li>Definição das prioridades: Em qualquer conjunto de requisitos, alguns
-                                            serão mais importantes do que outros. Esse estágio envolve interação com os
-                                            stakeholders para a definição dos requisitos mais importantes;</li>
-                                        <li>Verificação de requisitos: Os requisitos são verificados para
-                                            descobrir se estão completos e consistentes e se estão em concordância com
-                                            o
-                                            que os stakeholders desejam do sistema.</li>
-                                    </p>
-                                </div>
-                            </section>
-
-                            <section id="tecnicas" class="doc-section">
-                                <h3 class="section-title">2. Técnicas Utilizadas</h3>
-                                <div class="section-block">
-                                    <h3 id="brainstorm">Brainstorm</h3>
-                                    <p align="justify"> Brainstorming é uma técnica para geração de idéias. Ela
-                                        consiste em uma ou várias reuniões que permitem que as pessoas sugiram e
-                                        explorem idéias. Analisar as idéias é a fase final do brainstorming. Nessa fase
-                                        é realizada uma revisão das idéias, uma de cada vez. As consideradas valiosas
-                                        pelo grupo são mantidas e classificadas em ordem de prioridade.
-                                    </p>
-                                    <h3>Brainstorm 1: Funcionalidades do App/Requisitos </h3>
-                                    <p align="justify"> O primeiro Brainstorm realizado reuniu todas as pessoas doo
-                                        grupo e foi feita um levantamente de ideias de funcionalidades que o app
-                                        poderia ter, o fluxo que poderia seguir e também, foi onde primeiro surgiu a
-                                        ideia de gamificação do app. Foi considerados app que já existem como
-                                        referência
-                                        para tomada de algumas decisões.
-                                    </p>
-                                    <img src="assets/images/b-requisitos.jpeg"><img src="assets/images/b-requisitos-2.jpeg">
-                                    <h3>Brainstorm 2: Gamificação</h3>
-                                    <p align="justify"> Esse brainstorm teve seu foco diferecionado para gamificação.
-                                        Foi
-                                        discutido como o usuário poderia querer acessar mais o app se caso tivee algum
-                                        tipo
-                                        de conquista ou premiação. Ideias de categoria de usuário no app levando em
-                                        consideração
-                                        o tanto de notificações enviadas, tipos de avatar exclusivos, foram algum dos
-                                        temas
-                                        levantados. E surgiu o Plano de Gamificação do app.
-                                    </p>
-                                    <img src="assets/images/b-gamificacao.jpeg">
-                                    <img src="assets/images/b-gamificacao-1.jpeg">
+                                    <nav class="doc-sub-menu nav flex-column">
+                                        <a class="nav-link scrollto" href="#introducao">Introdução</a>
+                                        <a class="nav-link scrollto" href="#tecnicas">Técnicas Utilizadas</a>
+                                        <a class="nav-link scrollto" href="#brainstorm">Brainstorm</a>
+                                        <a class="nav-link scrollto" href="#ob-participativa">Observação Participativa</a>
+                                    </nav>
                                 </div>
 
-                                <div class="section-block">
-                                    <h3 id="ob-participativa">Observação Participativa</h3>
-                                    <p align="justify"> A observação participativa é uma técnica usada para elicitar
-                                        requisitos de uma forma participativa, onde o engenheiro de requisitos passa a
-                                        agir como um determinado usuário para entender suas necessidades e
-                                        funcionalidades.
-                                    </p>
-                                </div>
-                            </section>
-                            <!--//doc-section-->
+                                <section id="introducao" class="doc-section">
+                                    <h3 class="section-title">1. Introdução</h3>
+                                    <div class="section-block">
+                                        <p align="justify">
+                                            Um processo genérico de levantamento e análise pode ter as seguintes
+                                            atividades, segundo Sommerville:
+
+                                            <li>Compreensão do domínio: Os analistas devem desenvolver sua compreensão
+                                                do domínio da aplicação; Coleta de requisitos: É o processo de
+                                                interagir
+                                                com os
+                                                stakeholders do sistema para descobrir seus requisitos. A compreensão
+                                                do
+                                                domínio se desenvolve mais durante essa atividade;</li>
+                                            <li>Classificação: Essa atividade considera o conjunto não estruturado dos
+                                                requisitos e os organiza em grupos coerentes;</li>
+                                            <li>Resolução de conflitos: Quando múltiplos stakeholders estão
+                                                envolvidos, os requisitos apresentarão conflitos. Essa atividade tem
+                                                por
+                                                objetivo solucionar esses conflitos;</li>
+                                            <li>Definição das prioridades: Em qualquer conjunto de requisitos, alguns
+                                                serão mais importantes do que outros. Esse estágio envolve interação
+                                                com os
+                                                stakeholders para a definição dos requisitos mais importantes;</li>
+                                            <li>Verificação de requisitos: Os requisitos são verificados para
+                                                descobrir se estão completos e consistentes e se estão em concordância
+                                                com
+                                                o
+                                                que os stakeholders desejam do sistema.</li>
+                                        </p>
+                                    </div>
+                                </section>
+
+                                <section id="tecnicas" class="doc-section">
+                                    <h3 class="section-title">2. Técnicas Utilizadas</h3>
+                                    <div class="section-block">
+                                        <h3 id="brainstorm">Brainstorm</h3>
+                                        <p align="justify"> Brainstorming é uma técnica para geração de idéias. Ela
+                                            consiste em uma ou várias reuniões que permitem que as pessoas sugiram e
+                                            explorem idéias. Analisar as idéias é a fase final do brainstorming. Nessa
+                                            fase
+                                            é realizada uma revisão das idéias, uma de cada vez. As consideradas
+                                            valiosas
+                                            pelo grupo são mantidas e classificadas em ordem de prioridade.
+                                        </p>
+                                        <h3>Brainstorm 1: Funcionalidades do App/Requisitos </h3>
+                                        <p align="justify"> O primeiro Brainstorm realizado reuniu todas as pessoas doo
+                                            grupo e foi feita um levantamente de ideias de funcionalidades que o app
+                                            poderia ter, o fluxo que poderia seguir e também, foi onde primeiro surgiu
+                                            a
+                                            ideia de gamificação do app. Foi considerados app que já existem como
+                                            referência
+                                            para tomada de algumas decisões.
+                                        </p>
+                                        <img src="assets/images/b-requisitos.jpeg"><img src="assets/images/b-requisitos-2.jpeg">
+                                        <h3>Brainstorm 2: Gamificação</h3>
+                                        <p align="justify"> Esse brainstorm teve seu foco diferecionado para
+                                            gamificação.
+                                            Foi
+                                            discutido como o usuário poderia querer acessar mais o app se caso tivee
+                                            algum
+                                            tipo
+                                            de conquista ou premiação. Ideias de categoria de usuário no app levando em
+                                            consideração
+                                            o tanto de notificações enviadas, tipos de avatar exclusivos, foram algum
+                                            dos
+                                            temas
+                                            levantados. E surgiu o Plano de Gamificação do app.
+                                        </p>
+                                        <img src="assets/images/b-gamificacao.jpeg">
+                                        <img src="assets/images/b-gamificacao-1.jpeg">
+                                    </div>
+
+                                    <div class="section-block">
+                                        <h3 id="ob-participativa">Observação Participativa</h3>
+                                        <p align="justify"> A observação participativa é uma técnica usada para
+                                            elicitar
+                                            requisitos de uma forma participativa, onde o engenheiro de requisitos
+                                            passa a
+                                            agir como um determinado usuário para entender suas necessidades e
+                                            funcionalidades.
+                                        </p>
+                                    </div>
+                                </section>
+                                <!--//doc-section-->
                         </div>
                         <!--//content-inner-->
                     </div>
                     <!--//doc-content-->
                     <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
                         <div id="doc-nav" class="doc-nav">
-
                             <nav id="doc-menu" class="nav doc-menu flex-column sticky">
-                                <a class="nav-link" href="tap.html">Elicitação de Requisitos</a>
+                                <a class="nav-link scrollto">Menu</a>
                                 <nav class="doc-sub-menu nav flex-column">
-                                    <a class="nav-link scrollto" href="#introducao">Introdução</a>
-                                    <a class="nav-link scrollto" href="#tecnicas">Técnicas Utilizadas</a>
-                                    <a class="nav-link scrollto" href="#brainstorm">Brainstorm</a>
-                                    <a class="nav-link scrollto" href="#ob-participativa">Observação Participativa</a>
+                                    <a class="nav-link" href="abertura.html">Abertura do Projeto</a>
+                                    <a class="nav-link" href="viabilidade.html">Viabilidade Técnica</a>
+                                    <a class="nav-link" href="especificacao.html">Especificação</a>
+                                    <a class="nav-link" href="usabilidade.html">Teste de Usabilidade</a>
+                                    <a class="nav-link" href="sprint-menu.html">Sprints</a>
+                                    <a class="nav-link" href="como-contribuir.html">Como Contribuir</a>
                                 </nav>
-                            </nav>
-                            <!--//doc-menu-->
 
+                                <nav id="doc-menu" class="nav doc-menu flex-column sticky">
+                                    <a class="nav-link scrollto">Especificação</a>
+                                    <nav class="doc-sub-menu nav flex-column">
+                                        <a class="nav-link" href="docvisao.html">Documento de Visão</a>
+                                        <a class="nav-link" href="docarquitetura.html">Documento de Arquitetura</a>
+                                        <a class="nav-link" href="requisitos.html">Elicitação de Requisitos</a>
+                                        <a class="nav-link" href="mapa-requisitos.html">Mapa de Requisitos/Backlog</a>
+                                        <a class="nav-link" href="roadmaps.html">ROADMAPS</a>
+                                        <a class="nav-link" href="identidade-visual.html">Identidade Visual</a>
+                                        <a class="nav-link" href="prototipo.html">Protótipo de Baixa e Alta Fidelidade</a>
+                                        <a class="nav-link" href="pipeline.html">Pipeline</a>
+                                        <a class="nav-link" href="planogamificacao.html">Plano de Gamificação</a>
+                                        <a class="nav-link" href="matriz.html">Matriz Eliminar-Reduzir-Elevar-Criar</a>
+                                    </nav>
+                                </nav>
                         </div>
                     </div>
                     <!--//doc-sidebar-->
