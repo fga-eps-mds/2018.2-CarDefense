@@ -19,7 +19,6 @@
     <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="assets/plugins/prism/prism.css">
-    <link rel="stylesheet" href="assets/plugins/lightbox/dist/ekko-lightbox.css">
     <link rel="stylesheet" href="assets/plugins/elegant_font/css/style.css">
 
     <!-- Theme CSS -->
@@ -27,8 +26,9 @@
 
 </head>
 
-<body class="body-blue">
+<body class="body-primary">
     <div class="page-wrapper">
+        <!-- ******Header****** -->
         <header id="header" class="header">
             <div class="container">
                 <div class="branding">
@@ -42,7 +42,7 @@
                 <!--//branding-->
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item active">Identidade Visual</li>
+                    <li class="breadcrumb-item active">Post-Mortem</li>
                 </ol>
             </div>
             <!--//container-->
@@ -51,23 +51,50 @@
         <div class="doc-wrapper">
             <div class="container">
                 <div id="doc-header" class="doc-header text-center">
-                    <h1 class="doc-title"><span aria-hidden="true"></span>Identidade Visual</h1>
+                    <h1 class="doc-title">Post-Mortem</h1>
                 </div>
                 <!--//doc-header-->
                 <div class="doc-body row">
                     <div class="doc-content col-md-9 col-12 order-1">
                         <div class="content-inner">
-                            <section id="identidade-visual" class="doc-section">
-                                <div class="identidade-visual">
-                                    <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSXWDHvbYOS99YqmCrj8DzQmg3VBGg7csLAzHEJQ_zVoWE1JfSWwe-citKS8K61qRD9t_bSH2FmdMiv/embed?start=false&loop=true&delayms=3000"
-                                        frameborder="0" width="900" height="500" allowfullscreen="true"
-                                        mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-                                </div>
+                            <section id="introducao" class="doc-section">
+                              <h4> Introdução </h4>
+                              <p align="justify">
+                                O foco deste documento é fornecer em forma de pontos positivos, negativos e lições aprendidas
+                                todas as experiências durante a execução do projeto CarDefense até a sua versão <b>BETA</b>.
+                                Logo este serve para que seja feita uma avaliação sobre as decisões que deram certo e as que não deram
+                                visando uma evolução da equipe.
+                              </p>
+                            </section>
+                            <section id="pontos-negativos" class="doc-section">
+                              <h4> Pontos Negativos: </h4>
+                              <li>Coleta não automática das métricas</li>
+                              <li>Falta de atenção ao fechar issues</li>
+                              <li>Projeto com várias equipes</li>
+                            </section>
+                            <section id="pontos-positivos" class="doc-section">
+                              <h4> Pontos Positivos: </h4>
+                              <li>Análise das métricas</li>
+                              <li>Gerência de riscos via burndown de riscos</li>
+                              <li>Comunicação da equipe</li>
+                              <li>Treinamentos visando o aprendizado de novas tecnologias</li>
+                              <li>Escopo focado e reduzido</li>
+                              <li>Comprometimento de toda a equipe (tanto EPS quanto MDS)</li>
+                              <li>Ensino do pipeline dos papéis para MDS</li>
+                            </section>
+                            <section id="licoes-aprendidas" class="doc-section">
+                              <h4> Lições Aprendidas: </h4>
+                              <li>A coleta das métricas de projeto deve ser feita logo após a finalização de uma sprint</li>
+                              <li>Os testes mais difíceis devem ser planejados e efetuados logo no íncio do projeto</li>
+                              <li>A documentação deve ter sempre o foco de trazer a comunicação para a equipe</li>
+                              <li>Não adianta planejar muito e entregar pouco</li>
+                              <li>Todos os papéis tem suas responsábilidades individuais entretanto a equipe deve ser sempre unida em ajuda</li>
                             </section>
                         </div>
                         <!--//content-inner-->
                     </div>
                     <!--//doc-content-->
+
                     <div class="doc-sidebar col-md-3 col-12 order-0 d-none d-md-flex">
                         <div id="doc-nav" class="doc-nav">
                             <nav id="doc-menu" class="nav doc-menu flex-column sticky">
@@ -97,6 +124,7 @@
                                         <a class="nav-link" href="post-mortem.html">Post-Mortem</a>
                                     </nav>
                                 </nav>
+                            </nav>
                         </div>
                     </div>
                     <!--//doc-sidebar-->
@@ -126,7 +154,6 @@
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/plugins/prism/prism.js"></script>
     <script type="text/javascript" src="assets/plugins/jquery-scrollTo/jquery.scrollTo.min.js"></script>
-    <script type="text/javascript" src="assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script>
     <script type="text/javascript" src="assets/plugins/stickyfill/dist/stickyfill.min.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
 
