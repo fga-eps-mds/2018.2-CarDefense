@@ -22,7 +22,7 @@
 |-------------------------------|--------------------------|----------------------------------|----------------------|------------|
 | Lucas Souza	| lucas.soaresouza@gmail.com | [lucassoaresouza](https://github.com/lucassoaresouza) | Scrum Master |14/0151257|
 | Mateus Vieira	| mateusvroriz6b@gmail.com	| [mateusvroriz](https://github.com/mateusvroriz) | Arquiteto de Software |14/0154981|
-| Stéfane Souza	| stefanesouza04@gmail.com | [stefanesouza](https://github.com/stefanesouza) | Product Owner |
+| Stéfane Souza	| stefanesouza04@gmail.com | [stefanesouza](https://github.com/stefanesouza) | Product Owner | 15/0148623 |
 | Taynara Carvalho | tayhcarvalho@gmail.com | [tayh](https://github.com/tayh) | DevOps |		15/0149301 |
 | Ivan Diniz | ivandinizdobbin2@gmail.com	| [darmsDD](https://github.com/darmsDD) | Desenvolvedor |17/0013278|
 | João Gabriel Antunes | jg.antunes.medeiros@gmail.com | [flyerjohn](https://github.com/flyerjohn) | Desenvolvedor |17/0013651|
