@@ -20,7 +20,7 @@
 
 | Membro | E-mail | Github | Papel |Matricula|
 |-------------------------------|--------------------------|----------------------------------|----------------------|------------|
-| Lucas Souza	| lucas.soaresouza@gmail.com | [lucassoaresouza](https://github.com/lucassoaresouza) | Scrum Master |14/0151257|
+| Lucas Souza	| lucas.soaresouza@gmail.com | [lucassoaresouza](https://github.com/lucassoaresouza) | Scrum Master |
 | Mateus Vieira	| mateusvroriz6b@gmail.com	| [mateusvroriz](https://github.com/mateusvroriz) | Arquiteto de Software |14/0154981|
 | Stéfane Souza	| stefanesouza04@gmail.com | [stefanesouza](https://github.com/stefanesouza) | Product Owner |
 | Taynara Carvalho | tayhcarvalho@gmail.com | [tayh](https://github.com/tayh) | DevOps |		
@@ -29,7 +29,7 @@
 | João Gabriel Rossi	| bielrossiborba@gmail.com	| [bielrossi15](https://github.com/bielrossi15) | Desenvolvedor|
 | João Matheus	| joaomatheus.152013@gmail.com	| [rjoao](https://github.com/rjoao) | Desenvolvedor |
 | Lieverton Santos	| lievertom@gmail.com		| [lievertom](https://github.com/lievertom) | Desenvolvedor |
-| Paulo Vítor Coelho	| paulovitorrocha.unb@gmail.com	| [PauloVitorRocha](https://github.com/PauloVitorRocha) | Desenvolvedor |
+| Paulo Vítor Coelho	| paulovitorrocha.unb@gmail.com	| [PauloVitorRocha](https://github.com/PauloVitorRocha) | Desenvolvedor |17/0062465|
 ### Conheça nossa documentação
 * [CarDefense Docs](https://fga-eps-mds.github.io/2018.2-CarDefense/docs/index.html)
 
