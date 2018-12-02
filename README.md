@@ -18,10 +18,10 @@
 
 ### Conheça nossa equipe
 
-| Membro | E-mail | Github | Papel |
-|-------------------------------|--------------------------|----------------------------------|----------------------|
+| Membro | E-mail | Github | Papel |Matricula|
+|-------------------------------|--------------------------|----------------------------------|----------------------|------------|
 | Lucas Souza	| lucas.soaresouza@gmail.com | [lucassoaresouza](https://github.com/lucassoaresouza) | Scrum Master |
-| Mateus Vieira	| mateusvroriz6b@gmail.com	| [mateusvroriz](https://github.com/mateusvroriz) | Arquiteto de Software |
+| Mateus Vieira	| mateusvroriz6b@gmail.com	| [mateusvroriz](https://github.com/mateusvroriz) | Arquiteto de Software |14/0154981|
 | Stéfane Souza	| stefanesouza04@gmail.com | [stefanesouza](https://github.com/stefanesouza) | Product Owner |
 | Taynara Carvalho | tayhcarvalho@gmail.com | [tayh](https://github.com/tayh) | DevOps |		
 | Ivan Diniz | ivandinizdobbin2@gmail.com	| [darmsDD](https://github.com/darmsDD) | Desenvolvedor |
