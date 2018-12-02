@@ -24,9 +24,9 @@
 | Mateus Vieira	| mateusvroriz6b@gmail.com	| [mateusvroriz](https://github.com/mateusvroriz) | Arquiteto de Software |14/0154981|
 | Stéfane Souza	| stefanesouza04@gmail.com | [stefanesouza](https://github.com/stefanesouza) | Product Owner |
 | Taynara Carvalho | tayhcarvalho@gmail.com | [tayh](https://github.com/tayh) | DevOps |		15/0149301 |
-| Ivan Diniz | ivandinizdobbin2@gmail.com	| [darmsDD](https://github.com/darmsDD) | Desenvolvedor |
-| João Gabriel Antunes | jg.antunes.medeiros@gmail.com | [flyerjohn](https://github.com/flyerjohn) | Desenvolvedor |
-| João Gabriel Rossi	| bielrossiborba@gmail.com	| [bielrossi15](https://github.com/bielrossi15) | Desenvolvedor|
+| Ivan Diniz | ivandinizdobbin2@gmail.com	| [darmsDD](https://github.com/darmsDD) | Desenvolvedor |17/0013278|
+| João Gabriel Antunes | jg.antunes.medeiros@gmail.com | [flyerjohn](https://github.com/flyerjohn) | Desenvolvedor |17/0013651|
+| João Gabriel Rossi	| bielrossiborba@gmail.com	| [bielrossi15](https://github.com/bielrossi15) | Desenvolvedor|17/0013693|
 | João Matheus	| joaomatheus.152013@gmail.com	| [rjoao](https://github.com/rjoao) | Desenvolvedor |
 | Lieverton Santos	| lievertom@gmail.com		| [lievertom](https://github.com/lievertom) | Desenvolvedor |17/0039251|
 | Paulo Vítor Coelho	| paulovitorrocha.unb@gmail.com	| [PauloVitorRocha](https://github.com/PauloVitorRocha) | Desenvolvedor |17/0062465|
