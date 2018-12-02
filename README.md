@@ -28,7 +28,7 @@
 | João Gabriel Antunes | jg.antunes.medeiros@gmail.com | [flyerjohn](https://github.com/flyerjohn) | Desenvolvedor |
 | João Gabriel Rossi	| bielrossiborba@gmail.com	| [bielrossi15](https://github.com/bielrossi15) | Desenvolvedor|
 | João Matheus	| joaomatheus.152013@gmail.com	| [rjoao](https://github.com/rjoao) | Desenvolvedor |
-| Lieverton Santos	| lievertom@gmail.com		| [lievertom](https://github.com/lievertom) | Desenvolvedor |
+| Lieverton Santos	| lievertom@gmail.com		| [lievertom](https://github.com/lievertom) | Desenvolvedor |17/0039251|
 | Paulo Vítor Coelho	| paulovitorrocha.unb@gmail.com	| [PauloVitorRocha](https://github.com/PauloVitorRocha) | Desenvolvedor |17/0062465|
 ### Conheça nossa documentação
 * [CarDefense Docs](https://fga-eps-mds.github.io/2018.2-CarDefense/docs/index.html)
